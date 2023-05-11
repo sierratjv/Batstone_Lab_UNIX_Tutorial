@@ -22,16 +22,14 @@ An example of the result is ``-rwxrw-r-- 1 ee51ab beng95 2450 Sept29 11:52 file1
 ## Environmental variable
 Reference: https://www3.ntu.edu.sg/home/ehchua/programming/howto/Environment_Variables.html#:~:text=You%20can%20set%20an%20environment,.%20)%20is%20hidden%20by%20default.
 
-It is global system variable accessible by all the processes/users running under the Operating System (OS), such as Windows, macOS and Linux. It is useful for storing system-wide values.
+It is global system variable accessible by all the processes/users running under the Operating System (OS), such as Windows, macOS and Linux. It is useful for storing system-wide values. <br> PATH is one type of environmental variable which stores directory.
 
-PATH is one type of environmental variable which stores directory.
-
-Steps for creating a PATH environmental variable for directory: <br>
+- Steps for creating a PATH environmental variable for directory: <br>
 1. Have the pathname of the file ready. See [Pathnames](#pathnames) of how to find the pathname; <br>
 2. Type ``export PATH="pathname"``(``PATH`` is the name of the variable; call it whatever you want); <br> 
 3. Then in any directories, type ``cd $PATH`` will allow you to enter that directory. 
 
-To show all environmental variables, type ``env``.
+- To show all environmental variables, type ``env``.
 
 ## Info server
 Login to Info sever: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). 
