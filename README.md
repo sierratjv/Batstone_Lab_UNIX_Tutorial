@@ -6,15 +6,19 @@ UNIX commands for beginners
 UNIX Tutorial for Beginners. http://www.ee.surrey.ac.uk/Teaching/Unix/index.html. 
 
 # Commands:
+[Access rights of files] (#access-rights-of-files)
 
 ## Access rights of files
-This websites could answer many questions: https://www.pluralsight.com/blog/it-ops/linux-file-permissions.
+Read this website for instructions: https://www.pluralsight.com/blog/it-ops/linux-file-permissions.
 
 To list access rights of files, type ``ls -l``. 
 
 An example of the result is ``-rwxrw-r-- 1 ee51ab beng95 2450 Sept29 11:52 file1``. 
 
 ## Environmental variable
+It is global system variable accessible by all the processes/users running under the Operating System (OS), such as Windows, macOS and Linux. It is useful for storing system-wide values.
+
+For example, we can use environmental variable to store directories. 
 
 ## Info server
 Login to Info sever: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). 
