@@ -32,6 +32,10 @@ To list access rights of files, type ``ls -l``.
 
 ## Symbolic link
 
+Troubleshooting: 
+
+- When changing the path for creating the symbolic link, remember to redo the symbolic link. 
+
 ## Tab complete
 This saves time for typing out a command. 
 
