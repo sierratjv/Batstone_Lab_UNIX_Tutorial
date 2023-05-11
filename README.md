@@ -12,7 +12,7 @@ Useful website if you want to change access rights of files: https://www.plurals
 
 To list access rights of files, type ``ls -l``. 
 
-An example of the result is ``-rwxrw-r-- 1 ee51ab beng95 2450 Sept29 11:52 file1``
+An example of the result is ``-rwxrw-r-- 1 ee51ab beng95 2450 Sept29 11:52 file1``. 
 
 ## Environmental variable
 
