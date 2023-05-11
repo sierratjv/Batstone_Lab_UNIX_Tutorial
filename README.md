@@ -22,11 +22,11 @@ An example of the result is ``-rwxrw-r-- 1 ee51ab beng95 2450 Sept29 11:52 file1
 ## Environmental variable
 Reference: https://www3.ntu.edu.sg/home/ehchua/programming/howto/Environment_Variables.html#:~:text=You%20can%20set%20an%20environment,.%20)%20is%20hidden%20by%20default.
 
-It is global system variable accessible by all the processes/users running under the Operating System (OS), such as Windows, macOS and Linux. It is useful for storing system-wide values.
+It is global system variable accessible by all the processes/users running under the Operating System (OS), such as Windows, macOS and Linux. It is useful for storing system-wide values. Some examples of environmental variables are **PATH**, **OS**, **COMPUTENAME**, etc. 
 
 - To show all environmental variables, type ``env``.
 
-1. **PATH** is one type of environmental variable which stores directory.
+1. **PATH**: it stores a list of directories to search for executable programs. 
 
 - Steps for creating a PATH environmental variable for directory: <br>
 1. Have the pathname of the file ready. See [Pathnames](#pathnames) of how to find the pathname; <br>
