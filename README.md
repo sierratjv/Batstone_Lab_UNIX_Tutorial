@@ -6,13 +6,13 @@ UNIX commands for beginners
 UNIX Tutorial for Beginners. http://www.ee.surrey.ac.uk/Teaching/Unix/index.html. 
 
 # Contents:
-[Access rights of files](#access-rights-of-files)
-[Environmental variable](#environmental-variable)
-[Info server](#info-server)
-[List (ls)](#list-ls)
-[Working in background (nohup, screen)](#working-in-background-nohup-screen)
-[Symbolic link](#symbolic-link)
-[Tab complete](#tab-complete)
+[Access rights of files](#access-rights-of-files) <br>
+[Environmental variable](#environmental-variable) <br>
+[Info server](#info-server) <br>
+[List (ls)](#list-ls) <br>
+[Working in background (nohup, screen)](#working-in-background-nohup-screen) <br>
+[Symbolic link](#symbolic-link) <br>
+[Tab complete](#tab-complete) <br>
 
 ## Access rights of files
 Read this website for instructions: https://www.pluralsight.com/blog/it-ops/linux-file-permissions.
