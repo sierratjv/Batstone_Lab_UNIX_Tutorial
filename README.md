@@ -36,7 +36,7 @@ It is global system variable accessible by all the processes/users running under
 See this pdf for computing capabilities: https://mcmasteru365-my.sharepoint.com/:b:/r/personal/batstonr_mcmaster_ca/Documents/Microsoft%20Teams%20Chat%20Files/cpus.pdf?csf=1&web=1&e=ISiD8E. 
 
 Things to pay attention:
-- Don't run programs on the head (which is the place when you login) because this will slows the system. Run programs on nodes (. 
+- Run programs on **nodes**. Run programs on the head (which is the place when you login) because this will slows the system.  
 
 Login to Info sever head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
 
