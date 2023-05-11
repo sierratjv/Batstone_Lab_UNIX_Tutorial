@@ -28,7 +28,7 @@ PATH is one type of environmental variable which stores directory.
 
 Steps for creating a PATH environmental variable for directory: <br>
 1. Have the pathname of the file ready. See [Pathnames](#pathnames) of how to find the pathname; <br>
-2. Type ``export PATH="pathname"``(``PATH`` is named by yourself); <br> 
+2. Type ``export PATH="pathname"``(``PATH`` is the name of the variable; call it whatever you want); <br> 
 3. Then in any directories, type ``cd $PATH`` will allow you to enter that directory.
 
 ## Info server
