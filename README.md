@@ -24,7 +24,7 @@ Reference: https://www3.ntu.edu.sg/home/ehchua/programming/howto/Environment_Var
 
 It is global system variable accessible by all the processes/users running under the Operating System (OS), such as Windows, macOS and Linux. It is useful for storing system-wide values.
 
-1. PATH is one type of environmental variable which stores directory.
+1. **PATH** is one type of environmental variable which stores directory.
 
 - Steps for creating a PATH environmental variable for directory: <br>
 1. Have the pathname of the file ready. See [Pathnames](#pathnames) of how to find the pathname; <br>
