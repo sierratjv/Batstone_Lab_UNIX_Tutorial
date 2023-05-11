@@ -8,7 +8,7 @@ UNIX Tutorial for Beginners. http://www.ee.surrey.ac.uk/Teaching/Unix/index.html
 # Commands:
 
 ## Access rights of files
-Useful website if you want to change access rights of files: https://www.pluralsight.com/blog/it-ops/linux-file-permissions.
+This websites could answer many questions: https://www.pluralsight.com/blog/it-ops/linux-file-permissions.
 
 To list access rights of files, type ``ls -l``. 
 
