@@ -6,7 +6,7 @@ UNIX commands for beginners
 UNIX Tutorial for Beginners. http://www.ee.surrey.ac.uk/Teaching/Unix/index.html. 
 
 # Commands:
-[Access rights of files] (#access-rights-of-files)
+[Access rights of files](#access-rights-of-files)
 
 ## Access rights of files
 Read this website for instructions: https://www.pluralsight.com/blog/it-ops/linux-file-permissions.
