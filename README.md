@@ -1,10 +1,7 @@
 # Tips_and_Tricks
 UNIX commands for beginners
-
 # Useful websites to learn basix UNIX commands:
-
 UNIX Tutorial for Beginners. http://www.ee.surrey.ac.uk/Teaching/Unix/index.html. 
-
 # Contents:
 [Access rights of files](#access-rights-of-files) <br>
 [Environmental variable](#environmental-variable) <br>
@@ -13,6 +10,7 @@ UNIX Tutorial for Beginners. http://www.ee.surrey.ac.uk/Teaching/Unix/index.html
 [Working in background (nohup, screen)](#working-in-background-nohup-screen) <br>
 [Symbolic link](#symbolic-link) <br>
 [Tab complete](#tab-complete) <br>
+[Pathnames](#pathnames)  <br>
 
 ## Access rights of files
 Read this website for instructions: https://www.pluralsight.com/blog/it-ops/linux-file-permissions.
@@ -22,9 +20,14 @@ To list access rights of files, type ``ls -l``.
 An example of the result is ``-rwxrw-r-- 1 ee51ab beng95 2450 Sept29 11:52 file1``. 
 
 ## Environmental variable
+reference: https://www3.ntu.edu.sg/home/ehchua/programming/howto/Environment_Variables.html#:~:text=You%20can%20set%20an%20environment,.%20)%20is%20hidden%20by%20default.
+
 It is global system variable accessible by all the processes/users running under the Operating System (OS), such as Windows, macOS and Linux. It is useful for storing system-wide values.
 
-For example, we can use environmental variable to store directories. 
+PATH is one type of environmental variable which stores directory. 
+
+
+
 
 ## Info server
 Login to Info sever: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). 
@@ -38,7 +41,8 @@ To list hidden files (files beginning with ``.``), type ``ls -a``.
 
 To list access rights of files, type ``ls -l``. 
 
-## Working in background (nohup, screen)
+## Pathnames
+To find the absoulte path of a directory, in that directory, type ``pwd``.
 
 ## Symbolic link
 
@@ -51,3 +55,4 @@ This saves time for typing out a command.
 
 For example, if you want to go to the **Applications** directory, you can type **"cd Applications"**. Instead of typing out **"Applications"** in full, you can type **"App"** and the press **"Tab"**. If **"Applications"** is the only directory beginning with **"App"**, it will return you **"cd Applications"**. 
 
+## Working in background (nohup, screen)
