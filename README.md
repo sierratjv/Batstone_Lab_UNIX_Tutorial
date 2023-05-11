@@ -29,7 +29,7 @@ It is global system variable accessible by all the processes/users running under
 1. **PATH**: it stores a list of directories to search for executable programs. 
 
 - Steps for creating a PATH environmental variable for directory: <br>
-1. Have the pathname of the file ready. See [Pathnames](#pathnames) of how to find the pathname; <br>
+1. Have the pathname of the directory ready. See [Pathnames](#pathnames) of how to find the pathname; <br>
 2. Type ``export PATH="pathname"``(``PATH`` is the name of the variable; call it whatever you want); <br> 
 3. Then in any directories, type ``cd $PATH`` will allow you to enter that directory. 
 
