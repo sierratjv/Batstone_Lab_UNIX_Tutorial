@@ -53,6 +53,6 @@ Troubleshooting:
 ## Tab complete
 This saves time for typing out a command. 
 
-For example, if you want to go to the **Applications** directory, you can type **"cd Applications"**. Instead of typing out **"Applications"** in full, you can type **"App"** and the press **"Tab"**. If **"Applications"** is the only directory beginning with **"App"**, it will return you **"cd Applications"**. 
+For example, if you want to go to the **Applications** directory, you can type **"cd Applications"**. Instead of typing out **"Applications"** in full, you can type **"App"** and the press **"Tab"**. If **"Applications"** is the only directory beginning with **"App"**, it will return you **"cd Applications"**. If not, it will return all files begining with **"App"**, and then press **"Tab"** to select the file you want. 
 
 ## Working in background (nohup, screen)
