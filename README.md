@@ -1,10 +1,8 @@
 # Tips_and_Tricks
 UNIX commands for beginners
-# Useful websites to learn basix UNIX commands:
-UNIX Tutorial for Beginners. http://www.ee.surrey.ac.uk/Teaching/Unix/index.html. 
+
 # Contents:
-[Learn these first](#learn-these-first) <br>
-[List (ls)](#list-ls) <br>
+[Learn these commands first](#learn-these-commands-first) <br>
 [Access rights of files](#access-rights-of-files) <br>
 [Environmental variable](#environmental-variable) <br>
 [Info server](#info-server) <br>
@@ -13,7 +11,9 @@ UNIX Tutorial for Beginners. http://www.ee.surrey.ac.uk/Teaching/Unix/index.html
 [Tab complete](#tab-complete) <br>
 [Pathnames](#pathnames)  <br>
 
-## Learn these first
+## Learn these commands first
+
+### Read [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/index.html)
 
 ### Symobols in UNIX
 ``.`` represents the current directory. 
@@ -22,17 +22,35 @@ UNIX Tutorial for Beginners. http://www.ee.surrey.ac.uk/Teaching/Unix/index.html
 
 ``~`` represents the home directory.
 
-### List (ls)
+### List 
 To list content in a directory, type ``ls``.
 
 To list hidden files (files beginning with ``.``), type ``ls -a``. 
 
-To list access rights of files, type ``ls -l``. 
+To list access rights of files, type ``ls -l``. Read [Access rights of files](#access-rights-of-files) for more information.  
 
-### Change directory (cd)
+### Wildcards 
+It allows you to only list the files you want to see. 
+
+To list files in the current directory beginning with **bio...**, type ``ls bio*`` .
+
+To list files in the current directory ending with **...logy**, type ``ls *logy``.
+
+### Change directory 
 To move ahead one directory, type ``cd directory`` (``directory`` is the name of the directory you want to go to).
 
 To move back one directory, tyep ``cd ..``.
+
+### Make directories
+To make a new directory, type ``mkdir directory``(``directory`` is the name for that directory). Type ``ls`` to verify the directory is made successfully. 
+
+### Remove files or directories
+To delete a file, type ``rm file`` (``file`` is the name of the file).
+
+To delete a directory, it has to be empty; then type ``rmdir directory`` (``directory`` is the name of the directory).
+
+### Pathnames
+To view the absolute pathname of a directory, ``cd`` to that directory first, then type ``pwd``.
 
 ### Access rights of files
 Read [this website](https://www.pluralsight.com/blog/it-ops/linux-file-permissions) for instructions.
