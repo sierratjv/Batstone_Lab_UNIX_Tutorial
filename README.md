@@ -3,10 +3,11 @@ UNIX commands for beginners
 # Useful websites to learn basix UNIX commands:
 UNIX Tutorial for Beginners. http://www.ee.surrey.ac.uk/Teaching/Unix/index.html. 
 # Contents:
+[Learn these first](#learn-these-first) <br>
+[List (ls)](#list-ls) <br>
 [Access rights of files](#access-rights-of-files) <br>
 [Environmental variable](#environmental-variable) <br>
 [Info server](#info-server) <br>
-[List (ls)](#list-ls) <br>
 [Working in background (nohup, screen)](#working-in-background-nohup-screen) <br>
 [Symbolic link](#symbolic-link) <br>
 [Tab complete](#tab-complete) <br>
@@ -14,12 +15,22 @@ UNIX Tutorial for Beginners. http://www.ee.surrey.ac.uk/Teaching/Unix/index.html
 
 ## Learn these first
 
+### Symobols in UNIX
+``.`` represents the current directory. 
+
+``..`` represents the parent of the current directory. 
+
+``~`` represents the home directory.
+
 ### List (ls)
 To list content in a directory, type ``ls``.
 
 To list hidden files (files beginning with ``.``), type ``ls -a``. 
 
 To list access rights of files, type ``ls -l``. 
+
+### Change directory (cd)
+To change from current directory to another directory within your current directory. 
 
 ### Access rights of files
 Read [this website](https://www.pluralsight.com/blog/it-ops/linux-file-permissions) for instructions.
