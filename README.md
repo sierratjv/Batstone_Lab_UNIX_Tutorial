@@ -30,7 +30,9 @@ To list hidden files (files beginning with ``.``), type ``ls -a``.
 To list access rights of files, type ``ls -l``. 
 
 ### Change directory (cd)
-To change from current directory to another directory within your current directory. 
+To move ahead one directory, type ``cd directory``. (``directory`` is the name of the directory you want to go to)
+
+To move back one directory, tyep ``cd ..``.
 
 ### Access rights of files
 Read [this website](https://www.pluralsight.com/blog/it-ops/linux-file-permissions) for instructions.
