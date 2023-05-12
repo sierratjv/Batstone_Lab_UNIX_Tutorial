@@ -29,17 +29,18 @@ To list access rights of files, type ``ls -l``.
 An example of the result is ``-rwxrw-r-- 1 ee51ab beng95 2450 Sept29 11:52 file1``. 
 
 ### Environmental variable
-It is global system variable accessible by all the processes/users running under the Operating System (OS), such as Windows, macOS and Linux. It is useful for storing system-wide values. Some examples of environmental variables are **PATH**, **OS**, **COMPUTENAME**, etc. 
+It is global system variable accessible by all the processes/users running under the Operating System (OS), such as Windows, macOS and Linux. It is useful for storing system-wide values.  
 
-1. **PATH**: it allows you to go to a directory or run a program in any directories
-- Steps for creating a PATH environmental variable for directory: <br>
+- Steps for creating a environmental variable for directory: <br>
 1. Have the pathname of the directory ready. See [Pathnames](#pathnames) of how to find the pathname; <br>
 2. Type ``export PATH="pathname"``(``PATH`` is the name of the variable; call it whatever you want); <br> 
 3. Then in any directories, type ``cd $PATH`` will allow you to enter that directory. 
-- To view to PATH variable, type ``echo $PATH`` (``PATH`` is the name of the variable)
 
-Others: <br>
+- To view to environmental variable, type ``echo $PATH`` (``PATH`` is the name of the variable)
+
 - To show all environmental variables, type ``env``.
+
+- When adding program directories to the PATH variable, add to the **beginning** of the PATH by typing ``export PATH=/the/file/path:$PATH``. This is because the directories near the start will be ran first. Read more [here](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows#:~:text=The%20path%20works%20like%20first,the%20beginning%20of%20the%20command). 
 
 Reference: <br>
 Environment Variables in Windows/macOS/Linux. 
