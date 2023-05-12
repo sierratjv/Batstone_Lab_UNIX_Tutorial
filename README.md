@@ -1,37 +1,37 @@
 # Tips_and_Tricks
 UNIX commands for beginners
 
-### Symobols in UNIX
+## Symobols in UNIX
 ``.`` represents the current directory. 
 
 ``..`` represents the parent of the current directory. 
 
 ``~`` represents the home directory.
 
-### List 
+## List 
 To list content in a directory, type ``ls``.
 
 To list hidden files (files beginning with ``.``), type ``ls -a``. 
 
 To list access rights of files, type ``ls -l``. Read [this website](https://www.pluralsight.com/blog/it-ops/linux-file-permissions) for instructions about how to change access rights. 
 
-### Change directory 
+## Change directory 
 To move ahead one directory, type ``cd directory`` (``directory`` is the name of the directory you want to go to).
 
 To move back one directory, type ``cd ..``.
 
-### Make directories
+## Make directories
 To make a new directory, type ``mkdir directory``(``directory`` is the name for that directory). Type ``ls`` to verify the directory is made successfully. 
 
-### Remove files or directories
+## Remove files or directories
 To delete a file, type ``rm file`` (``file`` is the name of the file).
 
 To delete a directory, it has to be empty; then type ``rmdir directory`` (``directory`` is the name of the directory).
 
-### Pathnames
+## Pathnames
 To view the absolute pathname of a directory, ``cd`` to that directory first, then type ``pwd``.
 
-### Wildcards 
+## Wildcards 
 To list files in the current directory beginning with **bio...**, type ``ls bio*`` .
 
 To list files in the current directory ending with **...logy**, type ``ls *logy``.
@@ -47,7 +47,7 @@ The first line tells what program (e.g. bash) to use to interpret the script. T
 3.  execute the shell script <br>
 ```bash shell_script.sh``` <br>
 
-### Environmental variable
+## Environmental variable
 To show all environmental variables, type ``env``.
 
 Steps for creating a environmental variable: <br>
@@ -71,7 +71,7 @@ Steps for adding a directory to the PATH variable:
 **Troubleshooting:**
 - If the system still cannot find the program, check if the new directory is added to the **start of the PATH variable**. The command to do that is ``export PATH=/the/file/path:$PATH``. This may be because the directories near the start of the PATH variable will be ran first. Read more [here](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows#:~:text=The%20path%20works%20like%20first,the%20beginning%20of%20the%20command). 
 
-### Symbolic link
+## Symbolic link
 Read about symbolic link on [this webiste](https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/).
 
 To create symbolic link, type ``ln -s <path to the file/folder to be linked> <the path of the link to be created>``.
@@ -79,10 +79,10 @@ To create symbolic link, type ``ln -s <path to the file/folder to be linked> <th
 **Troubleshooting:**
 - If the system cannot find the symbolic link, check the pathname of the original files to see if they are the same one used to create the symbolic link. If not, re-create the symbolic link with the correct pathname. 
 
-### Tab complete
+## Tab complete
 If you want to save time for typing ``cd Desktop``, you can type ``cd Des`` and the press **Tab**. If ``Destop`` is the only directory beginning with ``Des...``, it will complete the command ``cd Desktop``. If not, it will return all files begining with ``Des...``, and then press **Tab** to select the file you want. 
 
-### Working in background (nohup, screen)
+## Working in background (nohup, screen)
 
 ## Info server
 **Things to pay attention**:
