@@ -54,20 +54,17 @@ To list files in the current directory ending with **...logy**, type ``ls *logy`
 
 ## Shell Script
 Steps for creating a shell script:
-1.  create a shell script <br>
-``` shell_script_1 <br>
-nano shell_script.sh <br>
-``` <br>
-2.  in the opened text editor, type the following <br>
-``` shell_script_2 <br>
-#!/bin/bash <br>
-command you want to run <br>
-``` <br>
+1.  Create a shell script <br>
+```shell_script_1``` <br>
+```nano shell_script.sh``` <br>
+2. In the opened text editor, type the following <br>
+```shell_script_2``` <br>
+```#!/bin/bash``` <br>
+```command you want to run``` <br>
 The first line tells what program (e.g. bash) to use to interpret the script. The second line is the command you want to run. <br>
 3.  execute the shell script <br>
-``` shell_script_3 <br>
-bash shell_script.sh <br>
-``` <br>
+```shell_script_3``` <br>
+```bash shell_script.sh``` <br>
 
 ### Environmental variable
 This is very useful for going to a directory or running a program because it allows to do these at any directories. 
