@@ -2,7 +2,14 @@
 UNIX commands for beginners
 
 # Contents:
-[Learn these commands first](#learn-these-commands-first) <br>
+[Symbols in UNIX](#symobols-in-unix) <br>
+[Learn these commands first:](#learn-these-commands-first) <br>
+[ls](#list) <br>
+[wildcard](#wildcards) <br>
+[cd](#change-directory) <br>
+[mkdir](#make-directories) <br>
+[rm](#remove-files-or-directories) <br>
+[pwd](#remove-files-or-directories) <br>
 [Access rights of files](#access-rights-of-files) <br>
 [Environmental variable](#environmental-variable) <br>
 [Info server](#info-server) <br>
@@ -11,16 +18,16 @@ UNIX commands for beginners
 [Tab complete](#tab-complete) <br>
 [Pathnames](#pathnames)  <br>
 
-## Learn these commands first
-
-### Read [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/index.html)
-
 ### Symobols in UNIX
 ``.`` represents the current directory. 
 
 ``..`` represents the parent of the current directory. 
 
 ``~`` represents the home directory.
+
+## Learn these commands first
+
+### Read [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/index.html)
 
 ### List 
 To list content in a directory, type ``ls``.
@@ -54,10 +61,6 @@ To view the absolute pathname of a directory, ``cd`` to that directory first, th
 
 ### Access rights of files
 Read [this website](https://www.pluralsight.com/blog/it-ops/linux-file-permissions) for instructions.
-
-To list access rights of files, type ``ls -l``. 
-
-An example of the result is ``-rwxrw-r-- 1 ee51ab beng95 2450 Sept29 11:52 file1``. 
 
 ### Environmental variable
 It is global system variable accessible by all the processes/users running under the Operating System (OS), such as Windows, macOS and Linux. It is useful for storing system-wide values.  
