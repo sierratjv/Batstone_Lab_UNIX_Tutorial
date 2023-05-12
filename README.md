@@ -29,25 +29,25 @@ To list access rights of files, type ``ls -l``.
 An example of the result is ``-rwxrw-r-- 1 ee51ab beng95 2450 Sept29 11:52 file1``. 
 
 ### Environmental variable
-Reference: <br>
-Environment Variables in Windows/macOS/Linux. 
-https://www3.ntu.edu.sg/home/ehchua/programming/howto/Environment_Variables.html#:~:text=You%20can%20set%20an%20environment,.%20)%20is%20hidden%20by%20default. <br>
-How To View and Update the Linux PATH Environment Variable. https://www.digitalocean.com/community/tutorials/how-to-view-and-update-the-linux-path-environment-variable#step-3-mdash-permanently-adding-a-directory-to-the-path-variable. 
-
 It is global system variable accessible by all the processes/users running under the Operating System (OS), such as Windows, macOS and Linux. It is useful for storing system-wide values. Some examples of environmental variables are **PATH**, **OS**, **COMPUTENAME**, etc. 
-
-- To show all environmental variables, type ``env``.
 
 1. **PATH**: it allows you to go to a directory or run a program in any directories
 - Steps for creating a PATH environmental variable for directory: <br>
 1. Have the pathname of the directory ready. See [Pathnames](#pathnames) of how to find the pathname; <br>
 2. Type ``export PATH="pathname"``(``PATH`` is the name of the variable; call it whatever you want); <br> 
 3. Then in any directories, type ``cd $PATH`` will allow you to enter that directory. 
+- To view to PATH variable, type ``echo $PATH`` (``PATH`` is the name of the variable)
+
+Others: <br>
+- To show all environmental variables, type ``env``.
+
+Reference: <br>
+Environment Variables in Windows/macOS/Linux. 
+https://www3.ntu.edu.sg/home/ehchua/programming/howto/Environment_Variables.html#:~:text=You%20can%20set%20an%20environment,.%20)%20is%20hidden%20by%20default. <br>
+How To View and Update the Linux PATH Environment Variable. https://www.digitalocean.com/community/tutorials/how-to-view-and-update-the-linux-path-environment-variable#step-3-mdash-permanently-adding-a-directory-to-the-path-variable. 
 
 ### Info server
-See this pdf for computing capabilities: https://mcmasteru365-my.sharepoint.com/:b:/r/personal/batstonr_mcmaster_ca/Documents/Microsoft%20Teams%20Chat%20Files/cpus.pdf?csf=1&web=1&e=ISiD8E. 
-
-Things to pay attention:
+**Things to pay attention**:
 - Run programs on **nodes**. Running programs on the head (which is the place when you login) will greatly slow the system.  
 
 Login to Info sever head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
