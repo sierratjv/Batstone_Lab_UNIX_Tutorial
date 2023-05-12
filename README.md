@@ -39,7 +39,7 @@ To list files in the current directory ending with **...logy**, type ``ls *logy`
 ### Change directory 
 To move ahead one directory, type ``cd directory`` (``directory`` is the name of the directory you want to go to).
 
-To move back one directory, tyep ``cd ..``.
+To move back one directory, type ``cd ..``.
 
 ### Make directories
 To make a new directory, type ``mkdir directory``(``directory`` is the name for that directory). Type ``ls`` to verify the directory is made successfully. 
