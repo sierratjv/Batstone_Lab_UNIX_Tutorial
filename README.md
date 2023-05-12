@@ -3,20 +3,14 @@ UNIX commands for beginners
 
 # Contents:
 [Symbols in UNIX](#symobols-in-unix) <br>
-[Learn these commands first:](#learn-these-commands-first) <br>
-[ls](#list) <br>
-[wildcard](#wildcards) <br>
-[cd](#change-directory) <br>
-[mkdir](#make-directories) <br>
-[rm](#remove-files-or-directories) <br>
-[pwd](#remove-files-or-directories) <br>
+[Learn these commands first](#learn-these-commands-first) <br>
 [Access rights of files](#access-rights-of-files) <br>
 [Environmental variable](#environmental-variable) <br>
 [Info server](#info-server) <br>
 [Working in background (nohup, screen)](#working-in-background-nohup-screen) <br>
 [Symbolic link](#symbolic-link) <br>
 [Tab complete](#tab-complete) <br>
-[Pathnames](#pathnames)  <br>
+
 
 ### Symobols in UNIX
 ``.`` represents the current directory. 
@@ -63,15 +57,15 @@ To view the absolute pathname of a directory, ``cd`` to that directory first, th
 Read [this website](https://www.pluralsight.com/blog/it-ops/linux-file-permissions) for instructions.
 
 ### Environmental variable
-It is global system variable accessible by all the processes/users running under the Operating System (OS), such as Windows, macOS and Linux. It is useful for storing system-wide values.  
-- To show all environmental variables, type ``env``.
-- Steps for creating a environmental variable for directory: <br>
+To show all environmental variables, type ``env``.
+
+Steps for creating a environmental variable for directory: <br>
 1. Have the pathname of the directory ready. See [Pathnames](#pathnames) of how to find the pathname; <br>
 2. Type ``export PATH="pathname"``(``PATH`` is the name of the variable; call it whatever you want); <br> 
 3. Then in any directories, type ``cd $PATH`` will allow you to enter that directory. 
 
-#### PATH variable (one type of environmental variable)
-It contains a list of directories which the system checks before running a command. 
+#### PATH variable - one type of environmental variable
+It contains a list of directories which the system checks before running a command. Read more about on [this website](https://www.digitalocean.com/community/tutorials/how-to-view-and-update-the-linux-path-environment-variable#step-3-mdash-permanently-adding-a-directory-to-the-path-variable). 
 
 An example of PATH looks like ``/usr/local/python3/Python-3.5.1:/usr/local/spades/version.3.15.2/bin:.:/home/xingyuan/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/openmpi/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/dell/srvadmin/bin:/home/xingyuan/.local/bin:/home/xingyuan/bin``.
 
@@ -80,9 +74,6 @@ An example of PATH looks like ``/usr/local/python3/Python-3.5.1:/usr/local/spade
 - To view PATH, type ``echo $PATH``.
 - When adding program directories to the PATH variable, add to the **beginning** of the PATH by typing ``export PATH=/the/file/path:$PATH``. This is because the directories near the start will be ran first. Read more [here](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows#:~:text=The%20path%20works%20like%20first,the%20beginning%20of%20the%20command). 
 - To see the changes which you made on the PATH variable, you have to log out (types ``exit`` if you are on a server) and then log in again. Then type ``echo $PATH`` to see if changes are made successfully. 
-
-Reference: 
-[How To View and Update the Linux PATH Environment Variable](https://www.digitalocean.com/community/tutorials/how-to-view-and-update-the-linux-path-environment-variable#step-3-mdash-permanently-adding-a-directory-to-the-path-variable)
 
 ### Info server
 **Things to pay attention**:
@@ -104,8 +95,8 @@ Read more [here](https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how
 
 To create symbolic link, type ``ln -s <path to the file/folder to be linked> <the path of the link to be created>``.
 
-Troubleshooting: 
-- When changing the path for creating the symbolic link, remember to redo the symbolic link. 
+Troubleshooting:
+- When the system cannot find the symbolic link, check the pathname of the original files to see if they are the same one used to create the symbolic link. If not, re-create the symbolic link with the correct pathname. 
 
 ### Tab complete
 This saves time for typing out a command. 
