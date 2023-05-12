@@ -12,29 +12,39 @@ UNIX Tutorial for Beginners. http://www.ee.surrey.ac.uk/Teaching/Unix/index.html
 [Tab complete](#tab-complete) <br>
 [Pathnames](#pathnames)  <br>
 
-$SPADES --pe1-1 9_7_9_ACTTGTTATC-TCTAGGCGCG_L002_R1_001.fastq.gz --pe1-2 9_7_9_ACTTGTTATC-TCTAGGCGCG_L002_R2_001.fastq.gz -o 9_7_9-spades
+## Learn these first
 
-## Access rights of files
+### List (ls)
+To list content in a directory, type ``ls``.
+
+To list hidden files (files beginning with ``.``), type ``ls -a``. 
+
+To list access rights of files, type ``ls -l``. 
+
+### Access rights of files
 Read this website for instructions: https://www.pluralsight.com/blog/it-ops/linux-file-permissions.
 
 To list access rights of files, type ``ls -l``. 
 
 An example of the result is ``-rwxrw-r-- 1 ee51ab beng95 2450 Sept29 11:52 file1``. 
 
-## Environmental variable
-Reference: https://www3.ntu.edu.sg/home/ehchua/programming/howto/Environment_Variables.html#:~:text=You%20can%20set%20an%20environment,.%20)%20is%20hidden%20by%20default.
+### Environmental variable
+Reference: <br>
+Environment Variables in Windows/macOS/Linux. 
+https://www3.ntu.edu.sg/home/ehchua/programming/howto/Environment_Variables.html#:~:text=You%20can%20set%20an%20environment,.%20)%20is%20hidden%20by%20default. <br>
+How To View and Update the Linux PATH Environment Variable. https://www.digitalocean.com/community/tutorials/how-to-view-and-update-the-linux-path-environment-variable#step-3-mdash-permanently-adding-a-directory-to-the-path-variable. 
 
 It is global system variable accessible by all the processes/users running under the Operating System (OS), such as Windows, macOS and Linux. It is useful for storing system-wide values. Some examples of environmental variables are **PATH**, **OS**, **COMPUTENAME**, etc. 
 
 - To show all environmental variables, type ``env``.
 
-1. **PATH**: it stores a list of directories to search for executable programs. 
+1. **PATH**: it allows you to go to a directory or run a program in any directories
 - Steps for creating a PATH environmental variable for directory: <br>
 1. Have the pathname of the directory ready. See [Pathnames](#pathnames) of how to find the pathname; <br>
 2. Type ``export PATH="pathname"``(``PATH`` is the name of the variable; call it whatever you want); <br> 
 3. Then in any directories, type ``cd $PATH`` will allow you to enter that directory. 
 
-## Info server
+### Info server
 See this pdf for computing capabilities: https://mcmasteru365-my.sharepoint.com/:b:/r/personal/batstonr_mcmaster_ca/Documents/Microsoft%20Teams%20Chat%20Files/cpus.pdf?csf=1&web=1&e=ISiD8E. 
 
 Things to pay attention:
@@ -44,25 +54,22 @@ Login to Info sever head: type ``ssh username@info.mcmaster.ca``. Then type ``pa
 
 Login to nodes, for example, info114: type ``ssh info114``. Then type ``password``. Type "exit" to leave the node and go back to the server head. 
 
-## List (ls)
+### List (ls)
 To list content in a directory, type ``ls``.
 
 To list hidden files (files beginning with ``.``), type ``ls -a``. 
 
 To list access rights of files, type ``ls -l``. 
 
-## Pathnames
-To find the absoulte path of a directory, in that directory, type ``pwd``.
-
-## Symbolic link
+### Symbolic link
 
 Troubleshooting: 
 
 - When changing the path for creating the symbolic link, remember to redo the symbolic link. 
 
-## Tab complete
+### Tab complete
 This saves time for typing out a command. 
 
 For example, if you want to go to the **Applications** directory, you can type **"cd Applications"**. Instead of typing out **"Applications"** in full, you can type **"App"** and the press **"Tab"**. If **"Applications"** is the only directory beginning with **"App"**, it will return you **"cd Applications"**. If not, it will return all files begining with **"App"**, and then press **"Tab"** to select the file you want. 
 
-## Working in background (nohup, screen)
+### Working in background (nohup, screen)
