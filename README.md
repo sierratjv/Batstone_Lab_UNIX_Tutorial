@@ -52,6 +52,23 @@ To list files in the current directory beginning with **bio...**, type ``ls bio*
 
 To list files in the current directory ending with **...logy**, type ``ls *logy``.
 
+## Shell Script
+Steps for creating a shell script:
+1.  create a shell script <br>
+``` shell_script_1 <br>
+nano shell_script.sh <br>
+``` <br>
+2.  in the opened text editor, type the following <br>
+``` shell_script_2 <br>
+#!/bin/bash <br>
+command you want to run <br>
+``` <br>
+The first line tells what program (e.g. bash) to use to interpret the script. The second line is the command you want to run. <br>
+3.  execute the shell script <br>
+``` shell_script_3 <br>
+bash shell_script.sh <br>
+``` <br>
+
 ### Environmental variable
 This is very useful for going to a directory or running a program because it allows to do these at any directories. 
 
@@ -63,7 +80,7 @@ Steps for creating a environmental variable: <br>
 3. Then in any directories, type ``cd $AAA`` will allow you to enter that directory. If it is a program, typing ``$AAA`` in any directories can run this program. 
 4. Type ``echo $AAA``
 
-#### PATH variable - one type of environmental variable
+**PATH variable - one type of environmental variable**
 It contains a list of directories which the system checks before running a command. Thus, it is useful to put the pathname of a program there if if you want to run that program. Read more about on [this website](https://www.digitalocean.com/community/tutorials/how-to-view-and-update-the-linux-path-environment-variable#step-3-mdash-permanently-adding-a-directory-to-the-path-variable). 
 
 An example of PATH looks like ``/usr/local/python3/Python-3.5.1:/usr/local/spades/version.3.15.2/bin:.:/home/xingyuan/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/openmpi/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/dell/srvadmin/bin:/home/xingyuan/.local/bin:/home/xingyuan/bin``.
@@ -79,7 +96,7 @@ Steps for add a directory to the PATH variable:
 4. To see the changes which you made on the PATH variable, you have to log out (types ``exit`` if you are on a server) and then log in again.
 5. Type ``echo $PATH`` to see if changes are made successfully. Your new pathnames should be added to the start of the PATH variable. 
 
-Troubleshooting:
+**Troubleshooting**:
 - If the system still cannot find the program, check if the new directory is added to the **start of the PATH variable**. The command to do that is ``export PATH=/the/file/path:$PATH``. This may be because the directories near the start of the PATH variable will be ran first. Read more [here](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows#:~:text=The%20path%20works%20like%20first,the%20beginning%20of%20the%20command). 
 
 ### Symbolic link
