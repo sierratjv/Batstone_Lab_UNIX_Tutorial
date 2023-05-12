@@ -66,9 +66,11 @@ To list hidden files (files beginning with ``.``), type ``ls -a``.
 To list access rights of files, type ``ls -l``. 
 
 ### Symbolic link
+Read more [here](https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/).
+
+To create symbolic link, type ``ln -s <path to the file/folder to be linked> <the path of the link to be created>``.
 
 Troubleshooting: 
-
 - When changing the path for creating the symbolic link, remember to redo the symbolic link. 
 
 ### Tab complete
