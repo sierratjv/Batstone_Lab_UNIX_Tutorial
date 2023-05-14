@@ -45,7 +45,7 @@ To open file in a new window, type ``less document`` (``document`` is the name o
 
 To close the file, type ``q`` and press ``Enter``.
 
-To search for a certain word in the file, type ``/word`` (``word`` is the word you want to search for). Press ``n`` to go to the next word.
+To search for a certain word in the file, type ``/word`` and press ``Enter`` (``word`` is the word you want to search for). Press ``n`` to go to the next word.
 
 ## Shell Script
 Steps for creating a shell script:
