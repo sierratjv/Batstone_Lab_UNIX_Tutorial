@@ -1,6 +1,8 @@
 # Tips_and_Tricks
 UNIX commands for beginners
 
+## First learn UNIX commands on [this website](http://www.ee.surrey.ac.uk/Teaching/Unix/).
+
 ## Symobols in UNIX
 ``.`` represents the current directory. 
 
