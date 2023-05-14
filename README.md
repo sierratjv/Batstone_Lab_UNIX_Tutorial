@@ -67,7 +67,7 @@ To view PATH, type ``echo $PATH``.
 Steps for adding a directory to the PATH variable:
 1. Type ``nano ~/.bashrc`` to open a file called ``.bashrc``;
 2. Type ``export PATH=/the/file/path:$PATH`` in the ``.bashrc`` file (``/the/file/path`` is the pathname of the directory you want to add);
-3. Press ``Control+X``, then type ``Y`` to save the changes, then press ``Enter`` to exit ``.bashrc``;
+3. Press ``Control``+``X``, then type ``Y`` to save the changes, then press ``Enter`` to exit ``.bashrc``;
 4. To see the changes which you made on the PATH variable, you have to log out (types ``exit`` if you are on a server) and then log in again.
 5. Type ``echo $PATH`` to see if changes are made successfully. Your new pathnames should be added to the start of the PATH variable. 
 
