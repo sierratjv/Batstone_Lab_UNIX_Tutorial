@@ -41,6 +41,13 @@ To list files in the current directory beginning with **bio...**, type ``ls bio*
 
 To list files in the current directory ending with **...logy**, type ``ls *logy``.
 
+## Opening and Reading Files
+To open file in a new window, type ``less document`` (``document`` is the name of the file).
+
+To close the file, type ``q`` and press ``Enter``.
+
+To search for a certain word in the file, type ``/word`` (``word`` is the word you want to search for). Press ``n`` to go to the next word.
+
 ## Shell Script
 Steps for creating a shell script:
 1.  Create a shell script <br>
