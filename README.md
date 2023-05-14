@@ -8,6 +8,9 @@ UNIX commands for beginners
 
 ``~`` represents the home directory.
 
+## Keyboard
+Delete the command that you type in: press ``Control``+``C``.
+
 ## List 
 To list content in a directory, type ``ls``.
 
