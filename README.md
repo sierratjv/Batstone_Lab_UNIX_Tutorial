@@ -10,6 +10,9 @@
 ``~`` represents the home directory.
 
 ## Keyboard
+
+Press ``Enter`` to run the command that you type in. 
+
 Delete the command that you type in: press ``Control``+``C``.
 
 Use ``↑`` to search the commands that you typed before.
