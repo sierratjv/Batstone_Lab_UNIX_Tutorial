@@ -31,23 +31,23 @@ To move ahead one directory, type ``cd directory`` (``directory`` is the name of
 
 To move back one directory, type ``cd ..``.
 
-## Make directories
+## Make directory
 To make a new directory, type ``mkdir directory``(``directory`` is the name for that directory). Type ``ls`` to verify the directory is made successfully. 
 
-## Remove files or directories
+## Remove file or directory
 To delete a file, type ``rm file`` (``file`` is the name of the file).
 
 To delete a directory, it has to be empty; then type ``rmdir directory`` (``directory`` is the name of the directory).
 
-## Pathnames
+## Pathname
 To view the absolute pathname of a directory, ``cd`` to that directory first, then type ``pwd``.
 
-## Wildcards 
+## Wildcard
 To list files in the current directory beginning with **bio...**, type ``ls bio*`` .
 
 To list files in the current directory ending with **...logy**, type ``ls *logy``.
 
-## Opening and Reading Files
+## Opening and Reading File
 To open file in a new window, type ``less document`` (``document`` is the name of the file).
 
 To close the file, type ``q`` and press ``Enter``.
@@ -97,7 +97,16 @@ To create symbolic link, type ``ln -s <path to the file/folder to be linked> <th
 **Troubleshooting:**
 - If the system cannot find the symbolic link, check the pathname of the original files to see if they are the same one used to create the symbolic link. If not, re-create the symbolic link with the correct pathname. 
 
-## Working in background (nohup, screen)
+## Working in background (screen)
+Type ``screen`` to open a screen session.
+
+Type ``exit`` to terminate the screen session. 
+
+Type ``screen -ls`` to find the running screen session. If no screen session found, it will return ``No Sockets found...``. 
+
+## Working in background (nohup)
+
+Type ``nohup command &`` to run the command in background (``command`` is the command you want to run in background).
 
 ## Info server
 **Things to pay attention**:
