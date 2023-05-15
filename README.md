@@ -13,9 +13,9 @@
 
 Press ``Enter`` to run the command that you type in. 
 
-Delete the command that you type in: press ``Control``+``C``.
+Press ``Control``+``C`` to delete the command that you type in.
 
-Use ``↑`` to search the commands that you typed before.
+Press ``↑`` to search the commands that you typed before.
 
 Tab complete: if you want to save time for typing ``cd Desktop``, you can type ``cd Des`` and the press ``Tab``. If ``Destop`` is the only directory beginning with ``Des...``, it will complete the command ``cd Desktop``. If not, it will return all files begining with ``Des...``, and then press ``Tab`` to select the file you want. 
 
