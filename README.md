@@ -99,6 +99,6 @@ If you want to save time for typing ``cd Desktop``, you can type ``cd Des`` and 
 **Things to pay attention**:
 - Run programs on **nodes**. Running programs on the head (which is the place when you login) will greatly slow the system.  
 
-Login to Info sever head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
+Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
 
-Login to nodes, for example, info114: type ``ssh info114``. Then type ``password``. Type "exit" to leave the node and go back to the server head. 
+Login to nodes, for example, info114: type ``ssh info114``. Then type ``password``. Type ``exix`` to leave the node and go back to the server head. 
