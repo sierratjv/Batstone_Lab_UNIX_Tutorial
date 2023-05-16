@@ -94,8 +94,8 @@ Read about symbolic link on [this webiste](https://www.freecodecamp.org/news/sym
 
 To create symbolic link, go to the directory where you want to create the symbolic link, type ``ln -s <path to the file/folder to be linked> .``.
 
-**Tips**
-- Check the number of files before and after creating the symbolic link, by typing ``ls file_name | wc -l``. Use wildcards to select more all the files, such as ``ls *fastq``, and ``wc -l`` will count all the lines which you select.
+**Tips:**
+- Check the number of files before and after creating the symbolic link, by typing ``ls file_name | wc -l``. Use wildcards (* symbol) to select files, such as ``ls *fastq`` for selecting all files ending in fastq, and ``wc -l`` will count all the lines which you select.
 
 **Troubleshooting:**
 - If the system cannot find the symbolic link, check the pathname of the original files to see if they are the same one used to create the symbolic link. If not, re-create the symbolic link with the correct pathname. 
