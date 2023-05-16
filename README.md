@@ -111,6 +111,8 @@ Type ``screen -ls`` to find the running screen session. If no screen session fou
 
 Type ``nohup command &`` to run the command in background (``command`` is the command you want to run in background).
 
+Type ``jobs -l`` to show the command running in background.
+
 ## Info server
 **Things to pay attention**:
 - Run programs on **nodes**. Running programs on the head (which is the place when you login) will greatly slow the system.  
