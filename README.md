@@ -75,6 +75,9 @@ https://github.com/raynamharris/Shell_Intro_for_Bioinformatics_STG/blob/master/l
 **Tips**
 - Use ``echo`` to check whether you write the loop correctly or not.
 
+**Troubleshooting**
+- Check whether there are any typos in the commands. 
+
 ## Environmental variable
 To show all environmental variables, type ``env``.
 
@@ -130,3 +133,9 @@ Type ``jobs -l`` to show the command running in background.
 Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
 
 Login to nodes, for example, info114: type ``ssh info114``. Then type ``password``. Type ``exix`` to leave the node and go back to the server head. 
+
+## Programs
+
+### Trimmomatic
+For official website, go to [Trimmomatic: A flexible read trimming tool for Illumina NGS data](http://www.usadellab.org/cms/?page=trimmomatic). <br> 
+For video introducing the program, watch [Bioinformatics - Understanding Trimmomatic](https://www.youtube.com/watch?v=Op3W5TEej3k). <br>
