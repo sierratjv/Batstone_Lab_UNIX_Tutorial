@@ -3,6 +3,14 @@ The purpose of this document is to store a list of commands for quick finding. F
 
 ## First read [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/).
 
+## Info server
+**Things to pay attention**:
+- Run programs on **nodes**. Running programs on the head (which is the place when you login) will greatly slow the system.  
+
+Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
+
+Login to nodes, for example, info114: type ``ssh info114``. Then type ``password``. Type ``exix`` to leave the node and go back to the server head. 
+
 ## Symobols in UNIX
 ``.`` represents the current directory. 
 
@@ -136,14 +144,6 @@ Type ``screen -ls`` to find the running screen session. If no screen session fou
 Type ``nohup command &`` to run the command in background (``command`` is the command you want to run in background).
 
 Type ``jobs -l`` to show the command running in background.
-
-## Info server
-**Things to pay attention**:
-- Run programs on **nodes**. Running programs on the head (which is the place when you login) will greatly slow the system.  
-
-Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
-
-Login to nodes, for example, info114: type ``ssh info114``. Then type ``password``. Type ``exix`` to leave the node and go back to the server head. 
 
 ## Bioinformatics Programs
 
