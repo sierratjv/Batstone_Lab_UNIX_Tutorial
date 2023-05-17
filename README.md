@@ -93,7 +93,7 @@ To show all environmental variables, type ``env``.
 Steps for creating a environmental variable: <br>
 1. Have the pathname ready; <br>
 2. Type ``export AAA="pathname"``(``AAA`` is the name of the variable); <br> 
-3. Then in any directories, type ``cd $AAA`` will allow you to enter that directory. If it is a program, typing ``$AAA`` in any directories can run this program. 
+3. Then in any directories, type ``cd $AAA`` will allow you to enter that directory. If it is a program, typing ``$AAA`` in any directories can run this program;
 4. Type ``echo $AAA`` to view the environmental variable that you created.
 
 **PATH variable - one type of environmental variable**
