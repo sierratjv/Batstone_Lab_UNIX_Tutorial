@@ -1,6 +1,7 @@
 # Tips_and_Tricks
+The purpose of this document is to store a list of commands for quick finding. For what these commands mean and more complex usage of these commands, go to the websites embedded or search online. 
 
-## First learn UNIX commands on [this website](http://www.ee.surrey.ac.uk/Teaching/Unix/).
+## First read [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/).
 
 ## Symobols in UNIX
 ``.`` represents the current directory. 
@@ -28,7 +29,7 @@ To list content in a directory, type ``ls``.
 
 To list hidden files (files beginning with ``.``), type ``ls -a``. 
 
-To list access rights of files, type ``ls -l``. Read [this website](https://www.pluralsight.com/blog/it-ops/linux-file-permissions) for instructions about how to change access rights. 
+To list access rights of files, type ``ls -l``. Read [How to change directory permissions in Linux with chmod](https://www.pluralsight.com/blog/it-ops/linux-file-permissions) for instructions about how to change access rights. 
 
 ## Change directory 
 To move ahead one directory, type ``cd directory`` (``directory`` is the name of the directory you want to go to).
@@ -47,6 +48,8 @@ To delete a directory, it has to be empty; then type ``rmdir directory`` (``dire
 To view the absolute pathname of a directory, ``cd`` to that directory first, then type ``pwd``.
 
 ## Wildcard
+It is useful for running a command for multiple files. 
+
 To list files in the current directory beginning with **bio...**, type ``ls bio*`` .
 
 To list files in the current directory ending with **...logy**, type ``ls *logy``.
@@ -59,6 +62,8 @@ To close the file, type ``q`` and press ``Enter``.
 To search for a certain word in the file, type ``/word`` and press ``Enter`` (``word`` is the word you want to search for). Press ``n`` to go to the next word.
 
 ## Shell Script
+It is useful for saving a long command, so you don't need to type it each time.
+
 Steps for creating a shell script:
 1.  Create a shell script <br>
 ```nano shell_script.sh``` <br>
@@ -68,12 +73,16 @@ Steps for creating a shell script:
 The first line tells what program (e.g. bash) to use to interpret the script. The second line is the command you want to run. <br>
 3.  execute the shell script <br>
 ```bash shell_script.sh``` <br>
+4. You can find the ``shell_script.sh`` file in the directory where you created it. 
 
 ## For Loop
-https://github.com/raynamharris/Shell_Intro_for_Bioinformatics_STG/blob/master/lessons/06_ForLoops.md
+It is useful for running a program for multiple files. 
+
+For an introduction and applications in FastQC program and Trimmomatic program, read [Lesson 06: For Loops](https://github.com/raynamharris/Shell_Intro_for_Bioinformatics_STG/blob/master/lessons/06_ForLoops.md)
 
 **Tips**
-- Use ``echo`` to check whether you write the loop correctly or not.
+- Write the commands in a shell script if the commands are very long, so you don't need to write 
+- Type ``echo`` in front of the command to check whether you write the loop correctly or not.
 
 **Troubleshooting**
 - Check whether there are any typos in the commands. 
@@ -134,7 +143,16 @@ Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (Y
 
 Login to nodes, for example, info114: type ``ssh info114``. Then type ``password``. Type ``exix`` to leave the node and go back to the server head. 
 
-## Programs
+## Bioinformatics Programs
+
+### SPAdes
+For official website, go to [SPAdes](https://cab.spbu.ru/software/spades/). 
+
+### FastQC 
+For official website, go to [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/).
+
+### MultiQC
+For official website, go to [MultiQC](https://multiqc.info/). 
 
 ### Trimmomatic
 For official website, go to [Trimmomatic: A flexible read trimming tool for Illumina NGS data](http://www.usadellab.org/cms/?page=trimmomatic). <br> 
