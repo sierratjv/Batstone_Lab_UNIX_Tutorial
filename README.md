@@ -65,6 +65,12 @@ The first line tells what program (e.g. bash) to use to interpret the script. T
 3.  execute the shell script <br>
 ```bash shell_script.sh``` <br>
 
+## For Loop
+https://github.com/raynamharris/Shell_Intro_for_Bioinformatics_STG/blob/master/lessons/06_ForLoops.md
+
+**Tips**
+- Use ``echo`` to check whether you write the loop correctly or not.
+
 ## Environmental variable
 To show all environmental variables, type ``env``.
 
