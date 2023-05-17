@@ -149,7 +149,6 @@ Type ``jobs -l`` to show the command running in background.
 
 To send a running process into background, use ``Control+Z`` to stop the process first and type ``bg`` to run it in background. 
 
-
 ## Bioinformatics Programs
 
 ### SPAdes
