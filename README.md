@@ -154,13 +154,16 @@ To send a running process into background, use ``Control+Z`` to stop the process
 - For learning a program, read the official article about how the program works, and then read the manual for the command for running the program.
 
 ### SPAdes
-For official website, go to [SPAdes](https://cab.spbu.ru/software/spades/). 
+For official website, go to [SPAdes](https://cab.spbu.ru/software/spades/). <br>
+The most early information about SPAdes was a talk which I could not find the video recording of it. The talk was Alekseyev M. A. SPAdes: новый ассемблер геномов с поддержкой одноклеточного секвенирования. (talk), 2011. <br>
+For official artical, read [Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin M, Kulikov AS, Lesin VM, Nikolenko SI, Pham S, Prjibelski AD, Pyshkin AV, Sirotkin AV, Vyahhi N, Tesler G, Alekseyev MA, Pevzner PA. SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. J Comput Biol. 2012 May;19(5):455-77](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342519/). 
 
 ### FastQC 
 For official website, go to [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/).
 
 ### MultiQC
-For official website, go to [MultiQC](https://multiqc.info/). 
+For official website, go to [MultiQC](https://multiqc.info/). <br>
+For official article, read [Philip Ewels and others, MultiQC: summarize analysis results for multiple tools and samples in a single report, Bioinformatics, Volume 32, Issue 19, October 2016, Pages 3047–3048](https://academic.oup.com/bioinformatics/article/32/19/3047/2196507).
 
 ### Trimmomatic
 For official website, go to [Trimmomatic: A flexible read trimming tool for Illumina NGS data](http://www.usadellab.org/cms/?page=trimmomatic). <br> 
