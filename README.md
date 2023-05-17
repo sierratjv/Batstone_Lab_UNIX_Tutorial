@@ -1,5 +1,5 @@
 # Tips_and_Tricks
-The purpose of this document is to store a list of commands for quick finding. For what these commands mean and more complex usage of these commands, go to the websites embedded or search online. 
+The purpose of this document is to store a list of commands for quick finding. For what these commands mean and more complex usage of these commands, go to the websites embedded or search online. This document also 
 
 ## First read [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/).
 
@@ -97,7 +97,9 @@ Steps for creating a environmental variable: <br>
 4. Type ``echo $AAA``
 
 **PATH variable - one type of environmental variable**
-Read about PATH variavle on [this website](https://www.digitalocean.com/community/tutorials/how-to-view-and-update-the-linux-path-environment-variable#step-3-mdash-permanently-adding-a-directory-to-the-path-variable). 
+The system checks the PATH variable when it runs a command. Thus, it is useful to store the pathname of commonly used programs (such as Python which is required to run SPAdes genome assembler) in the PATH variable. 
+
+Read about PATH variavle on [How To View and Update the Linux PATH Environment Variable](https://www.digitalocean.com/community/tutorials/how-to-view-and-update-the-linux-path-environment-variable#step-3-mdash-permanently-adding-a-directory-to-the-path-variable). 
 
 To view PATH, type ``echo $PATH``.
 
