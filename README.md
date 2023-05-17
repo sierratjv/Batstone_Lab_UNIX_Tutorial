@@ -158,4 +158,4 @@ For official website, go to [MultiQC](https://multiqc.info/).
 
 ### Trimmomatic
 For official website, go to [Trimmomatic: A flexible read trimming tool for Illumina NGS data](http://www.usadellab.org/cms/?page=trimmomatic). <br> 
-For video introducing the program, watch [Bioinformatics - Understanding Trimmomatic](https://www.youtube.com/watch?v=Op3W5TEej3k). <br>
+For official article, read [Trimmomatic: a flexible trimmer for Illumina sequence data](https://academic.oup.com/bioinformatics/article/30/15/2114/2390096). 
