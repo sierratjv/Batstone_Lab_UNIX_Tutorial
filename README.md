@@ -1,5 +1,5 @@
 # Tips_and_Tricks
-The purpose of this document is to store a list of commands for quick finding. For what these commands mean and more complex usage of these commands, go to the websites embedded or search online. This document also 
+The purpose of this document is to store a list of commands for quick finding. For what these commands mean and more complex usage of these commands, go to the websites embedded or search online. 
 
 ## First read [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/).
 
