@@ -32,6 +32,8 @@ Press ``Control``+``A`` to go to the beginning of a command.
 
 Press ``Control``+``E`` to go to the end of a command.
 
+Press ``Control``+``Z`` to stop a process that is running.
+
 ## List 
 To list content in a directory, type ``ls``.
 
@@ -144,6 +146,9 @@ Type ``screen -ls`` to find the running screen session. If no screen session fou
 Type ``nohup command &`` to run the command in background (``command`` is the command you want to run in background).
 
 Type ``jobs -l`` to show the command running in background.
+
+To send a running process into background, use ``Control+Z`` to stop the process first and type ``bg`` to run it in background. 
+
 
 ## Bioinformatics Programs
 
