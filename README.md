@@ -176,7 +176,7 @@ Type ``nohup command &`` to run the process in background (``command`` is the co
 
 Type ``ps x`` to show the nohup process. 
 
-## Bioinformatics Programs
+# Bioinformatics Programs
 **Tips:**
 - For learning a program, read the official article about how the program works, and then read the manual on the official website for the command for running the program.
 
