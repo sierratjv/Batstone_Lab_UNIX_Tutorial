@@ -190,6 +190,7 @@ For official artical, read [Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin
 
 ### FastQC 
 For official website, go to [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/).
+For an article explaining problems of Per Base Sequence Content: read [Why does FASTQC show unexpectedly high sequence duplication levels (PCR-duplicates)?](https://dnatech.genomecenter.ucdavis.edu/faqs/why-does-fastqc-show-unexpectedly-high-sequence-duplication-levels-pcr-duplicates/). 
 
 ### MultiQC
 For official website, go to [MultiQC](https://multiqc.info/). <br>
