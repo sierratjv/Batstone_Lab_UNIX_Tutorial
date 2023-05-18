@@ -155,7 +155,7 @@ Type ``ps x`` to show the nohup process.
 
 ## Bioinformatics Programs
 **Tips:**
-- For learning a program, read the official article about how the program works, and then read the manual for the command for running the program.
+- For learning a program, read the official article about how the program works, and then read the manual on the official website for the command for running the program.
 
 ### SPAdes
 For official website, go to [SPAdes](https://cab.spbu.ru/software/spades/). <br>
