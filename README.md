@@ -3,7 +3,7 @@ The purpose of this document is to store a list of commands for quick finding. F
 
 ## Table of Contents
 [Commonly used commands](#commonly-used-commands) <br>
-[Commands for working with files](#commonly-used-commands) <br>
+[Commands for working with files](#commands_for_working_with_files) <br>
 [Commands for making your work easy](#commands_for_making_your_work_easy) <br>
 
 ## Info server 
@@ -38,6 +38,7 @@ Press ``Control``+``E`` to go to the end of a command.
 Press ``Control``+``Z`` to stop a process that is running.
 
 # Commonly used commands 
+[Go Back to Top](#tips_and_tricks)
 
 ## First read [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/).
 
