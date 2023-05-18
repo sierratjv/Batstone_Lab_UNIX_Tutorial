@@ -73,6 +73,13 @@ To close the file, type ``q`` and press ``Enter``.
 
 To search for a certain word in the file, type ``/word`` and press ``Enter`` (``word`` is the word you want to search for). Press ``n`` to go to the next word.
 
+## Copy Files 
+**From server to your own computer**
+
+To download one file, first exit the server, and type ``scp username@host:pathname_of_file pathname_of_the_destination``. 
+
+To download multiple files using wildcards, first exit the sever ``scp 'username@host:path_of_the_files' pathname_of_the_destination``. An example is ``scp 'xingyuan@info.mcmaster.ca:/home/xingyuan/2018_strains/fastQC_trimmed_reads/*-101A*html' /Users/xingyuansu/Desktop``. 
+
 ## Shell Script
 It is useful for saving a long command, so you don't need to type it each time.
 
@@ -123,10 +130,10 @@ Steps for adding a directory to the PATH variable:
 5. Type ``echo $PATH`` to see if changes are made successfully. Your new pathnames should be added to the start of the PATH variable. 
 
 **Troubleshooting:**
-- If the system still cannot find the program, check if the new directory is added to the **start of the PATH variable**. The command to do that is ``export PATH=/the/file/path:$PATH``. The problem may be because the directories near the start of the PATH variable will be ran first. Read more [here](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows#:~:text=The%20path%20works%20like%20first,the%20beginning%20of%20the%20command). 
+- If the system still cannot find the program, check if the new directory is added to the **start of the PATH variable**. The command to do that is ``export PATH=/the/file/path:$PATH``. The pathnames are read from the start to the end of PATH variable. Read more [here](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows#:~:text=The%20path%20works%20like%20first,the%20beginning%20of%20the%20command). 
 
 ## Symbolic link
-Read about symbolic link on [this webiste](https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/).
+Read about symbolic link on [Symlink Tutorial in Linux – How to Create and Remove a Symbolic Link](https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/).
 
 To create symbolic link, go to the directory where you want to create the symbolic link, type ``ln -s pathname_of_the_file .`` (the ``.`` at the end means that you want to put the symbolic link in the current directory).
 
