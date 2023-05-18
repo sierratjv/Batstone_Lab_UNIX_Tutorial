@@ -149,6 +149,7 @@ Type ``exit`` to terminate the screen session.
 Type ``screen -ls`` to find the running screen session. If no screen session found, it will return ``No Sockets found...``. 
 
 **Nohup command**
+
 Type ``nohup command &`` to run the process in background (``command`` is the command you want to run in background). After pressing ``Enter``, it will return you the process ID (PID) for this process. 
 
 Type ``ps x`` to show the nohup process. 
