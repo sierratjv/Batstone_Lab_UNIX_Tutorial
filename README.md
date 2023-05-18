@@ -3,14 +3,13 @@ The purpose of this document is to store a list of commands for quick finding. F
 
 ## First read [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/).
 
-## Info server
-
-**Tips**
-- Run programs on **nodes**. Running programs on the head (which is the place when you login) will greatly slow the system.  
-
+## Info server 
 Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
 
 Login to nodes, for example, info114: type ``ssh info114``. Then type ``password``. Type ``exix`` to leave the node and go back to the server head. 
+
+**Tips**
+- Run programs on **nodes**. Running programs on the head (which is the place when you login) will greatly slow the system. 
 
 ## Symobols in UNIX
 ``.`` represents the current directory. 
