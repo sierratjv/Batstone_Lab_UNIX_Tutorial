@@ -3,8 +3,8 @@ The purpose of this document is to store a list of commands for quick finding. F
 
 ## Table of Contents
 [Commonly used commands](#commonly-used-commands) <br>
-[Commands for working with files](#commands_for_working_with_files) <br>
-[Commands for making your work easy](#commands_for_making_your_work_easy) <br>
+[Commands for working with files](#commands-for-working-with-files) <br>
+[Commands for making your work easy](#commands-for-making-your-work-easy) <br>
 
 ## Info server 
 Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
@@ -112,6 +112,7 @@ Steps for adding a directory to the PATH variable:
 - If the system still cannot find the program, check if the new directory is added to the **start of the PATH variable**. The command to do that is ``export PATH=/the/file/path:$PATH``. The pathnames are read from the start to the end of PATH variable. Read more [here](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows#:~:text=The%20path%20works%20like%20first,the%20beginning%20of%20the%20command). 
 
 # Commands for working with files
+[Go Back to Top](#tips_and_tricks)
 
 ## Opening and Reading File
 To open file in a new window, type ``less document`` (``document`` is the name of the file).
@@ -128,6 +129,7 @@ To download one file, first exit the server, and type ``scp username@host:pathna
 To download multiple files using wildcards, first exit the sever ``scp 'username@host:path_of_the_files' pathname_of_the_destination``. An example is ``scp 'xingyuan@info.mcmaster.ca:/home/xingyuan/2018_strains/fastQC_trimmed_reads/*-101A*html' /Users/xingyuansu/Desktop``. The files copied are ``GSF2234-101A_S1_R1_P_001_fastqc.html`` and ``GSF2234-101A_S1_R2_P_001_fastqc.html``.  
 
 # Commands for making your work easy
+[Go Back to Top](#tips_and_tricks)
 
 ## Shell Script
 It is useful for saving a long command, so you don't need to type it each time.
