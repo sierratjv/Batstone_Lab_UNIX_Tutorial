@@ -4,7 +4,8 @@ The purpose of this document is to store a list of commands for quick finding. F
 ## First read [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/).
 
 ## Info server
-**Things to pay attention**:
+
+**Tips**
 - Run programs on **nodes**. Running programs on the head (which is the place when you login) will greatly slow the system.  
 
 Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
