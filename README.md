@@ -126,7 +126,7 @@ To search for a certain word in the file, type ``/word`` and press ``Enter`` (``
 
 To copy one file, first exit the server, and type ``scp username@host:document_pathname destination_pathname``. 
 
-To copy multiple files using wildcards to select multiple files, first exit the server, and type ``scp 'username@host:documents_pathname' destination_pathname``.
+To copy multiple files using wildcards, first exit the server, and type ``scp 'username@host:documents_pathname_*wildcards' destination_pathname``.
 
 **Tips:**
 - When using wildcards, first use ``ls`` command to check whether the correct files are selected. 
