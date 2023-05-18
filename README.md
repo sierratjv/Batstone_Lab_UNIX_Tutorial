@@ -46,6 +46,8 @@ To move ahead one directory, type ``cd directory`` (``directory`` is the name of
 
 To move back one directory, type ``cd ..``.
 
+To move to home directory from any directories, type ``cd``. 
+
 ## Make directory
 To make a new directory, type ``mkdir directory``(``directory`` is the name for that directory). Type ``ls`` to verify the directory is made successfully. 
 
