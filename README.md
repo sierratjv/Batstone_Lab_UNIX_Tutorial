@@ -1,7 +1,10 @@
 # Tips_and_Tricks
 The purpose of this document is to store a list of commands for quick finding. For what these commands mean and more complex usage of these commands, go to the websites embedded or search online. This document also includes tips and troubleshootings for commands. 
 
-## First read [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/).
+## Table of Contents
+[Commonly used commands]
+[Commands for working with files]
+[Commands for making your work easy]
 
 ## Info server 
 Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
@@ -33,6 +36,10 @@ Press ``Control``+``A`` to go to the beginning of a command.
 Press ``Control``+``E`` to go to the end of a command.
 
 Press ``Control``+``Z`` to stop a process that is running.
+
+# Commonly used commands 
+
+## First read [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/).
 
 ## List 
 To list content in a directory, type ``ls``.
@@ -66,45 +73,16 @@ To list files in the current directory beginning with **bio...**, type ``ls bio*
 
 To list files in the current directory ending with **...logy**, type ``ls *logy``.
 
-## Opening and Reading File
-To open file in a new window, type ``less document`` (``document`` is the name of the file).
+## Symbolic link
+Read about symbolic link on [Symlink Tutorial in Linux – How to Create and Remove a Symbolic Link](https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/).
 
-To close the file, type ``q`` and press ``Enter``.
+To create symbolic link, go to the directory where you want to create the symbolic link, type ``ln -s pathname_of_the_file .`` (the ``.`` at the end means that you want to put the symbolic link in the current directory).
 
-To search for a certain word in the file, type ``/word`` and press ``Enter`` (``word`` is the word you want to search for). Press ``n`` to go to the next word.
+**Tips:**
+- Check the number of files before and after creating the symbolic link, by typing ``ls file_name | wc -l``. Use wildcards (* symbol) to select files, such as ``ls *fastq`` for selecting all files ending in fastq, and ``wc -l`` will count all the lines which you select.
 
-## Copy Files 
-**From server to your own computer**
-
-To download one file, first exit the server, and type ``scp username@host:pathname_of_file pathname_of_the_destination``. 
-
-To download multiple files using wildcards, first exit the sever ``scp 'username@host:path_of_the_files' pathname_of_the_destination``. An example is ``scp 'xingyuan@info.mcmaster.ca:/home/xingyuan/2018_strains/fastQC_trimmed_reads/*-101A*html' /Users/xingyuansu/Desktop``. The files copied are ``GSF2234-101A_S1_R1_P_001_fastqc.html`` and ``GSF2234-101A_S1_R2_P_001_fastqc.html``.  
-
-## Shell Script
-It is useful for saving a long command, so you don't need to type it each time.
-
-Steps for creating a shell script:
-1. Create a shell script <br>
-``nano shell_script.sh`` (``shell_script`` is the name of the file) <br>
-2. In the opened text editor, type the following <br>
-``#!/bin/bash`` <br>
-``command you want to run`` <br>
-The first line tells what program (e.g. bash) to use to interpret the script. The second line is the command you want to run. <br>
-3. Exit the text editor <br>
-4. Execute the shell script <br>
-``bash shell_script.sh`` <br>
-
-## For Loop
-It is useful for running a program for multiple files. 
-
-For an introduction and applications in FastQC program and Trimmomatic program, read [Lesson 06: For Loops](https://github.com/raynamharris/Shell_Intro_for_Bioinformatics_STG/blob/master/lessons/06_ForLoops.md).
-
-**Tips**
-- Write the commands in a shell script if the commands are very long, so you don't need to write.
-- Type ``echo`` in front of the command to check whether you write the loop correctly or not.
-
-**Troubleshooting**
-- Check whether there are any typos in the commands. 
+**Troubleshooting:**
+- If the system cannot find the symbolic link, check the pathname of the original files to see if they are the same one used to create the symbolic link. If not, re-create the symbolic link with the correct pathname. 
 
 ## Environmental variable
 To show all environmental variables, type ``env``.
@@ -132,18 +110,52 @@ Steps for adding a directory to the PATH variable:
 **Troubleshooting:**
 - If the system still cannot find the program, check if the new directory is added to the **start of the PATH variable**. The command to do that is ``export PATH=/the/file/path:$PATH``. The pathnames are read from the start to the end of PATH variable. Read more [here](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows#:~:text=The%20path%20works%20like%20first,the%20beginning%20of%20the%20command). 
 
-## Symbolic link
-Read about symbolic link on [Symlink Tutorial in Linux – How to Create and Remove a Symbolic Link](https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/).
+## Commands for working with files
 
-To create symbolic link, go to the directory where you want to create the symbolic link, type ``ln -s pathname_of_the_file .`` (the ``.`` at the end means that you want to put the symbolic link in the current directory).
+## Opening and Reading File
+To open file in a new window, type ``less document`` (``document`` is the name of the file).
 
-**Tips:**
-- Check the number of files before and after creating the symbolic link, by typing ``ls file_name | wc -l``. Use wildcards (* symbol) to select files, such as ``ls *fastq`` for selecting all files ending in fastq, and ``wc -l`` will count all the lines which you select.
+To close the file, type ``q`` and press ``Enter``.
 
-**Troubleshooting:**
-- If the system cannot find the symbolic link, check the pathname of the original files to see if they are the same one used to create the symbolic link. If not, re-create the symbolic link with the correct pathname. 
+To search for a certain word in the file, type ``/word`` and press ``Enter`` (``word`` is the word you want to search for). Press ``n`` to go to the next word.
+
+## Copy Files 
+**From server to your own computer**
+
+To download one file, first exit the server, and type ``scp username@host:pathname_of_file pathname_of_the_destination``. 
+
+To download multiple files using wildcards, first exit the sever ``scp 'username@host:path_of_the_files' pathname_of_the_destination``. An example is ``scp 'xingyuan@info.mcmaster.ca:/home/xingyuan/2018_strains/fastQC_trimmed_reads/*-101A*html' /Users/xingyuansu/Desktop``. The files copied are ``GSF2234-101A_S1_R1_P_001_fastqc.html`` and ``GSF2234-101A_S1_R2_P_001_fastqc.html``.  
+
+## Commands for making your work easy
+
+## Shell Script
+It is useful for saving a long command, so you don't need to type it each time.
+
+Steps for creating a shell script:
+1. Create a shell script <br>
+``nano shell_script.sh`` (``shell_script`` is the name of the file) <br>
+2. In the opened text editor, type the following <br>
+``#!/bin/bash`` <br>
+``command you want to run`` <br>
+The first line tells what program (e.g. bash) to use to interpret the script. The second line is the command you want to run. <br>
+3. Exit the text editor <br>
+4. Execute the shell script <br>
+``bash shell_script.sh`` <br>
+
+## For Loop
+It is useful for running a program for multiple files. 
+
+For an introduction and applications in FastQC program and Trimmomatic program, read [Lesson 06: For Loops](https://github.com/raynamharris/Shell_Intro_for_Bioinformatics_STG/blob/master/lessons/06_ForLoops.md).
+
+**Tips**
+- Write the commands in a shell script if the commands are very long, so you don't need to write.
+- Type ``echo`` in front of the command to check whether you write the loop correctly or not.
+
+**Troubleshooting**
+- Check whether there are any typos in the commands. 
 
 ## Working in background 
+It is useful for running time-consuming commands, so you can close your computer without terminating the commands. 
 
 To send a process running in foreground into background, use ``Control+Z`` to stop the process first and type ``bg`` to run it in background. 
 
