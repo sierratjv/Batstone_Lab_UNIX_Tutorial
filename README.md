@@ -148,13 +148,13 @@ The first line tells what program (e.g. bash) to use to interpret the script. T
 ## For Loop
 It is useful for running a program for multiple files. 
 
-For an introduction and applications in FastQC program and Trimmomatic program, read [Lesson 06: For Loops](https://github.com/raynamharris/Shell_Intro_for_Bioinformatics_STG/blob/master/lessons/06_ForLoops.md).
+For instructions, read [Lesson 06: For Loops](https://github.com/raynamharris/Shell_Intro_for_Bioinformatics_STG/blob/master/lessons/06_ForLoops.md).
 
-**Tips**
-- Write the commands in a shell script if the commands are very long, so you don't need to write.
-- Type ``echo`` in front of the command to check whether you write the loop correctly or not.
+**Tips:**
+- Write the loop in a shell script if it is very long.
+- Use ``echo`` in front of the command to check whether you write the loop correctly or not.
 
-**Troubleshooting**
+**Troubleshooting:**
 - Check whether there are any typos in the commands. 
 
 ## Working in background 
