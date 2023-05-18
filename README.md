@@ -18,7 +18,7 @@ Login to nodes, for example, info114: type ``ssh info114``. Then type ``password
 
 ``~`` represents the home directory.
 
-## Keyboard
+## Using Keyboard
 
 Press ``Enter`` to run the command that you type in. 
 
