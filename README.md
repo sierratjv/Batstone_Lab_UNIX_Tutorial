@@ -128,7 +128,7 @@ Steps for adding a directory to the PATH variable:
 ## Symbolic link
 Read about symbolic link on [this webiste](https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/).
 
-To create symbolic link, go to the directory where you want to create the symbolic link, type ``ln -s <path to the file/folder to be linked> .`` (the ``.`` at the end means that you want to put the symbolic link in the current directory).
+To create symbolic link, go to the directory where you want to create the symbolic link, type ``ln -s pathname_of_the_file .`` (the ``.`` at the end means that you want to put the symbolic link in the current directory).
 
 **Tips:**
 - Check the number of files before and after creating the symbolic link, by typing ``ls file_name | wc -l``. Use wildcards (* symbol) to select files, such as ``ls *fastq`` for selecting all files ending in fastq, and ``wc -l`` will count all the lines which you select.
