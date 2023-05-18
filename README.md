@@ -8,7 +8,7 @@ Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (Y
 
 Login to nodes, for example, info114: type ``ssh info114``. Then type ``password``. Type ``exix`` to leave the node and go back to the server head. 
 
-**Tips**
+**Tips:**
 - Run programs on **nodes**. Running programs on the head (which is the place when you login) will greatly slow the system. 
 
 ## Symobols in UNIX
@@ -154,7 +154,7 @@ Type ``nohup command &`` to run the process in background (``command`` is the co
 Type ``jobs -l`` to show the process running in background. If you exit the server and login again and ``jobs -l`` does not work, type ``ps x`` to show the running processes. You can also check the process in the ``nohup.out`` file. 
 
 ## Bioinformatics Programs
-**Tips**
+**Tips:**
 - For learning a program, read the official article about how the program works, and then read the manual for the command for running the program.
 
 ### SPAdes
