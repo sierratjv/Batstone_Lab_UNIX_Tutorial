@@ -159,7 +159,7 @@ Type ``jobs -l`` to show the process running in background. If you exit the serv
 
 ### SPAdes
 For official website, go to [SPAdes](https://cab.spbu.ru/software/spades/). <br>
-The most early information about SPAdes was a talk which I could not find the video recording of it. The talk was Alekseyev M. A. SPAdes: новый ассемблер геномов с поддержкой одноклеточного секвенирования. (talk), 2011. <br>
+The most early information about SPAdes was a talk, but I could not find the video recording of it. The talk was Alekseyev M. A. SPAdes: новый ассемблер геномов с поддержкой одноклеточного секвенирования. (talk), 2011. <br>
 For official artical, read [Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin M, Kulikov AS, Lesin VM, Nikolenko SI, Pham S, Prjibelski AD, Pyshkin AV, Sirotkin AV, Vyahhi N, Tesler G, Alekseyev MA, Pevzner PA. SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. J Comput Biol. 2012 May;19(5):455-77](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342519/). 
 
 ### FastQC 
