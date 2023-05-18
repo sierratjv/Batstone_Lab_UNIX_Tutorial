@@ -83,7 +83,7 @@ Steps for creating a shell script:
 ```#!/bin/bash``` <br>
 ```command you want to run``` <br>
 The first line tells what program (e.g. bash) to use to interpret the script. The second line is the command you want to run. <br>
-3.  execute the shell script <br>
+3.  Execute the shell script <br>
 ```bash shell_script.sh``` <br>
 4. You can find the ``shell_script.sh`` file in the directory where you created it. 
 
