@@ -189,7 +189,7 @@ The most early information about SPAdes was a talk, but I could not find the vid
 For official artical, read [Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin M, Kulikov AS, Lesin VM, Nikolenko SI, Pham S, Prjibelski AD, Pyshkin AV, Sirotkin AV, Vyahhi N, Tesler G, Alekseyev MA, Pevzner PA. SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. J Comput Biol. 2012 May;19(5):455-77](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342519/). 
 
 ### FastQC 
-For official website, go to [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/).
+For official website, go to [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/). <br>
 For an article explaining problems of Per Base Sequence Content: read [Why does FASTQC show unexpectedly high sequence duplication levels (PCR-duplicates)?](https://dnatech.genomecenter.ucdavis.edu/faqs/why-does-fastqc-show-unexpectedly-high-sequence-duplication-levels-pcr-duplicates/). 
 
 ### MultiQC
