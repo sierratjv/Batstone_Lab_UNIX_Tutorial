@@ -78,13 +78,13 @@ It is useful for saving a long command, so you don't need to type it each time.
 
 Steps for creating a shell script:
 1.  Create a shell script <br>
-```nano shell_script.sh``` <br>
+``nano shell_script.sh`` (``shell_script`` is the name of the file) <br>
 2. In the opened text editor, type the following <br>
-```#!/bin/bash``` <br>
-```command you want to run``` <br>
+``#!/bin/bash`` <br>
+``command you want to run`` <br>
 The first line tells what program (e.g. bash) to use to interpret the script. The second line is the command you want to run. <br>
 3.  Execute the shell script <br>
-```bash shell_script.sh``` <br>
+``bash shell_script.sh`` <br>
 4. You can find the ``shell_script.sh`` file in the directory where you created it. 
 
 ## For Loop
