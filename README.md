@@ -124,9 +124,12 @@ To search for a certain word in the file, type ``/word`` and press ``Enter`` (``
 ## Copy Files 
 **From server to your own computer**
 
-To download one file, first exit the server, and type ``scp username@host:pathname_of_file pathname_of_the_destination``. 
+To download one file, first exit the server, and type ``scp username@host:document_pathname destination_pathname``. 
 
-To download multiple files using wildcards, first exit the sever ``scp 'username@host:path_of_the_files' pathname_of_the_destination``. An example is ``scp 'xingyuan@info.mcmaster.ca:/home/xingyuan/2018_strains/fastQC_trimmed_reads/*-101A*html' /Users/xingyuansu/Desktop``. The files copied are ``GSF2234-101A_S1_R1_P_001_fastqc.html`` and ``GSF2234-101A_S1_R2_P_001_fastqc.html``.  
+To download multiple files, first exit the sever ``scp **'**username@host:documents_pathname**'** destination_pathname``. **Hint:** use wildcards to select multiple files in ``documents_pathname``.
+
+**Tips:**
+- When using wildcards, first use ``ls`` command to check whether the correct files are selected. 
 
 # Commands for making your work easy
 [Go Back to Top](#tips_and_tricks)
