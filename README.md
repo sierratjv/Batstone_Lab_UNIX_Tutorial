@@ -2,7 +2,7 @@
 The purpose of this document is to store a list of commands for quick finding. For what these commands mean and more complex usage of these commands, go to the websites embedded or search online. This document also includes tips and troubleshootings for commands. 
 
 ## Table of Contents
-[Commonly used commands]
+[Commonly used commands](#commonly-used-commands) <br>
 [Commands for working with files]
 [Commands for making your work easy]
 
