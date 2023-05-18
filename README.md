@@ -134,20 +134,22 @@ To create symbolic link, go to the directory where you want to create the symbol
 **Troubleshooting:**
 - If the system cannot find the symbolic link, check the pathname of the original files to see if they are the same one used to create the symbolic link. If not, re-create the symbolic link with the correct pathname. 
 
-## Working in background (screen)
+## Working in background 
+
+To send a process running in foreground into background, use ``Control+Z`` to stop the process first and type ``bg`` to run it in background. 
+
+**Screen command**
+
 Type ``screen`` to open a screen session.
 
 Type ``exit`` to terminate the screen session. 
 
 Type ``screen -ls`` to find the running screen session. If no screen session found, it will return ``No Sockets found...``. 
 
-## Working in background (nohup)
+**Nohup command**
+Type ``nohup command &`` to run the process in background (``command`` is the command you want to run in background).
 
-Type ``nohup command &`` to run the command in background (``command`` is the command you want to run in background).
-
-Type ``jobs -l`` to show the command running in background.
-
-To send a running process into background, use ``Control+Z`` to stop the process first and type ``bg`` to run it in background. 
+Type ``jobs -l`` to show the process running in background. If you exit the server and login again and ``jobs -l`` does not work, type ``ps x`` to show the running processes. You can also check the process in the ``nohup.out`` file. 
 
 ## Bioinformatics Programs
 **Tips**
