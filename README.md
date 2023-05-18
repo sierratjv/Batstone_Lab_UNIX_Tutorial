@@ -78,7 +78,7 @@ To search for a certain word in the file, type ``/word`` and press ``Enter`` (``
 
 To download one file, first exit the server, and type ``scp username@host:pathname_of_file pathname_of_the_destination``. 
 
-To download multiple files using wildcards, first exit the sever ``scp 'username@host:path_of_the_files' pathname_of_the_destination``. An example is ``scp 'xingyuan@info.mcmaster.ca:/home/xingyuan/2018_strains/fastQC_trimmed_reads/*-101A*html' /Users/xingyuansu/Desktop``. 
+To download multiple files using wildcards, first exit the sever ``scp 'username@host:path_of_the_files' pathname_of_the_destination``. An example is ``scp 'xingyuan@info.mcmaster.ca:/home/xingyuan/2018_strains/fastQC_trimmed_reads/*-101A*html' /Users/xingyuansu/Desktop``. The files copied are ``GSF2234-101A_S1_R1_P_001_fastqc.html`` and ``GSF2234-101A_S1_R2_P_001_fastqc.html``.  
 
 ## Shell Script
 It is useful for saving a long command, so you don't need to type it each time.
