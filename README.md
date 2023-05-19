@@ -131,6 +131,10 @@ To copy multiple files using wildcards, first exit the server, and type ``scp 'u
 **Tips:**
 - When using wildcards, first use ``ls`` command to check whether the correct files are selected. 
 
+## Move all files from one directory to another directory 
+
+``mv pathname_old_directory/* pathname_new_directory/`` (``*`` symbol selects all files in the old directory). 
+
 # Commands for making your work easy
 [Go Back to Top](#tips_and_tricks)
 
