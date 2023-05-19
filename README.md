@@ -133,7 +133,7 @@ To copy multiple files using wildcards, first exit the server, and type ``scp 'u
 
 ## Move Files
 
-**move all files from one directory to another directory**
+**Move all files from one directory to another directory**
 
 ``mv pathname_old_directory/* pathname_new_directory/`` (``*`` symbol selects all files in the old directory). 
 
