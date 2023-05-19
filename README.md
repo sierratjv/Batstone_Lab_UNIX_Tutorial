@@ -121,6 +121,8 @@ To close the file, type ``q`` and press ``Enter``.
 
 To search for a certain word in the file, type ``/word`` and press ``Enter`` (``word`` is the word you want to search for). Press ``n`` to go to the next word.
 
+To go to the end of the file, type ``G`` and press ``Enter``.
+
 ## Copy Files 
 **From server to your own computer**
 
@@ -144,14 +146,16 @@ To copy multiple files using wildcards, first exit the server, and type ``scp 'u
 It is useful for saving a long command, so you don't need to type it each time.
 
 Steps for creating a shell script:
-1. Create a shell script <br>
-``nano shell_script.sh`` (``shell_script`` is the name of the file) <br>
-2. In the opened text editor, type the following <br>
-``#!/bin/bash`` <br>
-``command you want to run`` <br>
+1. Create a shell script; <br>
+``nano shell_script.sh`` (``shell_script.sh`` is the name of the file) <br>
+2. In the opened text editor, type the following; <br>
+```
+#!/bin/bash 
+command you want to run
+```
 The first line tells what program (e.g. bash) to use to interpret the script. The second line is the command you want to run. <br>
-3. Exit the text editor <br>
-4. Execute the shell script <br>
+3. Exit shell script; <br>
+4. Run shell script. <br>
 ``bash shell_script.sh`` <br>
 
 ## For Loop
@@ -165,6 +169,14 @@ For instructions, read [Lesson 06: For Loops](https://github.com/raynamharris/Sh
 
 **Troubleshooting:**
 - Check whether there are any typos in the commands. 
+
+## Delete a directory with its contents
+``rm`` command can only delete an empty directory. 
+
+Type ``rm -r directory`` to remove directory with its contents (``directory`` is the name of the directory which you want to delete. It is inconvient because you have to type ``yes`` for every file before deleting it. 
+ 
+**Tips:**
+- Use shell script to run the ``rm -r`` command. 
 
 ## Working in background 
 It is useful for running time-consuming commands, so you can close your computer without terminating the commands. 
