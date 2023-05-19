@@ -165,13 +165,12 @@ For instructions, read [Lesson 06: For Loops](https://github.com/raynamharris/Sh
 
 **Tips:**
 - Write the loop in a shell script if it is very long.
-- Use ``echo`` in front of the command to check whether you write the loop correctly or not.
+- Use ``echo`` command to check whether you write the loop correctly or not.
 
 **Troubleshooting:**
 - Check whether there are any typos in the commands. 
 
-## Delete a directory with its contents
-``rm`` command can only delete an empty directory. 
+## Delete a directory with files
 
 Type ``rm -r directory`` to remove directory with its contents (``directory`` is the name of the directory which you want to delete. It is inconvient because you have to type ``yes`` for every file before deleting it. 
  
