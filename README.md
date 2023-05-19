@@ -200,6 +200,7 @@ Type ``ps x`` to show the nohup process.
 **Tips:**
 - For learning a program, read the official article about how the program works, and then read the manual on the official website for the command for running the program.
 - For running a program, make detailed notes on what files are created and where you store these files.
+- For running a program, run the program for one sample to check whether it runs correctly before running the program for all samples.
 
 ### SPAdes
 For official website, go to [SPAdes](https://cab.spbu.ru/software/spades/). <br>
