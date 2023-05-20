@@ -218,3 +218,7 @@ For official article, read [Philip Ewels and others, MultiQC: summarize analysis
 ### Trimmomatic
 For official website, go to [Trimmomatic: A flexible read trimming tool for Illumina NGS data](http://www.usadellab.org/cms/?page=trimmomatic). <br> 
 For official article, read [Anthony M. Bolger and others, Trimmomatic: a flexible trimmer for Illumina sequence data, Bioinformatics, Volume 30, Issue 15, August 2014, Pages 2114–2120](https://academic.oup.com/bioinformatics/article/30/15/2114/2390096). 
+
+### Mauve
+For official website, go to [mauve](https://darlinglab.org/mauve/mauve.html). <br>
+For official article, read [Darling AC, Mau B, Blattner FR, Perna NT. Mauve: multiple alignment of conserved genomic sequence with rearrangements. Genome Res. 2004 Jul;14(7):1394-403. doi: 10.1101/gr.2289704. PMID: 15231754; PMCID: PMC442156.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC442156/). 
