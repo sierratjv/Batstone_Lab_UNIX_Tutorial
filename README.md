@@ -224,6 +224,10 @@ For official website, go to [mauve](https://darlinglab.org/mauve/mauve.html). <b
 For official article, read [Darling AC, Mau B, Blattner FR, Perna NT. Mauve: multiple alignment of conserved genomic sequence with rearrangements. Genome Res. 2004 Jul;14(7):1394-403. doi: 10.1101/gr.2289704. PMID: 15231754; PMCID: PMC442156.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC442156/). 
 
 ### GapFiller
-An earlier publication before the official article, [Nadalin F, Vezzi F, Policriti A: GapFiller: a preprocessing step for the de novo assembly problem [abstract]. Proceedings on the 8th annual meeting of the Bioinformatics Italian Society. 2011, 13-14](http://bioinformatics.hsanmartino.it/bits_library/library/01025.pdf). <br>
-For official artical, go to [Nadalin, F., Vezzi, F. & Policriti, A. GapFiller: a de novo assembly approach to fill the gap within paired reads. BMC Bioinformatics 13 (Suppl 14), S8 (2012). https://doi.org/10.1186/1471-2105-13-S14-S8](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-13-S14-S8). 
+An earlier artical, read [Nadalin F, Vezzi F, Policriti A: GapFiller: a preprocessing step for the de novo assembly problem [abstract]. Proceedings on the 8th annual meeting of the Bioinformatics Italian Society. 2011, 13-14](http://bioinformatics.hsanmartino.it/bits_library/library/01025.pdf). <br>
+For official artical, read [Nadalin, F., Vezzi, F. & Policriti, A. GapFiller: a de novo assembly approach to fill the gap within paired reads. BMC Bioinformatics 13 (Suppl 14), S8 (2012). https://doi.org/10.1186/1471-2105-13-S14-S8](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-13-S14-S8). 
+
+### Prokka
+For official website, go to [Prokka: rapid prokaryotic genome annotation](https://github.com/tseemann/prokka). 
+For official artical, read [Torsten Seemann, Prokka: rapid prokaryotic genome annotation, Bioinformatics, Volume 30, Issue 14, July 2014, Pages 2068–2069, https://doi.org/10.1093/bioinformatics/btu153](https://academic.oup.com/bioinformatics/article/30/14/2068/2390517).
 
