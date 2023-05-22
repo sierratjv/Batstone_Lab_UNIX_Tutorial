@@ -228,6 +228,6 @@ An earlier artical, read [Nadalin F, Vezzi F, Policriti A: GapFiller: a preproce
 For official artical, read [Nadalin, F., Vezzi, F. & Policriti, A. GapFiller: a de novo assembly approach to fill the gap within paired reads. BMC Bioinformatics 13 (Suppl 14), S8 (2012). https://doi.org/10.1186/1471-2105-13-S14-S8](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-13-S14-S8). 
 
 ### Prokka
-For official website, go to [Prokka: rapid prokaryotic genome annotation](https://github.com/tseemann/prokka). 
+For official website, go to [Prokka: rapid prokaryotic genome annotation](https://github.com/tseemann/prokka). <br>
 For official artical, read [Torsten Seemann, Prokka: rapid prokaryotic genome annotation, Bioinformatics, Volume 30, Issue 14, July 2014, Pages 2068–2069, https://doi.org/10.1093/bioinformatics/btu153](https://academic.oup.com/bioinformatics/article/30/14/2068/2390517).
 
