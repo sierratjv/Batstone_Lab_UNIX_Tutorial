@@ -175,7 +175,7 @@ Type ``rm -r directory`` to remove directory with its contents (``directory`` is
 ## Working in background 
 It is useful for running time-consuming commands, so you can close your computer without terminating the commands. 
 
-To send a process running in foreground into background, use ``Control+Z`` to stop the process first and type ``bg &`` to run it in background. 
+To send a process running in foreground into background, use ``Control+Z`` to stop the process first and type ``bg`` to run it in background. To resume a stopped job, type ``fg``. 
 
 **Screen command**
 
