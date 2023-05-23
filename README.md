@@ -167,7 +167,7 @@ For instructions, read [Lesson 06: For Loops](https://github.com/raynamharris/Sh
 
 ## Delete a directory with files
 
-Type ``rm -r directory`` to remove directory with its contents (``directory`` is the name of the directory which you want to delete. It is inconvient because you have to type ``yes`` for every file before deleting it. 
+Type ``rm -r directory`` to remove directory with its contents (``directory`` is the name of the directory which you want to delete). 
  
 **Tips:**
 - Use shell script to run the ``rm -r`` command. 
