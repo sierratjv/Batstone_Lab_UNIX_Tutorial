@@ -211,6 +211,10 @@ For official artical, read [Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin
 For official website, go to [Quast](https://quast.sourceforge.net/). <br>
 For official article, read [Alexey Gurevich and others, QUAST: quality assessment tool for genome assemblies, Bioinformatics, Volume 29, Issue 8, April 2013, Pages 1072–1075](https://academic.oup.com/bioinformatics/article/29/8/1072/228832).
 
+### Bandage
+For official website, go to [Bandage](http://rrwick.github.io/Bandage/). <br>
+For official article, read [Ryan R. Wick and others, Bandage: interactive visualization of de novo genome assemblies, Bioinformatics, Volume 31, Issue 20, October 2015, Pages 3350–3352](https://academic.oup.com/bioinformatics/article/31/20/3350/196114). 
+
 ### FastQC 
 For official website, go to [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/). <br>
 For an article explaining duplication level: read [Why does FASTQC show unexpectedly high sequence duplication levels (PCR-duplicates)?](https://dnatech.genomecenter.ucdavis.edu/faqs/why-does-fastqc-show-unexpectedly-high-sequence-duplication-levels-pcr-duplicates/). 
