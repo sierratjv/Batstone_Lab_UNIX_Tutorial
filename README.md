@@ -1,11 +1,6 @@
 # Tips_and_Tricks
 The purpose of this document is to store a list of commands for quick finding. For what these commands mean and more complex usage of these commands, go to the websites embedded or search online. This document also includes tips and troubleshootings for commands. 
 
-## Table of Contents
-[Commonly used commands](#commonly-used-commands) <br>
-[Commands for working with files](#commands-for-working-with-files) <br>
-[Commands for making your work easy](#commands-for-making-your-work-easy) <br>
-
 ## Info server 
 Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
 
