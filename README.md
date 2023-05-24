@@ -130,7 +130,7 @@ To copy multiple files using wildcards, first exit the server, and type ``scp 'u
 
 **From your local computer to remote server**
 
-Type ``scp file_pathname username@host:directory_pathname``
+Type ``scp file_pathname username@host:directory_pathname``.
 
 ## Move Files
 
