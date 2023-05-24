@@ -119,7 +119,7 @@ To search for a certain word in the file, type ``/word`` and press ``Enter`` (``
 To go to the end of the file, type ``G`` and press ``Enter``.
 
 ## Copy Files 
-**From server to your own computer**
+**From remote server to your local computer**
 
 To copy one file, first exit the server, and type ``scp username@host:document_pathname destination_pathname``. 
 
@@ -127,6 +127,10 @@ To copy multiple files using wildcards, first exit the server, and type ``scp 'u
 
 **Tips:**
 - When using wildcards, first use ``ls`` command to check whether the correct files are selected. 
+
+**From your local computer to remote server**
+
+Type ``scp file_pathname username@host:directory_pathname``
 
 ## Move Files
 
