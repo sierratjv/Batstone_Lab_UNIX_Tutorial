@@ -69,6 +69,8 @@ To list files in the current directory beginning with **bio...**, type ``ls bio*
 
 To list files in the current directory ending with **...logy**, type ``ls *logy``.
 
+To count the number of files ending in .fastq, type ``ls *.fasq | wc -l``. 
+
 ## Symbolic link
 Read about symbolic link on [Symlink Tutorial in Linux – How to Create and Remove a Symbolic Link](https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/).
 
