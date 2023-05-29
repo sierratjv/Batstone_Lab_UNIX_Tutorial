@@ -1,5 +1,5 @@
 # Tips_and_Tricks
-The purpose of this document is to store a list of commands for quick finding. For what these commands mean and more complex usage of these commands, go to the websites embedded or search online. This document also includes tips and troubleshootings for commands. The document groups the commands into [Basic commands](#basic-commands), [Commands for creating, moving, and reading files](#commands-for-creating-moving-and-reading-files), [Commands for running softwares](#commands-for-running-softwares).
+The document groups the commands into [Basic commands](#basic-commands), [Commands for creating, moving, and reading files](#commands-for-creating-moving-and-reading-files), [Commands for running softwares](#commands-for-running-softwares).
 
 # Resources
 [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
@@ -53,8 +53,6 @@ To list files in the current directory beginning with **bio...**, type ``ls bio*
 To list files in the current directory ending with **...logy**, type ``ls *logy``.
 
 To count the number of files ending in .fastq, type ``ls *.fastq | wc -l``. 
-
-For other ``ls`` commands, check the manual by typing ``man ls``. Type ``q`` and press ``Enter`` to close the manual. 
 
 ## Change directory 
 To move ahead one directory, type ``cd directory`` (``directory`` is the name of the directory you want to go to).
