@@ -1,6 +1,8 @@
 # Tips_and_Tricks
 The purpose of this document is to store a list of commands for quick finding. For what these commands mean and more complex usage of these commands, go to the websites embedded or search online. This document also includes tips and troubleshootings for commands. 
 
+## First read [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/).
+
 ## Info server 
 Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
 
@@ -31,11 +33,6 @@ Press ``Control``+``A`` to go to the beginning of a command.
 Press ``Control``+``E`` to go to the end of a command.
 
 Press ``Control``+``Z`` to stop a process that is running.
-
-# Commonly used commands 
-[Go Back to Top](#tips_and_tricks)
-
-## First read [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/).
 
 ## List 
 To list content in a directory, type ``ls``.
