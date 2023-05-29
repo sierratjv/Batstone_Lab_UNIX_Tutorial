@@ -2,7 +2,7 @@
 The purpose of this document is to store a list of commands for quick finding. For what these commands mean and more complex usage of these commands, go to the websites embedded or search online. This document also includes tips and troubleshootings for commands. The document groups the commands into [Basic commands](#basic-commands), [Commands for creating, moving, and reading files](#commands-for-creating-moving-and-reading-files), [Commands for running softwares](#commands-for-running-softwares).
 
 # Resources
-[UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/).
+[UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 
 [Bioinformatics_Data_Skills.pdf](https://github.com/sux21/Tips_and_Tricks/files/11593310/Bioinformatics_Data_Skills.pdf)
 
