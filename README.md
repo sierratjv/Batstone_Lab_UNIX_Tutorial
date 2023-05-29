@@ -45,16 +45,16 @@ To list hidden files (files beginning with ``.``), type ``ls -a``.
 
 To list access rights of files, type ``ls -l``. Read [How to change directory permissions in Linux with chmod](https://www.pluralsight.com/blog/it-ops/linux-file-permissions) for instructions about how to change access rights. 
 
-For other ls commands, check the manual by typing ``man ls``. Type ``q`` and press ``Enter`` to close the manual. 
-
-**Wildcard (* symbol)**
-This allows you to work with multiple files at the same time. 
+**Wildcard** 
+This allows you to work with multiple files at the same time using ``*`` symbol. 
 
 To list files in the current directory beginning with **bio...**, type ``ls bio*`` .
 
 To list files in the current directory ending with **...logy**, type ``ls *logy``.
 
 To count the number of files ending in .fastq, type ``ls *.fastq | wc -l``. 
+
+For other ``ls`` commands, check the manual by typing ``man ls``. Type ``q`` and press ``Enter`` to close the manual. 
 
 ## Change directory 
 To move ahead one directory, type ``cd directory`` (``directory`` is the name of the directory you want to go to).
