@@ -69,7 +69,7 @@ It is useful for saving a long command, so you don't need to type it each time.
 
 Steps for creating a shell script:
 1. Create a shell script; <br>
-``nano shell_script.sh`` (``shell_script.sh`` is the name of the file) <br>
+``nano shell_script.sh`` (``shell_script`` is the name of the file) <br>
 2. In the opened text editor, type the following; <br>
 ```
 #!/bin/bash 
