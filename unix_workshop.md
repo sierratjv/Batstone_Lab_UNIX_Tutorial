@@ -76,7 +76,7 @@ rm * (* means anything) - everything will be deleted
 
 ^C  (control C) - mean kill/stop a command
 
-**touch**
+rmdir
 
 create files
 
