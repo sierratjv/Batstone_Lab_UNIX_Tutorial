@@ -37,30 +37,44 @@ Press ``Control``+``E`` to go to the end of a command.
 Press ``Control``+``Z`` to stop a process that is running.
 
 # Commands
-## List 
+## ls - List 
 To list content in a directory, type ``ls``.
 
 To list hidden files (files beginning with ``.``), type ``ls -a``. 
 
 To list access rights of files, type ``ls -l``. Read [How to change directory permissions in Linux with chmod](https://www.pluralsight.com/blog/it-ops/linux-file-permissions) for instructions about how to change access rights. 
 
-## Change directory 
+## cd - Change directory 
 To move ahead one directory, type ``cd directory`` (``directory`` is the name of the directory you want to go to).
 
 To move back one directory, type ``cd ..``.
 
 To move to home directory from any directories, type ``cd``. 
 
-## Make directory
+## mkdir - Make directory
 To make a new directory, type ``mkdir directory``(``directory`` is the name for that directory). Type ``ls`` to verify the directory is made successfully. 
 
-## Remove file or directory
+## rm - Remove file or directory
 To delete a file, type ``rm file`` (``file`` is the name of the file).
 
 To delete a directory, it has to be empty; then type ``rmdir directory`` (``directory`` is the name of the directory).
 
-## Pathname
+**Delete a directory with files**
+
+Type ``rm -r directory`` to remove directory with its contents (``directory`` is the name of the directory which you want to delete). 
+ 
+**Tips:**
+- Use shell script to run the ``rm -r`` command. 
+
+## pwd - Pathname
 To view the absolute pathname of a directory, ``cd`` to that directory first, then type ``pwd``.
+
+
+## mv - Move Files
+
+**Move all files from one directory to another directory**
+
+``mv pathname_old_directory/* pathname_new_directory/`` (``*`` symbol selects all files in the old directory). 
 
 ## Wildcard
 It is useful for running a command for multiple files. 
@@ -108,7 +122,7 @@ Steps for adding a directory to the PATH variable:
 **Troubleshooting:**
 - If the system still cannot find the program, check if the new directory is added to the **start of the PATH variable**. The command to do that is ``export PATH=/the/file/path:$PATH``. See why [here](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows#:~:text=The%20path%20works%20like%20first,the%20beginning%20of%20the%20command). 
 
-## Opening and Reading File
+## Opening and Reading Files
 To open file in a new window, type ``less document`` (``document`` is the name of the file).
 
 To close the file, type ``q`` and press ``Enter``.
@@ -124,18 +138,15 @@ To copy one file, first exit the server, and type ``scp username@host:document_p
 
 To copy multiple files using wildcards, first exit the server, and type ``scp 'username@host:documents_pathname_*' destination_pathname``.
 
+## tar command 
+To extract a tar.gz file, type ``tar -xf archive.tar.gz``
+
 **Tips:**
 - When using wildcards, first use ``ls`` command to check whether the correct files are selected. 
 
 **From your local computer to remote server**
 
 Type ``scp file_pathname username@host:directory_pathname``.
-
-## Move Files
-
-**Move all files from one directory to another directory**
-
-``mv pathname_old_directory/* pathname_new_directory/`` (``*`` symbol selects all files in the old directory). 
 
 ## Shell Script
 It is useful for saving a long command, so you don't need to type it each time.
@@ -164,13 +175,6 @@ For instructions, read [Lesson 06: For Loops](https://github.com/raynamharris/Sh
 
 **Troubleshooting:**
 - Check whether there are any typos in the commands. 
-
-## Delete a directory with files
-
-Type ``rm -r directory`` to remove directory with its contents (``directory`` is the name of the directory which you want to delete). 
- 
-**Tips:**
-- Use shell script to run the ``rm -r`` command. 
 
 ## Working in background 
 It is useful for running time-consuming commands, so you can close your computer without terminating the commands. 
