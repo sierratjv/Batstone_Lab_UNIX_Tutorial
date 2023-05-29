@@ -14,12 +14,11 @@ Different versions of SHELLs: sh, csh, tcsh, ksh, bash, zsh.
 Types of programming languages: scripted (R, python, bash), not scripted but it is Object Orientation (C++), compiled (C, fortran)
 
 ### Commands (cmd)
-**pwd**
+### pwd
 
 ``pwd`` - present working directory.
 
-**cd** 
-
+### cd 
 ``cd`` - change directory.
 
 ``cd``, ``cd ~``, ``cd /home/brain`` take you home.
@@ -42,13 +41,13 @@ Relative path - example: ``../../home/brian/../brian`` is equal to  ``/home/bria
 
 Absolute path. 
 
-**ls**
+### ls
 
 ls - lists files in the current directory (folders are directories (/) in UNIX; binary (*) is excuatable file)
    
 ls -flags arguments - flags change the behaviour of the command
                     - two types - POSIX flags - single letters
-
+                    
 ``ls -a``
 
 ``ls -aF`` - directories are shown with /
@@ -67,7 +66,8 @@ ls -flags arguments - flags change the behaviour of the command
 
 ``muscle -o infile -i outfile``
 
-**rm** (you cannot recover files in UNIX)
+## rm 
+you cannot recover files in UNIX
 
 rm 
 
@@ -97,6 +97,7 @@ a\#
 
 a\(
 
-**open** - open any files
+## open 
+open any files
 
 
