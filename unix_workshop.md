@@ -68,6 +68,7 @@ ls -flags arguments - flags change the behaviour of the command
 ``muscle -o infile -i outfile``
 
 **rm** (you cannot recover files in UNIX)
+
 rm 
 
 rm -r (r means recursive, go in and delete)
