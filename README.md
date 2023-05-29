@@ -105,9 +105,6 @@ Steps for adding a directory to the PATH variable:
 **Troubleshooting:**
 - If the system still cannot find the program, check if the new directory is added to the **start of the PATH variable**. The command to do that is ``export PATH=/the/file/path:$PATH``. See why [here](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows#:~:text=The%20path%20works%20like%20first,the%20beginning%20of%20the%20command). 
 
-# Commands for working with files
-[Go Back to Top](#tips_and_tricks)
-
 ## Opening and Reading File
 To open file in a new window, type ``less document`` (``document`` is the name of the file).
 
@@ -136,9 +133,6 @@ Type ``scp file_pathname username@host:directory_pathname``.
 **Move all files from one directory to another directory**
 
 ``mv pathname_old_directory/* pathname_new_directory/`` (``*`` symbol selects all files in the old directory). 
-
-# Commands for making your work easy
-[Go Back to Top](#tips_and_tricks)
 
 ## Shell Script
 It is useful for saving a long command, so you don't need to type it each time.
