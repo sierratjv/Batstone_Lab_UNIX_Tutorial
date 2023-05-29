@@ -84,6 +84,7 @@ create files
 case sensitive          B*G*H             
                         [b-y]* - all files begin with b to y
                         {b,c,d}* === [b-d]*
+
 NO SPACES in command
 
 "a file with spaces" - how to type files with spaces
