@@ -15,3 +15,5 @@ Types of programming languages: scripted (R, python, bash), not scripted but it 
 
 ### Commands
 ``pwd`` - present working directory
+
+``cd`` - change directory
