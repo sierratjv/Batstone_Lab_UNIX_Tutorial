@@ -96,4 +96,6 @@ a\#
 
 a\(
 
+**open** - open any files
+
 
