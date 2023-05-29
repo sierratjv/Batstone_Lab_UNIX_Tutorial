@@ -1,18 +1,12 @@
 # Tips_and_Tricks
-The purpose of this document is to store a list of commands for quick finding. For what these commands mean and more complex usage of these commands, go to the websites embedded or search online. This document also includes tips and troubleshootings for commands. 
+The purpose of this document is to store a list of commands for quick finding. For what these commands mean and more complex usage of these commands, go to the websites embedded or search online. This document also includes tips and troubleshootings for commands. The document groups the commands into [Basic commands](#basic-commands), [Commands for creating, moving, and reading files](#commands-for-creating-moving-and-reading-files), [Commands for running softwares](commands-for-running-softwares).
 
-## First read [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/).
+# Resources
+[UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/).
 
-## Useful Book: [Bioinformatics_Data_Skills.pdf](https://github.com/sux21/Tips_and_Tricks/files/11593310/Bioinformatics_Data_Skills.pdf)
+[Bioinformatics_Data_Skills.pdf](https://github.com/sux21/Tips_and_Tricks/files/11593310/Bioinformatics_Data_Skills.pdf)
 
-## Info server 
-Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
-
-Login to nodes, for example, info114: type ``ssh info114``. Then type ``password``. Type ``exix`` to leave the node and go back to the server head. 
-
-**Tips:**
-- Run programs on **nodes**. Running programs on the head (which is the place when you login) will greatly slow the system. 
-
+# Basic commands
 ## Symobols in UNIX
 ``.`` represents the current directory. 
 
@@ -36,54 +30,55 @@ Press ``Control``+``E`` to go to the end of a command.
 
 Press ``Control``+``Z`` to stop a process that is running.
 
-# Commands
-## ls - List 
+## Info server 
+Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
+
+Login to nodes, for example, info114: type ``ssh info114``. Then type ``password``. Type ``exix`` to leave the node and go back to the server head. 
+
+**Tips:**
+- Run programs on **nodes**. Running programs on the head (which is the place when you login) will greatly slow the system. 
+
+## List 
 To list content in a directory, type ``ls``.
 
 To list hidden files (files beginning with ``.``), type ``ls -a``. 
 
 To list access rights of files, type ``ls -l``. Read [How to change directory permissions in Linux with chmod](https://www.pluralsight.com/blog/it-ops/linux-file-permissions) for instructions about how to change access rights. 
 
-## cd - Change directory 
-To move ahead one directory, type ``cd directory`` (``directory`` is the name of the directory you want to go to).
-
-To move back one directory, type ``cd ..``.
-
-To move to home directory from any directories, type ``cd``. 
-
-## mkdir - Make directory
-To make a new directory, type ``mkdir directory``(``directory`` is the name for that directory). Type ``ls`` to verify the directory is made successfully. 
-
-## rm - Remove file or directory
-To delete a file, type ``rm file`` (``file`` is the name of the file).
-
-To delete a directory, it has to be empty; then type ``rmdir directory`` (``directory`` is the name of the directory).
-
-**Delete a directory with files**
-
-Type ``rm -r directory`` to remove directory with its contents (``directory`` is the name of the directory which you want to delete). 
- 
-**Tips:**
-- Use shell script to run the ``rm -r`` command. 
-
-## pwd - Pathname
-To view the absolute pathname of a directory, ``cd`` to that directory first, then type ``pwd``.
-
-
-## mv - Move Files
-
-**Move all files from one directory to another directory**
-
-``mv pathname_old_directory/* pathname_new_directory/`` (``*`` symbol selects all files in the old directory). 
-
-## Wildcard
-It is useful for running a command for multiple files. 
+**Wildcard (* symbol)**
+This allows you to work with multiple files at the same time. 
 
 To list files in the current directory beginning with **bio...**, type ``ls bio*`` .
 
 To list files in the current directory ending with **...logy**, type ``ls *logy``.
 
 To count the number of files ending in .fastq, type ``ls *.fastq | wc -l``. 
+
+## Change directory 
+To move ahead one directory, type ``cd directory`` (``directory`` is the name of the directory you want to go to).
+
+To move back one directory, type ``cd ..``.
+
+To move to home directory from any directories, type ``cd``. 
+
+## Pathname
+To view the absolute pathname of a directory, ``cd`` to that directory first, then type ``pwd``.
+
+## Shell Script
+It is useful for saving a long command, so you don't need to type it each time.
+
+Steps for creating a shell script:
+1. Create a shell script; <br>
+``nano shell_script.sh`` (``shell_script.sh`` is the name of the file) <br>
+2. In the opened text editor, type the following; <br>
+```
+#!/bin/bash 
+command you want to run
+```
+The first line tells what program (e.g. bash) to use to interpret the script. The second line is the command you want to run. <br>
+3. Exit shell script; <br>
+4. Run shell script. <br>
+``bash shell_script.sh`` <br>
 
 ## Symbolic link
 Read about symbolic link on [Symlink Tutorial in Linux – How to Create and Remove a Symbolic Link](https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/).
@@ -122,7 +117,23 @@ Steps for adding a directory to the PATH variable:
 **Troubleshooting:**
 - If the system still cannot find the program, check if the new directory is added to the **start of the PATH variable**. The command to do that is ``export PATH=/the/file/path:$PATH``. See why [here](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows#:~:text=The%20path%20works%20like%20first,the%20beginning%20of%20the%20command). 
 
-## Opening and Reading Files
+# Commands for Creating, Moving, and Reading Files
+## Make directory
+To make a new directory, type ``mkdir directory``(``directory`` is the name for that directory). Type ``ls`` to verify the directory is made successfully. 
+
+## Remove files
+To delete a file, type ``rm file`` (``file`` is the name of the file).
+
+To delete an empty directory, type ``rmdir directory`` (``directory`` is the name of the directory).
+
+Type ``rm -r directory`` to remove directory with its contents (``directory`` is the name of the directory which you want to delete). You will notice you have to enter "yes" before deleting each file. To delete the contents without doing that, run the command in shell script. See [Shell script](#shell-script).
+
+## Move Files
+**Move all files from one directory to another directory**
+
+``mv pathname_old_directory/* pathname_new_directory/`` (``*`` symbol selects all files in the old directory). 
+
+## Open and Read Files
 To open file in a new window, type ``less document`` (``document`` is the name of the file).
 
 To close the file, type ``q`` and press ``Enter``.
@@ -134,48 +145,18 @@ To go to the end of the file, type ``G`` and press ``Enter``.
 ## Copy Files 
 **From remote server to your local computer**
 
-To copy one file, first exit the server, and type ``scp username@host:document_pathname destination_pathname``. 
+To copy one file, first exit the server, and type ``scp username@host:file_pathname destination_pathname``. 
 
-To copy multiple files using wildcards, first exit the server, and type ``scp 'username@host:documents_pathname_*' destination_pathname``.
-
-## tar command 
-To extract a tar.gz file, type ``tar -xf archive.tar.gz``
-
-**Tips:**
-- When using wildcards, first use ``ls`` command to check whether the correct files are selected. 
+To copy multiple files using wildcards, first exit the server, and type ``scp 'username@host:files_pathname_*' destination_pathname``.
 
 **From your local computer to remote server**
 
 Type ``scp file_pathname username@host:directory_pathname``.
 
-## Shell Script
-It is useful for saving a long command, so you don't need to type it each time.
+## Extract files
+To extract a tar.gz file, type ``tar -xf archive.tar.gz``
 
-Steps for creating a shell script:
-1. Create a shell script; <br>
-``nano shell_script.sh`` (``shell_script.sh`` is the name of the file) <br>
-2. In the opened text editor, type the following; <br>
-```
-#!/bin/bash 
-command you want to run
-```
-The first line tells what program (e.g. bash) to use to interpret the script. The second line is the command you want to run. <br>
-3. Exit shell script; <br>
-4. Run shell script. <br>
-``bash shell_script.sh`` <br>
-
-## For Loop
-It is useful for running a program for multiple files. 
-
-For instructions, read [Lesson 06: For Loops](https://github.com/raynamharris/Shell_Intro_for_Bioinformatics_STG/blob/master/lessons/06_ForLoops.md).
-
-**Tips:**
-- Write the loop in a shell script if it is very long.
-- Use ``echo`` command to check whether you write the loop correctly or not.
-
-**Troubleshooting:**
-- Check whether there are any typos in the commands. 
-
+# Commands for Running Softwares
 ## Working in background 
 It is useful for running time-consuming commands, so you can close your computer without terminating the commands. 
 
@@ -194,6 +175,18 @@ Type ``screen -ls`` to find the running screen session. If no screen session fou
 Type ``nohup command &`` to run the process in background (``command`` is the command you want to run in background). After pressing ``Enter``, it will return you the process ID (PID) for this process. 
 
 Type ``ps x`` to show the nohup process. 
+
+## For Loop
+It is useful for running a program for multiple files. 
+
+For instructions, read [Lesson 06: For Loops](https://github.com/raynamharris/Shell_Intro_for_Bioinformatics_STG/blob/master/lessons/06_ForLoops.md).
+
+**Tips:**
+- Write the loop in a shell script if it is very long.
+- Use ``echo`` command to check whether you write the loop correctly or not.
+
+**Troubleshooting:**
+- Check whether there are any typos in the commands. 
 
 # Bioinformatics Programs
 **Tips:**
