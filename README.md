@@ -34,6 +34,7 @@ Press ``Control``+``E`` to go to the end of a command.
 
 Press ``Control``+``Z`` to stop a process that is running.
 
+# Commands
 ## List 
 To list content in a directory, type ``ls``.
 
