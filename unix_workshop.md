@@ -12,3 +12,6 @@ SHELL: you interact with a remote UNIX computer through SHELL.
 Different versions of SHELLs: sh, csh, tcsh, ksh, bash, zsh. 
 
 Types of programming languages: scripted (R, python, bash), not scripted but it is Object Orientation (C++), compiled (C, fortran)
+
+### Commands
+``pwd`` - present working directory
