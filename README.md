@@ -54,6 +54,9 @@ To list files in the current directory ending with **...logy**, type ``ls *logy`
 
 To count the number of files ending in .fastq, type ``ls *.fastq | wc -l``. 
 
+## Manual
+Type ``man command`` to see the manual of a command (``command`` is the command you want to look up).
+
 ## Change directory 
 To move ahead one directory, type ``cd directory`` (``directory`` is the name of the directory you want to go to).
 
