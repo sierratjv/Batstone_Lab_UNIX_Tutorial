@@ -67,6 +67,7 @@ ls -flags arguments - flags change the behaviour of the command
 ``muscle -o infile -i outfile``
 
 ## rm 
+**use ls to double check before removing**
 you cannot recover files in UNIX
 
 rm 
@@ -129,6 +130,9 @@ mv bfile cfile
 
 ## cat
 
+## rev
+reverse
+
 ## more, less
 read how big is your screen, and gives a screenful information, hit enter gives one lines, hit 10 gives 10 lines, /words searches for words (type n search the next word), q (control + D) for get out
 
@@ -146,3 +150,38 @@ PID - process ID for that job, USER - who owns the job, PR, NI - priority for th
 list what the computer is doing
 
 ps aux (all the things that are running)
+
+**check the files downloaded to see whether it is correct**
+## head 
+show first few lines of a file
+
+## tail 
+tail (see last 10 lines)
+
+tail -60 (see last 60)
+
+## wc - word count
+wc !$
+
+## sort
+
+sort -r (reverse order)
+
+sort -k2 (name)
+
+sort -r -k2
+
+## tr - translate
+tr "ACGT" "TGCA" (create complementary strand)
+
+## cut -d" " -f2 tosort.lst
+
+## split 
+cut files horizontally
+
+~/split -b -d ">" fasta. (-b splits before the pattern, pattern is the > sign) -----> gives files, each with one fasta sequence
+
+
+
+
+
