@@ -45,7 +45,7 @@ To list hidden files (files beginning with ``.``), type ``ls -a``.
 
 To list access rights of files, type ``ls -l``. Read [How to change directory permissions in Linux with chmod](https://www.pluralsight.com/blog/it-ops/linux-file-permissions) for instructions about how to change access rights. 
 
-**Wildcard** 
+**Wildcard** <br>
 This allows you to work with multiple files at the same time using ``*`` symbol. 
 
 To list files in the current directory beginning with **bio...**, type ``ls bio*`` .
