@@ -113,7 +113,7 @@ To view PATH, type ``echo $PATH``.
 Steps for adding a directory to the PATH variable:
 1. Type ``nano ~/.bashrc`` to open a file called ``.bashrc``;
 2. Type ``export PATH=/the/file/path:$PATH`` in the ``.bashrc`` file (``/the/file/path`` is the pathname of the directory you want to add);
-3. Press ``Control``+``X``, then type ``Y`` to save the changes, then press ``Enter`` to exit ``.bashrc``;
+3. Press <kbd>Control</kbd> + <kbd>X</kbd>, then type ``Y`` to save the changes, then press ``Enter`` to exit ``.bashrc``;
 4. To see the changes which you made on the PATH variable, you have to log out (types ``exit`` if you are on a server) and then log in again.
 5. Type ``echo $PATH`` to see if changes are made successfully. Your new pathnames should be added to the start of the PATH variable. 
 
@@ -139,11 +139,11 @@ Type ``rm -r directory`` to remove directory with its contents (``directory`` is
 ## Open and Read Files
 To open file in a new window, type ``less document`` (``document`` is the name of the file).
 
-To close the file, type ``q`` and press ``Enter``.
+To close the file, type ``q`` and <kbd>Enter</kbd>.
 
-To search for a certain word in the file, type ``/word`` and press ``Enter`` (``word`` is the word you want to search for). Press ``n`` to go to the next word.
+To search for a certain word in the file, type ``/word`` and press <kbd>Enter</kbd> (``word`` is the word you want to search for). Press ``n`` to go to the next word.
 
-To go to the end of the file, type ``G`` and press ``Enter``.
+To go to the end of the file, type ``G`` and press <kbd>Enter</kbd>.
 
 ## Copy Files 
 **From remote server to your local computer**
@@ -163,7 +163,7 @@ To extract a tar.gz file, type ``tar -xf archive.tar.gz``
 ## Working in background 
 It is useful for running time-consuming commands, so you can close your computer without terminating the commands. 
 
-To send a process running in foreground into background, use ``Control+Z`` to stop the process first and type ``bg`` to run it in background. To resume a stopped job, type ``fg``. 
+To send a process running in foreground into background, use <kdb>Control</kdb> + <kdb>Z</kdb> to stop the process first and type ``bg`` to run it in background. To resume a stopped job, type ``fg``. 
 
 **Screen command**
 
@@ -171,11 +171,11 @@ Type ``screen`` to open a screen session.
 
 Type ``exit`` to terminate the screen session. 
 
-Type ``screen -ls`` to find the running screen session. If no screen session found, it will return ``No Sockets found...``. 
+Type ``screen -ls`` to find the running screen session. If no screen session found, it will return ``No Sockets found...``. **Make sure there is no process running in screen before you exit the server**
 
 **Nohup command**
 
-Type ``nohup command &`` to run the process in background (``command`` is the command you want to run in background). After pressing ``Enter``, it will return you the process ID (PID) for this process. 
+Type ``nohup command &`` to run the process in background (``command`` is the command you want to run in background). After pressing <kdb>Enter</kdb>, it will return you the process ID (PID) for this process. 
 
 Type ``ps x`` to show the nohup process. 
 
