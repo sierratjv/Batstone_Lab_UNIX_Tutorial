@@ -1,5 +1,5 @@
 # Tips_and_Tricks
-The document is divided into sections: [Basic commands](#basic-commands), [Commands for creating, moving, and reading files](#commands-for-creating-moving-and-reading-files), [Commands for running softwares](#commands-for-running-softwares), [Bioinformatics softwares](#bioinformatics-softwares).
+The document is divided into sections: [Basic commands](#basic-commands), [Working with files](#commands-for-creating-moving-and-reading-files), [Working with softwares](#commands-for-running-softwares), [Bioinformatics softwares](#bioinformatics-softwares).
 
 # Resources
 [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
