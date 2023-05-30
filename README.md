@@ -1,5 +1,5 @@
 # Tips_and_Tricks
-The document groups the commands into [Basic commands](#basic-commands), [Commands for creating, moving, and reading files](#commands-for-creating-moving-and-reading-files), [Commands for running softwares](#commands-for-running-softwares).
+The document is divided into sections: [Resources](#resources), [Basic commands](#basic-commands), [Commands for creating, moving, and reading files](#commands-for-creating-moving-and-reading-files), [Commands for running softwares](#commands-for-running-softwares), [Bioinformatics softwares](#bioinformatics_softwares).
 
 # Resources
 [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
@@ -188,7 +188,7 @@ For instructions, read [Lesson 06: For Loops](https://github.com/raynamharris/Sh
 **Troubleshooting:**
 - Check whether there are any typos in the commands. 
 
-# Bioinformatics Programs
+# Bioinformatics softwares
 **Tips:**
 - For learning a program, read the official article about how the program works, and then read the manual on the official website for the command for running the program.
 - For running a program, make detailed notes on what files are the input files, what files are the output files, and the locations of these input and output files.
