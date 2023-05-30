@@ -16,19 +16,17 @@ The document is divided into sections: [Basic commands](#basic-commands), [Comma
 
 ## Using Keyboard
 
-Press ``Enter`` to run the command that you type in. 
+Press <kbd>Control</kbd> + <kbd>C</kbd> to delete the command that you type in.
 
-Press ``Control``+``C`` to delete the command that you type in.
+Press <kbd>↑</kbd> to search the commands that you typed before.
 
-Press ``↑`` to search the commands that you typed before.
+Tab complete: if you want to save time for typing ``cd Desktop``, you can type ``cd Des`` and the press <kbd>Tab</kbd>. If ``Destop`` is the only directory beginning with ``Des...``, it will complete the command ``cd Desktop``. If not, it will return all files begining with ``Des...``, and then press <kbd>Tab</kbd> to select the file you want. 
 
-Tab complete: if you want to save time for typing ``cd Desktop``, you can type ``cd Des`` and the press ``Tab``. If ``Destop`` is the only directory beginning with ``Des...``, it will complete the command ``cd Desktop``. If not, it will return all files begining with ``Des...``, and then press ``Tab`` to select the file you want. 
+Press <kbd>Control</kbd> + <kbd>A</kbd> to go to the beginning of a command.
 
-Press ``Control``+``A`` to go to the beginning of a command.
+Press <kbd>Control</kbd> + <kbd>E</kbd> to go to the end of a command.
 
-Press ``Control``+``E`` to go to the end of a command.
-
-Press ``Control``+``Z`` to stop a process that is running.
+Press <kbd>Control</kbd> + <kbd>Z</kbd> to stop a command that is running.
 
 ## Info server 
 Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
