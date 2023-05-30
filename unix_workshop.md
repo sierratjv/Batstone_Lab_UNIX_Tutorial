@@ -97,7 +97,52 @@ a\#
 
 a\(
 
+## touch 
+create file
+
 ## open 
 open any files
 
+## May 30, 2023
+**command format: flags and arguments**
+cmd -flags --flags args args args
 
+## cp 
+**require at least two arguments**
+
+cp afile bfile
+
+**copy many files to a directory**
+
+cp * ffile
+
+cp -u [a-e]file gfile (-u flag is an update flag, only copy if things are new ot not existed)
+
+cp -u [a-e]file hfile gfile 
+
+cp -pr (preserve)
+
+cp -r (recurs, go down a dirctory and copy everything)
+
+## mv
+mv bfile cfile
+
+## cat
+
+## more, less
+read how big is your screen, and gives a screenful information, hit enter gives one lines, hit 10 gives 10 lines, /words searches for words (type n search the next word), q (control + D) for get out
+
+## man
+maual pages
+
+synopsis - tell you how to run the program (OPTION means optional)
+
+## top
+what happens in the computer (how many jobs are running, sleeping means waiting for input, load average, CPU usage ...)
+
+PID - process ID for that job, USER - who owns the job, PR, NI - priority for that jobs (low priority, low number)
+
+## ps - process status
+list what the computer is doing
+
+ps aux (all the things that are running)
