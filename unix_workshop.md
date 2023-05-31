@@ -173,9 +173,12 @@ sort -k2 (name)
 sort -r -k2
 
 ## tr - translate
+
 tr "ACGT" "TGCA" (create complementary strand)
 
-## cut -d" " -f2 tosort.lst
+## cut 
+
+-d" " -f2 tosort.lst
 
 ## split 
 cut files horizontally
