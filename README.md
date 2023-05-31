@@ -40,7 +40,7 @@ Login to nodes, for example, info114: type ``ssh info114``. Then type ``password
 **Tips:**
 - Run programs on **nodes**. Running programs on the head (which is the place when you login) will greatly slow the system. 
 
-## List 
+## ls - list directory contents
 To list content in a directory, type ``ls``.
 
 To list hidden files (files beginning with ``.``), type ``ls -a``. 
@@ -58,17 +58,25 @@ To list files in the current directory ending with **...logy**, type ``ls *logy`
 
 To count the number of files ending in .fastq, type ``ls *.fastq | wc -l``. 
 
-## Manual
+## man - format and display the on-line manual pages
+This is useful for finding out different options for a command. For example, by typing ``man ls``, you can find different options for the command, ``ls -a``, ``ls -A``, ``cd --author``, etc. 
+
 Type ``man command`` to see the manual of a command (``command`` is the command you want to look up).
 
-## Change directory 
+**example**
+
+Type ``man ls``. 
+
+## cd - change directory 
+Directory is a folder.
+
 To move ahead one directory, type ``cd directory`` (``directory`` is the name of the directory you want to go to).
 
 To move back one directory, type ``cd ..``.
 
 To move to home directory from any directories, type ``cd``. 
 
-## Pathname
+## pwd - print name of current/working directory
 To view the absolute pathname of a directory, ``cd`` to that directory first, then type ``pwd``.
 
 ## Shell Script
@@ -86,6 +94,68 @@ The first line tells what program (e.g. bash) to use to interpret the script. T
 3. Exit shell script; <br>
 4. Run shell script. <br>
 ``bash shell_script.sh`` <br>
+
+## mkdir - make directories
+To make a new directory, type ``mkdir directory``(``directory`` is the name for that directory). Type ``ls`` to verify the directory is made successfully. 
+
+
+## rm - remove files or directories
+To delete a file, type ``rm file`` (``file`` is the name of the file).
+
+To delete an empty directory, type ``rmdir directory`` (``directory`` is the name of the directory).
+
+Type ``rm -r directory`` to remove directory with its contents (``directory`` is the name of the directory which you want to delete). You will notice you have to enter "yes" before deleting each file. To delete the contents without doing that, run the command in shell script. See [Shell script](#shell-script).
+
+## mv - move (rename) files
+
+**Move all files from one directory to another directory**
+
+``mv pathname_old_directory/* pathname_new_directory/`` (``*`` symbol selects all files in the old directory). 
+
+## less - open files
+To open a file, type ``less file`` (``file`` is the name of the file).
+
+To close the file, type ``q`` and <kbd>Enter</kbd>.
+
+To search for a certain word in the file, type ``/word`` and press <kbd>Enter</kbd> (``word`` is the word you want to search for). Press ``n`` to go to the next word.
+
+To go to the end of the file, type ``G`` and press <kbd>Enter</kbd>.
+
+## open - open any files
+This can be used to open pdf, pptx, ect. 
+
+Type ``open file`` to open the file (``file`` is the name of the file)
+
+## scp - secure copy  
+**From remote server to your local computer**
+
+To copy one file, first exit the server, and type ``scp username@host:file_pathname destination_pathname``. 
+
+To copy multiple files using wildcards, first exit the server, and type ``scp 'username@host:files_pathname_*' destination_pathname``.
+
+**From your local computer to remote server**
+
+Type ``scp file_pathname username@host:directory_pathname``.
+
+## Extract files
+To extract a tar.gz file, type ``tar -xf archive.tar.gz``
+
+## Working in background 
+It is useful for running time-consuming commands, so you can close your computer without terminating the commands.  
+
+**Screen command**
+
+Type ``screen`` to open a screen session.
+
+Type ``exit`` to terminate the screen session. 
+
+Type ``screen -ls`` to find the running screen session. If no screen session found, it will return ``No Sockets found...``. **Make sure there is no process running in screen before you exit the server**
+
+**Nohup command**
+
+Type ``nohup command &`` to run the process in background (``command`` is the command you want to run in background). After pressing <kdb>Enter</kdb>, it will return you the process ID (PID) for this process. 
+
+Type ``ps x`` to show the nohup process. 
 
 ## Symbolic link
 Read about symbolic link on [Symlink Tutorial in Linux – How to Create and Remove a Symbolic Link](https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/).
@@ -123,63 +193,6 @@ Steps for adding a directory to the PATH variable:
 
 **Troubleshooting:**
 - If the system still cannot find the program, check if the new directory is added to the **start of the PATH variable**. The command to do that is ``export PATH=/the/file/path:$PATH``. See why [here](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows#:~:text=The%20path%20works%20like%20first,the%20beginning%20of%20the%20command). 
-
-## Create directory
-To make a new directory, type ``mkdir directory``(``directory`` is the name for that directory). Type ``ls`` to verify the directory is made successfully. 
-
-## Remove files
-To delete a file, type ``rm file`` (``file`` is the name of the file).
-
-To delete an empty directory, type ``rmdir directory`` (``directory`` is the name of the directory).
-
-Type ``rm -r directory`` to remove directory with its contents (``directory`` is the name of the directory which you want to delete). You will notice you have to enter "yes" before deleting each file. To delete the contents without doing that, run the command in shell script. See [Shell script](#shell-script).
-
-## Move Files
-**Move all files from one directory to another directory**
-
-``mv pathname_old_directory/* pathname_new_directory/`` (``*`` symbol selects all files in the old directory). 
-
-## Open and Read Files
-To open file in a new window, type ``less document`` (``document`` is the name of the file).
-
-To close the file, type ``q`` and <kbd>Enter</kbd>.
-
-To search for a certain word in the file, type ``/word`` and press <kbd>Enter</kbd> (``word`` is the word you want to search for). Press ``n`` to go to the next word.
-
-To go to the end of the file, type ``G`` and press <kbd>Enter</kbd>.
-
-## Copy Files 
-**From remote server to your local computer**
-
-To copy one file, first exit the server, and type ``scp username@host:file_pathname destination_pathname``. 
-
-To copy multiple files using wildcards, first exit the server, and type ``scp 'username@host:files_pathname_*' destination_pathname``.
-
-**From your local computer to remote server**
-
-Type ``scp file_pathname username@host:directory_pathname``.
-
-## Extract files
-To extract a tar.gz file, type ``tar -xf archive.tar.gz``
-
-## Working in background 
-It is useful for running time-consuming commands, so you can close your computer without terminating the commands. 
-
-To send a process running in foreground into background, use <kdb>Control</kdb> + <kdb>Z</kdb> to stop the process first and type ``bg`` to run it in background. To resume a stopped job, type ``fg``. 
-
-**Screen command**
-
-Type ``screen`` to open a screen session.
-
-Type ``exit`` to terminate the screen session. 
-
-Type ``screen -ls`` to find the running screen session. If no screen session found, it will return ``No Sockets found...``. **Make sure there is no process running in screen before you exit the server**
-
-**Nohup command**
-
-Type ``nohup command &`` to run the process in background (``command`` is the command you want to run in background). After pressing <kdb>Enter</kdb>, it will return you the process ID (PID) for this process. 
-
-Type ``ps x`` to show the nohup process. 
 
 ## For Loop
 It is useful for running a program for multiple files. 
