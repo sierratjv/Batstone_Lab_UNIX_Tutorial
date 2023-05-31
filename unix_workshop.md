@@ -204,16 +204,55 @@ spades-214C/K55/scaffolds.fasta
 ```
 find directory -iname "pattern" -exec command (find and excute a command)
 
-## grep's
+## different types of grep
 
-zgrep (
+zgrep (search compressed file)
+
+pgrep (search for paragraph which separated by empty lines)
+
+fgrep (search arguments)
+
+egrep 
+
+agrep (search approximate matching)
 
 Different types of zip files (zip the sequencing files)
+
 *.zip    zip file
+
 *.gz     gzip / gunzip
+
 *.bz     bzip2 / bunzip2
+
 *.xz     xz / unxz
+
 *.tgz    tar gzip'ed  file
+
 tar cvf directory file.tar
+
+## wget/curl
+
+## rsh 
+remote shell
+
+## ssh 
+secure shell
+
+**on infoserv**
+don't run more than 6 jobs
+
+``usage``
+
+``uptime``
+
+``which R`` check with version of R 
+
+``host info`` look up what is info
+
+## scp
+secure copy
+
+yourLapTop% scp std#@info.mcmaster.ca:file newfile (this has to be done on your laptop, not the server)
+yourLapTop% scp file std#@info.mcmaster.ca:newfile (this has to be done on your laptop, not the server)
 
 
