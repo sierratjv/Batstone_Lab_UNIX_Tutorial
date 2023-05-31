@@ -1,17 +1,16 @@
 # Tips_and_Tricks
 UNIX tips and tricks for beginners
 
-# Softwares required
+## Softwares required
 For Windows, download the free version of MobaXterm from https://mobaxterm.mobatek.net/. 
 
 For Mac, use Terminal app. 
 
-# Resources
+## Resources
 [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 
 [Bioinformatics_Data_Skills.pdf](https://github.com/sux21/Tips_and_Tricks/files/11593310/Bioinformatics_Data_Skills.pdf)
 
-# Basic commands
 ## Symobols in UNIX
 ``.`` represents the current directory. 
 
@@ -125,8 +124,7 @@ Steps for adding a directory to the PATH variable:
 **Troubleshooting:**
 - If the system still cannot find the program, check if the new directory is added to the **start of the PATH variable**. The command to do that is ``export PATH=/the/file/path:$PATH``. See why [here](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows#:~:text=The%20path%20works%20like%20first,the%20beginning%20of%20the%20command). 
 
-# Commands for Creating, Moving, and Reading Files
-## Make directory
+## Create directory
 To make a new directory, type ``mkdir directory``(``directory`` is the name for that directory). Type ``ls`` to verify the directory is made successfully. 
 
 ## Remove files
@@ -164,7 +162,6 @@ Type ``scp file_pathname username@host:directory_pathname``.
 ## Extract files
 To extract a tar.gz file, type ``tar -xf archive.tar.gz``
 
-# Commands for Running Softwares
 ## Working in background 
 It is useful for running time-consuming commands, so you can close your computer without terminating the commands. 
 
