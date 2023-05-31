@@ -1,5 +1,10 @@
 # Tips_and_Tricks
 
+# Softwares required
+For Windows, download the free version of MobaXterm from https://mobaxterm.mobatek.net/. 
+
+For Mac, use Terminal app. 
+
 # Resources
 [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 
