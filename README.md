@@ -266,6 +266,9 @@ For official article, read [Alexey Gurevich and others, QUAST: quality assessmen
 An earlier artical, [Nadalin F, Vezzi F, Policriti A: GapFiller: a preprocessing step for the de novo assembly problem [abstract]. Proceedings on the 8th annual meeting of the Bioinformatics Italian Society. 2011, 13-14](http://bioinformatics.hsanmartino.it/bits_library/library/01025.pdf). <br>
 For official artical, read [Nadalin, F., Vezzi, F. & Policriti, A. GapFiller: a de novo assembly approach to fill the gap within paired reads. BMC Bioinformatics 13 (Suppl 14), S8 (2012). https://doi.org/10.1186/1471-2105-13-S14-S8](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-13-S14-S8). 
 
+### IMAGE
+For official article, read [Tsai IJ, Otto TD, Berriman M. Improving draft assemblies by iterative mapping and assembly of short reads to eliminate gaps. Genome Biol. 2010;11(4):R41](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2884544/). 
+
 ### Bandage
 For official website, go to [Bandage](http://rrwick.github.io/Bandage/). <br>
 For official article, read [Ryan R. Wick and others, Bandage: interactive visualization of de novo genome assemblies, Bioinformatics, Volume 31, Issue 20, October 2015, Pages 3350–3352](https://academic.oup.com/bioinformatics/article/31/20/3350/196114). 
