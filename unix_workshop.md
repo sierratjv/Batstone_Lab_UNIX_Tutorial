@@ -253,6 +253,7 @@ don't run more than 6 jobs
 secure copy
 
 yourLapTop% scp std#@info.mcmaster.ca:file newfile (this has to be done on your laptop, not the server)
+
 yourLapTop% scp file std#@info.mcmaster.ca:newfile (this has to be done on your laptop, not the server)
 
 
