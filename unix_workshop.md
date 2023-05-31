@@ -185,7 +185,35 @@ cut files horizontally
 
 ~/split -b -d ">" fasta. (-b splits before the pattern, pattern is the > sign) -----> gives files, each with one fasta sequence
 
+## May 31, 2023
+## grep - global regular expression parser (flags -c -v -i -l -n)
+grep pattern file
 
+-c count number
 
+-n what lines
+
+## find
+command: find path
+
+find directory -iname "pattern" (go to the directory and find pattern)
+```
+[xingyuan@info114 trim_2nd_attempt]$ find spades-214C/ -iname "scaffolds.fasta"
+spades-214C/scaffolds.fasta
+spades-214C/K55/scaffolds.fasta
+```
+find directory -iname "pattern" -exec command (find and excute a command)
+
+## grep's
+
+zgrep (
+
+Different types of zip files (zip the sequencing files)
+*.zip    zip file
+*.gz     gzip / gunzip
+*.bz     bzip2 / bunzip2
+*.xz     xz / unxz
+*.tgz    tar gzip'ed  file
+tar cvf directory file.tar
 
 
