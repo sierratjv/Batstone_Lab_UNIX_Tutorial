@@ -52,6 +52,8 @@ ls -flags arguments - flags change the behaviour of the command
 
 ``ls -aF`` - directories are shown with /
 
+``ls -R`` - list all subdirectories
+
 ``ls -S`` lists from larger files to smaller
 
 ``ls -r`` lists files name from 'Z' to 'A'
