@@ -118,7 +118,7 @@ cp afile bfile
 
 cp * ffile
 
-cp -u [a-e]file gfile (-u flag is an update flag, only copy if things are new ot not existed)
+cp -u [a-e]file gfile (-u flag is an update flag, only copy if things are new or not existed)
 
 cp -u [a-e]file hfile gfile 
 
