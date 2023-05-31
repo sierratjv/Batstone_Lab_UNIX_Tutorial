@@ -79,25 +79,8 @@ To move to home directory from any directories, type ``cd``.
 ## pwd - print name of current/working directory
 To view the absolute pathname of a directory, ``cd`` to that directory first, then type ``pwd``.
 
-## Shell Script
-It is useful for saving a long command, so you don't need to type it each time.
-
-Steps for creating a shell script:
-1. Create a shell script; <br>
-``nano shell_script.sh`` (``shell_script`` is the name of the file) <br>
-2. In the opened text editor, type the following; <br>
-```
-#!/bin/bash 
-command you want to run
-```
-The first line tells what program (e.g. bash) to use to interpret the script. The second line is the command you want to run. <br>
-3. Exit shell script; <br>
-4. Run shell script. <br>
-``bash shell_script.sh`` <br>
-
 ## mkdir - make directories
 To make a new directory, type ``mkdir directory``(``directory`` is the name for that directory). Type ``ls`` to verify the directory is made successfully. 
-
 
 ## rm - remove files or directories
 To delete a file, type ``rm file`` (``file`` is the name of the file).
@@ -194,11 +177,56 @@ Steps for adding a directory to the PATH variable:
 **Troubleshooting:**
 - If the system still cannot find the program, check if the new directory is added to the **start of the PATH variable**. The command to do that is ``export PATH=/the/file/path:$PATH``. See why [here](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows#:~:text=The%20path%20works%20like%20first,the%20beginning%20of%20the%20command). 
 
+## Shell Script
+It is useful for saving a long command, so you don't need to type it each time.
+
+Steps for creating a shell script:
+1. Create a shell script; <br>
+``nano shell_script.sh`` (``shell_script`` is the name of the file) <br>
+2. In the opened text editor, type the following; <br>
+```
+#!/bin/bash 
+command you want to run
+```
+The first line tells what program (e.g. bash) to use to interpret the script. The second line is the command you want to run. <br>
+3. Exit shell script; <br>
+4. Run shell script. <br>
+``bash shell_script.sh`` <br>
+
+# Run programs automatically 
 ## For Loop
 It is useful for running a program for multiple files. 
 
 For instructions, read [Lesson 06: For Loops](https://github.com/raynamharris/Shell_Intro_for_Bioinformatics_STG/blob/master/lessons/06_ForLoops.md).
 
+An example I used to run Trimmomatic:
+```
+#!/bin/bash 
+for R1 in *R1* 
+do 
+R2=${R1//R1_001.fastq/R2_001.fastq} 
+R1_P=${R1//001.fastq/P_001.fq.gz} 
+R1_UP=${R1//001.fastq/UP_001.fq.gz} 
+R2_P=${R2//001.fastq/P_001.fq.gz} 
+R2_UP=${R2//001.fastq/UP_001.fq.gz} 
+
+java -jar /usr/local/trimmomatic/Trimmomatic-0.39/trimmomatic-0.39.jar PE /home/xingyuan/2018_strains/raw_reads/$R1 /home/xingyuan/2018_strains/raw_reads/$R2 /home/xingyuan/2018_strains/trim_2nd_attempt/$R1_P /home/xingyuan/2018_strains/trim_2nd_attempt/$R1_UP /home/xingyuan/2018_strains/trim_2nd_attempt/$R2_P /home/xingyuan/2018_strains/trim_2nd_attempt/$R2_UP ILLUMINACLIP:/usr/local/trimmomatic/Trimmomatic-0.39/adapters/NexteraPE-PE.fa:2:30:10:2:TRUE HEADCROP:15 
+done
+```
+Use ``echo`` to check whether it is correct or not:
+```
+#!/bin/bash 
+for R1 in *R1* 
+do 
+R2=${R1//R1_001.fastq/R2_001.fastq} 
+R1_P=${R1//001.fastq/P_001.fq.gz} 
+R1_UP=${R1//001.fastq/UP_001.fq.gz} 
+R2_P=${R2//001.fastq/P_001.fq.gz} 
+R2_UP=${R2//001.fastq/UP_001.fq.gz} 
+
+echo java -jar /usr/local/trimmomatic/Trimmomatic-0.39/trimmomatic-0.39.jar PE /home/xingyuan/2018_strains/raw_reads/$R1 /home/xingyuan/2018_strains/raw_reads/$R2 /home/xingyuan/2018_strains/trim_2nd_attempt/$R1_P /home/xingyuan/2018_strains/trim_2nd_attempt/$R1_UP /home/xingyuan/2018_strains/trim_2nd_attempt/$R2_P /home/xingyuan/2018_strains/trim_2nd_attempt/$R2_UP ILLUMINACLIP:/usr/local/trimmomatic/Trimmomatic-0.39/adapters/NexteraPE-PE.fa:2:30:10:2:TRUE HEADCROP:15 
+done
+```
 **Tips:**
 - Write the loop in a shell script if it is very long.
 - Use ``echo`` command to check whether you write the loop correctly or not.
