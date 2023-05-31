@@ -120,21 +120,19 @@ cp afile bfile
 
 cp * ffile
 
-cp -u [a-e]file gfile (-u flag is an update flag, only copy if things are new or not existed)
+cp -u file2 file1 (u is update, file2 must be newer than file1 to copy, file1 will be overwritten)
 
-cp -u [a-e]file hfile gfile 
+cp -pr file1 file2 (overwrite file2 with file1)
 
-cp -pr (preserve)
-
-cp -r (recurs, go down a dirctory and copy everything)
+cp -r (recurs, go down a dirctory and copy everything, copy a directory to another directory)
 
 ## mv
 mv bfile cfile
 
 ## cat
 
-## rev
-reverse
+## rev 
+revese the lines in a file
 
 ## more, less
 read how big is your screen, and gives a screenful information, hit enter gives one lines, hit 10 gives 10 lines, /words searches for words (type n search the next word), q (control + D) for get out
