@@ -155,7 +155,7 @@ ps aux (all the things that are running)
 ### head 
 show first few lines of a file
 
-## tail 
+### tail 
 tail (see last 10 lines)
 
 tail -60 (see last 60)
