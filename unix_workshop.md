@@ -68,7 +68,7 @@ ls -flags arguments - flags change the behaviour of the command
 
 ``muscle -o infile -i outfile``
 
-## rm 
+### rm 
 **use ls to double check before removing**
 you cannot recover files in UNIX
 
@@ -100,10 +100,10 @@ a\#
 
 a\(
 
-## touch 
+### touch 
 create file
 
-## open 
+### open 
 open any files
 
 ## May 30, 2023
@@ -111,7 +111,7 @@ open any files
 
 cmd -flags --flags args args args
 
-## cp 
+### cp 
 **require at least two arguments**
 
 cp afile bfile
@@ -126,34 +126,33 @@ cp -pr file1 file2 (overwrite file2 with file1)
 
 cp -r (recurs, go down a dirctory and copy everything, copy a directory to another directory)
 
-## mv
+### mv
 mv bfile cfile
 
-## cat
+### cat
 
-## rev 
+### rev 
 revese the lines in a file
 
-## more, less
+### more, less
 read how big is your screen, and gives a screenful information, hit enter gives one lines, hit 10 gives 10 lines, /words searches for words (type n search the next word), q (control + D) for get out
 
-## man
+### man
 maual pages
 
 synopsis - tell you how to run the program (OPTION means optional)
 
-## top
+### top
 what happens in the computer (how many jobs are running, sleeping means waiting for input, load average, CPU usage ...)
 
 PID - process ID for that job, USER - who owns the job, PR, NI - priority for that jobs (low priority, low number)
 
-## ps - process status
+### ps - process status
 list what the computer is doing
 
 ps aux (all the things that are running)
 
-**check the files downloaded to see whether it is correct**
-## head 
+### head 
 show first few lines of a file
 
 ## tail 
@@ -161,10 +160,10 @@ tail (see last 10 lines)
 
 tail -60 (see last 60)
 
-## wc - word count
+### wc - word count
 wc !$
 
-## sort
+### sort
 
 sort -r (reverse order)
 
@@ -172,28 +171,28 @@ sort -k2 (name)
 
 sort -r -k2
 
-## tr - translate
+### tr - translate
 
 tr "ACGT" "TGCA" (create complementary strand)
 
-## cut 
+### cut 
 
 -d" " -f2 tosort.lst
 
-## split 
+### split 
 cut files horizontally
 
 ~/split -b -d ">" fasta. (-b splits before the pattern, pattern is the > sign) -----> gives files, each with one fasta sequence
 
 ## May 31, 2023
-## grep - global regular expression parser (flags -c -v -i -l -n)
+### grep - global regular expression parser (flags -c -v -i -l -n)
 grep pattern file
 
 -c count number
 
 -n what lines
 
-## find
+### find
 command: find path
 
 find directory -iname "pattern" (go to the directory and find pattern)
@@ -204,7 +203,7 @@ spades-214C/K55/scaffolds.fasta
 ```
 find directory -iname "pattern" -exec command (find and excute a command)
 
-## different types of grep
+### different types of grep
 
 zgrep (search compressed file)
 
@@ -230,12 +229,12 @@ Different types of zip files (zip the sequencing files)
 
 tar cvf directory file.tar
 
-## wget/curl
+### wget/curl
 
-## rsh 
+### rsh 
 remote shell
 
-## ssh 
+### ssh 
 secure shell
 
 **on infoserv**
@@ -249,7 +248,7 @@ don't run more than 6 jobs
 
 ``host info`` look up what is info
 
-## scp
+### scp
 secure copy
 
 yourLapTop% scp std#@info.mcmaster.ca:file newfile (this has to be done on your laptop, not the server)
