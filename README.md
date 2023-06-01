@@ -39,7 +39,7 @@ Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (Y
 
 Login to nodes, for example, info114: type ``ssh info114``. Then type ``password``. Type ``exix`` to leave the node and go back to the server head. 
 
-In the head, type `` usage`` to see usage infomation of these computers.
+In the head, type ``usage`` to see usage infomation of these computers.
 ```
  Usage script is located in /usr/local/bin 
  Collecting information ... please wait 
