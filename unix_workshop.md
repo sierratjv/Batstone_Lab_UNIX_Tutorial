@@ -260,7 +260,9 @@ yourLapTop% scp file std#@info.mcmaster.ca:newfile (this has to be done on your 
 ### scp 
 ``xingyuansu@Xingyuans-MacBook-Pro Desktop % scp xingyuan@info.mcmaster.ca:/home/xingyuan/unixworkshop/example.fasta.\* .`` (**the \ skips the sections**)
 
-### On INFO server
+### > stdout (aka the screen) to a file
+###   stderr (aka something 
+###   stdin 
 align example.fasta.1 example.fasta.2
 ```
 ALIGN calculates a global alignment of two sequences
@@ -353,10 +355,6 @@ exampl CACGTCTGAACTCCAGTCACTAAGGCGAATCTCGTATGCCGTCTTCTGCTTG--ATTAAA
 exampl ATCTCTTTCTTTTTTTTTTTTTTTTTTTTTTTTTTTTCTTTTTTTTCTTTTCTTTTTTTT
 ```
 
-### > stdout (aka the screen) to a file
-###   stderr (aka something 
-###   stdin 
-###   
 ###   pipe  cmd1 | cmd2 (sends the output
 
 ps aux | more (show what the computer is doing)
