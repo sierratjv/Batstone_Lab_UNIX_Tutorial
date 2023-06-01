@@ -363,8 +363,13 @@ ps aux | grep brian
 
 pdftotext (change pdf to a text; work in pipe)
 
+### history (show command you show before)
 
+### !! (give last command you typed) 
 
+### !$ 
+
+### alias ls="list" (type list is the same as ls)
 
 
 
