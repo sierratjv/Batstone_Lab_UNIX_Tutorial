@@ -248,11 +248,125 @@ don't run more than 6 jobs
 
 ``host info`` look up what is info
 
-### scp
+### scp (work the same as cp)
 secure copy
 
 yourLapTop% scp std#@info.mcmaster.ca:file newfile (this has to be done on your laptop, not the server)
 
 yourLapTop% scp file std#@info.mcmaster.ca:newfile (this has to be done on your laptop, not the server)
+
+## May 31, 2023
+
+### scp 
+xingyuansu@Xingyuans-MacBook-Pro Desktop % scp xingyuan@info.mcmaster.ca:/home/xingyuan/unixworkshop/example.fasta.\* . (**the \ skips the sections**)
+
+### On INFO server
+align example.fasta.1 example.fasta.2
+```
+ALIGN calculates a global alignment of two sequences
+ version 2.0uPlease cite: Myers and Miller, CABIOS (1989) 
+ resetting matrix to DNA
+ example.fasta.1 :  251 nt
+> M00719:224:000000000-AJ0H0:1:1101:17878:2093 1:   251 nt vs.
+> M00719:224:000000000-AJ0H0:1:1101:19693:2191 1:   251 nt
+scoring matrix: DNA, gap penalties: -16/-4
+80.3% identity;		Global alignment score: 772
+
+               10        20         30        40        50         
+exampl ACCGCTACATCTCCATCTTCTAC-ATCGTTCCTCCAACTCCTTATCAGATCGGAAGAGCA
+        :::::::::::::::::::::: :::::::: :::::::::::::::::::::::::::
+       TCCGCTACATCTCCATCTTCTACCATCGTTCCCCCAACTCCTTATCAGATCGGAAGAGCA
+               10        20        30        40        50        60
+
+      60        70        80        90       100       110         
+exampl CACGTCTGAACTCCAGTCACTAAGGCGAATCTCGTATGCCGTCTTCTGCTTG--ATTAAA
+       :::::::::::::::::::::::::::: :::::::::::::::: ::::::  :: :: 
+       CACGTCTGAACTCCAGTCACTAAGGCGACTCTCGTATGCCGTCTTTTGCTTGTAATAAAT
+               70        80        90       100       110       120
+
+       120       130       140       150       160       170       
+exampl ATCTCTTTCTTTTTTTTTTTTTTTTTTTTTTTTTTTTCTTTTTTTTCTTTTCTTTTTTTT
+       :  :::::::::     :::::::::: :::  :  :  : : : :::::: : :: :::
+       ACTTCTTTCTTTCCCCCTTTTTTTTTTATTTCCTCCTTCTCTCTCTCTTTTTTCTTCTTT
+              130       140       150       160       170       180
+
+       180       190       200       210       220       230       
+exampl TTTTTTTTTTTCTTTTTTTTTTTCTTTTCCTTTTTTTTTTTTTTTTTTCTTTTTTTTTTT
+       : :: : : ::::::::: :::: :: ::::  ::::: :::: : ::  :: :: ::  
+       TCTTCTCTCTTCTTTTTTCTTTT-TTCTCCTCATTTTTGTTTTCTCTT--TTCTTCTTGC
+              190       200        210       220         230       
+
+       240       250 
+exampl TTTTTTTTTTTTTT
+        :::::::::  ::
+       ATTTTTTTTTACTT
+       240       250 
+```
+
+cat example.fasta.1 example.fasta.2 (**but it is present to the screen**)
+```
+> M00719:224:000000000-AJ0H0:1:1101:17878:2093 1:N:0:1
+ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCGGAAGAGCACACGTCTGAACTCCAGTCACTAAGGCGAATCTCGTATGCCGTCTTCTGCTTGATTAAAATCTCTTTCTTTTTTTTTTTTTTTTTTTTTTTTTTTTCTTTTTTTTCTTTTCTTTTTTTTTTTTTTTTTTTCTTTTTTTTTTTCTTTTCCTTTTTTTTTTTTTTTTTTCTTTTTTTTTTTTTTTTTTTTTTTTT
+> M00719:224:000000000-AJ0H0:1:1101:19693:2191 1:N:0:1
+TCCGCTACATCTCCATCTTCTACCATCGTTCCCCCAACTCCTTATCAGATCGGAAGAGCACACGTCTGAACTCCAGTCACTAAGGCGACTCTCGTATGCCGTCTTTTGCTTGTAATAAATACTTCTTTCTTTCCCCCTTTTTTTTTTATTTCCTCCTTCTCTCTCTCTTTTTTCTTCTTTTCTTCTCTCTTCTTTTTTCTTTTTTCTCCTCATTTTTGTTTTCTCTTTTCTTCTTGCATTTTTTTTTACTT
+```
+
+cat example.fasta.1 example.fasta.2 > alignment (**">" send standard out to a file**) 
+
+(**standard error still goes to the screen**)
+standard error:
+```
+ALIGN calculates a global alignment of two sequences
+ version 2.0uPlease cite: Myers and Miller, CABIOS (1989) 
+ resetting matrix to DNA
+ example.fasta.1 :  251 nt
+> M00719:224:000000000-AJ0H0:1:1101:17878:2093 1:   251 nt vs.
+> M00719:224:000000000-AJ0H0:1:1101:19693:2191 1:   251 nt
+scoring matrix: DNA, gap penalties: -16/-4
+80.3% identity;		Global alignment score: 772
+```
+
+align example.fasta.1 example.fasta.2 &> alignmnet
+```
+ resetting matrix to DNA
+ example.fasta.1 :  251 nt
+ALIGN calculates a global alignment of two sequences
+ version 2.0uPlease cite: Myers and Miller, CABIOS (1989) 
+> M00719:224:000000000-AJ0H0:1:1101:17878:2093 1:   251 nt vs.
+> M00719:224:000000000-AJ0H0:1:1101:19693:2191 1:   251 nt
+scoring matrix: DNA, gap penalties: -16/-4
+80.3% identity;		Global alignment score: 772
+
+               10        20         30        40        50         
+exampl ACCGCTACATCTCCATCTTCTAC-ATCGTTCCTCCAACTCCTTATCAGATCGGAAGAGCA
+        :::::::::::::::::::::: :::::::: :::::::::::::::::::::::::::
+       TCCGCTACATCTCCATCTTCTACCATCGTTCCCCCAACTCCTTATCAGATCGGAAGAGCA
+               10        20        30        40        50        60
+
+      60        70        80        90       100       110         
+exampl CACGTCTGAACTCCAGTCACTAAGGCGAATCTCGTATGCCGTCTTCTGCTTG--ATTAAA
+       :::::::::::::::::::::::::::: :::::::::::::::: ::::::  :: :: 
+       CACGTCTGAACTCCAGTCACTAAGGCGACTCTCGTATGCCGTCTTTTGCTTGTAATAAAT
+               70        80        90       100       110       120
+
+       120       130       140       150       160       170       
+exampl ATCTCTTTCTTTTTTTTTTTTTTTTTTTTTTTTTTTTCTTTTTTTTCTTTTCTTTTTTTT
+```
+
+### > stdout (aka the screen) to a file
+###   stderr (aka something 
+###   stdin 
+###   
+###   pipe  cmd1 | cmd2 (sends the output
+
+ps aux | more (show what the computer is doing)
+
+ps aux | grep brian
+
+pdftotext (change pdf to a text; work in pipe)
+
+
+
+
 
 
