@@ -255,10 +255,10 @@ yourLapTop% scp std#@info.mcmaster.ca:file newfile (this has to be done on your 
 
 yourLapTop% scp file std#@info.mcmaster.ca:newfile (this has to be done on your laptop, not the server)
 
-## May 31, 2023
+## Jun 1, 2023
 
 ### scp 
-xingyuansu@Xingyuans-MacBook-Pro Desktop % scp xingyuan@info.mcmaster.ca:/home/xingyuan/unixworkshop/example.fasta.\* . (**the \ skips the sections**)
+``xingyuansu@Xingyuans-MacBook-Pro Desktop % scp xingyuan@info.mcmaster.ca:/home/xingyuan/unixworkshop/example.fasta.\* .`` (**the \ skips the sections**)
 
 ### On INFO server
 align example.fasta.1 example.fasta.2
