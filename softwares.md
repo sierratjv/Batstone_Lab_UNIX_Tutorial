@@ -43,6 +43,10 @@ For official article, read [Ryan R. Wick and others, Bandage: interactive visual
 For official website, go to [mauve](https://darlinglab.org/mauve/mauve.html). <br>
 For official article, read [Darling AC, Mau B, Blattner FR, Perna NT. Mauve: multiple alignment of conserved genomic sequence with rearrangements. Genome Res. 2004 Jul;14(7):1394-403. doi: 10.1101/gr.2289704. PMID: 15231754; PMCID: PMC442156.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC442156/). 
 
+### BWA 
+For official website, go to [Burrows-Wheeler Aligner](https://bio-bwa.sourceforge.net/). <br>
+For official article, read [Heng Li , Richard Durbin, Fast and accurate short read alignment with Burrows–Wheeler transform, Bioinformatics, Volume 25, Issue 14, July 2009, Pages 1754–1760](https://academic.oup.com/bioinformatics/article/31/12/i80/216559).
+
 ## Annotation
 ### Prokka
 For official website, go to [Prokka: rapid prokaryotic genome annotation](https://github.com/tseemann/prokka). <br>
