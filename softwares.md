@@ -8,6 +8,7 @@
 ## Genome assembly
 ### FastQC 
 For official website, go to [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/). <br>
+For manual, type ``fastqc -h``. 
 
 ### MultiQC
 For official website, go to [MultiQC](https://multiqc.info/). <br>
