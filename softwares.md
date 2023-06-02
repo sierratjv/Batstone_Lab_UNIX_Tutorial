@@ -5,7 +5,7 @@
 - For running a program, make detailed notes on what files are the input files, what files are the output files, and the locations of these input and output files.
 - For running a program, run the program for one sample to check whether it runs correctly before running the program for all samples.
 
-## Quality control
+## Quality control for raw reads
 ### FastQC 
 For official website, go to [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/). <br>
 For manual, type ``fastqc -h``. 
