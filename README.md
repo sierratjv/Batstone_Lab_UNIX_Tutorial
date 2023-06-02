@@ -11,6 +11,8 @@ For Mac, use Terminal app.
 
 [Bioinformatics_Data_Skills.pdf](https://github.com/sux21/Tips_and_Tricks/files/11593310/Bioinformatics_Data_Skills.pdf)
 
+[An Introduction to Unix (Half a day)](https://www.bioinformatics.babraham.ac.uk/training.html#unix)
+
 ## Symobols in UNIX
 ``.`` represents the current directory. 
 
