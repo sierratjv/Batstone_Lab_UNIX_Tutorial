@@ -38,7 +38,7 @@ For official article, read [Tsai IJ, Otto TD, Berriman M. Improving draft assemb
 For official website, go to [Bandage](http://rrwick.github.io/Bandage/). <br>
 For official article, read [Ryan R. Wick and others, Bandage: interactive visualization of de novo genome assemblies, Bioinformatics, Volume 31, Issue 20, October 2015, Pages 3350–3352](https://academic.oup.com/bioinformatics/article/31/20/3350/196114). 
 
-## Alingers
+## Aligners
 ### Mauve
 For official website, go to [mauve](https://darlinglab.org/mauve/mauve.html). <br>
 For official article, read [Darling AC, Mau B, Blattner FR, Perna NT. Mauve: multiple alignment of conserved genomic sequence with rearrangements. Genome Res. 2004 Jul;14(7):1394-403. doi: 10.1101/gr.2289704. PMID: 15231754; PMCID: PMC442156.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC442156/). 
