@@ -14,7 +14,7 @@ For manual, type ``fastqc -h``.
 For official website, go to [MultiQC](https://multiqc.info/). <br>
 For official article, read [Philip Ewels and others, MultiQC: summarize analysis results for multiple tools and samples in a single report, Bioinformatics, Volume 32, Issue 19, October 2016, Pages 3047–3048](https://academic.oup.com/bioinformatics/article/32/19/3047/2196507).
 
-## Trimming
+## Trimming reads
 ### Trimmomatic
 For official website, go to [Trimmomatic: A flexible read trimming tool for Illumina NGS data](http://www.usadellab.org/cms/?page=trimmomatic). <br> 
 For official article, read [Anthony M. Bolger and others, Trimmomatic: a flexible trimmer for Illumina sequence data, Bioinformatics, Volume 30, Issue 15, August 2014, Pages 2114–2120](https://academic.oup.com/bioinformatics/article/30/15/2114/2390096). 
