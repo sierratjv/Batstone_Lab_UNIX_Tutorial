@@ -365,11 +365,32 @@ pdftotext (change pdf to a text; work in pipe)
 
 ### history (show command you show before)
 
-### !! (give last command you typed) 
+### !! (give last command you typed, same as cd !$) 
 
-### !$ 
+### !$
+! means histroy reference; $ means the last thing (type ``cd !$`` gives the last command)
 
-### alias ls="list" (type list is the same as ls)
+### alias ls="list" (type list is the same as ls, ls will still work)
+ls (use alias); \ls (do not use alias)
 
+## Jun 2, 2023
+### toss 
+throw things away, same as ``cat > /dev/null``
 
+### rsync 
+only transfer the differences of a file, not the whole file
 
+### set -o noclobber (prevent overwriting files)
+
+### editors (vi, emacs, pluma, xedit, pico, nano, red, gedit)
+
+### vi 
+type i to edit
+
+control C to exit edit
+
+w go forward to a word, b go backward a word
+
+type ``:q!`` to exit
+
+type ``vimtutor``
