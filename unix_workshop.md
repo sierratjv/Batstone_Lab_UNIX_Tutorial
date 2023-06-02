@@ -385,6 +385,8 @@ only transfer the differences of a file, not the whole file
 ### editors (vi, emacs, pluma, xedit, pico, nano, red, gedit)
 
 ### vi 
+[cheat_sheet_vi.pdf](https://github.com/sux21/Tips_and_Tricks/files/11638264/cheat_sheet_vi.pdf)
+
 type i to edit
 
 control C to exit edit
