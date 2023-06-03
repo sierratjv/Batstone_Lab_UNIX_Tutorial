@@ -6,7 +6,7 @@ Type ``vimtutor`` to open the tutorial page.
 A summary of this tutorial is below:
 
 ### Lesson 1.1:  MOVING THE CURSOR
-**To move the cursor, press the h,j,k,l keys as indicated.**
+To move the cursor, press the h,j,k,l keys as indicated. You can also use arrow keys on keyboard. 
 ```
              ^
              k              
@@ -107,13 +107,67 @@ Type  rx  to replace the character at the cursor with  x
 ```
 ### Lesson 3.3: THE CHANGE OPERATOR
 ```
-Type ce to delete to the end of a word, including the character at the cursor
+Type ce to delete to the end of a word, including the character at the cursor. It will be in the INSERT mode to make new changes.
 
-Type cc to delete the whole line
+Type cc to delete the whole line. It will be in the INSERT mode to make new changes.
 ```
 ### Lesson 3.4: MORE CHANGES USING c
+```
+c    [number]   motion
 
+for example, c$ will delete to the end of the line. It will be in the INSERT mode to make new changes.
+```
+### Lesson 4.1: CURSOR LOCATION AND FILE STATUS
+To see the filename and position in the file, type 
+```
+CTRL G
+```
+To set ruler, type
+```
+:set ruler
+```
+To go to the start of the file, type
+```
+gg
+```
+To go to the bottom of the file, type
+```
+G
+```
+To go to a specific line, type
+```
+the line number and the type G
+```
+### Lesson 4.2: THE SEARCH COMMAND
+To search a word in forward direction, type
+```
+\word and press <ENTER>. To search for the same phrase again, simply type  n. To search for the same phrase in the opposite direction, type  N 
+```
+To search a word in backward direction, type
+```
+?word and press <ENTER>. Use n or N to go to the next word. 
+```
+To go back where you came from, press
+```
+CTRL + O. Press CTRL + I to go forward.
+```
+### Lesson 4.3: MATCHING PARENTHESES SEARCH
+To find a matching brackets, such as ),], or }, place cursor on the bracket and type
+```
+%
+```
+### Lesson 4.4: THE SUBSTITUTE COMMAND
+```
+Type  :s/old/new  to substitute the first occurance of'new' for 'old'.
 
+Type  :s/old/new/g  to substitute all occurances of'new' for 'old'. 
 
+To change every occurrence of a character string between two lines,
+     type   :#,#s/old/new/g    where #,# are the line numbers of the range
+                               of lines where the substitution is to be done.
+     Type   :%s/old/new/g      to change every occurrence in the whole file.
+     Type   :%s/old/new/gc     to find every occurrence in the whole file,
+                               with a prompt whether to substitute or not.
+```
 
 
