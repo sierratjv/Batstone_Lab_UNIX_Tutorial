@@ -157,17 +157,120 @@ To find a matching brackets, such as ),], or }, place cursor on the bracket and 
 %
 ```
 ### Lesson 4.4: THE SUBSTITUTE COMMAND
+To substitute one word, type
 ```
-Type  :s/old/new  to substitute the first occurance of'new' for 'old'.
-
-Type  :s/old/new/g  to substitute all occurances of'new' for 'old'. 
-
-To change every occurrence of a character string between two lines,
-     type   :#,#s/old/new/g    where #,# are the line numbers of the range
-                               of lines where the substitution is to be done.
-     Type   :%s/old/new/g      to change every occurrence in the whole file.
-     Type   :%s/old/new/gc     to find every occurrence in the whole file,
-                               with a prompt whether to substitute or not.
+:s/old word/new word
 ```
+To substitute all words in a line, type
+```
+:s/old word/new word/g 
+```
+To substitute words between two lines, type
+```
+:#,#s/old word/new word/g          (#, # are the line numbers)
+```
+To subtitute all words in the file, type
+```
+:%s/old word/new word/g
+```
+To ask for confirmation before substituting, type
+```
+:%s/old word/new word/gc
+```
+### Lesson 5.1: HOW TO EXECUTE AN EXTERNAL COMMAND
+Type
+```
+:!command <ENTER>
 
+for example, type :!ls
+```
+### Lesson 5.2: MORE ON WRITING FILES
+To save changes and name file, type
+```
+:w FILENAME
+```
+To remove the file, type
+```
+:!rm TEST
+```
+### Lesson 5.3: SELECTING TEXT TO WRITE
+To save part of the file, type
+```
+v  motion  :w FILENAME
+```
+### Lesson 5.4: RETRIEVING AND MERGING FILES
+To insert another file, type
+```
+:r FILENAME
+```
+### Lesson 6.1: THE OPEN COMMAND 
+```
+Type  o  to open a line below the cursor and place you in Insert mode. Type capital O to open a line above cursor.
+```
+### Lesson 6.2: THE APPEND COMMAND
+```
+Type  a  to insert text AFTER the cursor. This will open the INSERT mode.
+```
+### Lesson 6.3: ANOTHER WAY TO REPLACE
+```
+Type a capital  R  to replace more than one character. This will open the REPLACE mode. 
+```
+### Lesson 6.4: COPY AND PASTE TEXT
+```
+Type v to open VISUAL to select text to copy
+
+Type y to copy
+
+Type p to paste
+```
+### Lesson 6.5: SET OPTION
+To search a word without considering it is upper-case or lower-case, type
+```
+:set ic
+
+To disable this option, type :set noic
+
+Examples of some options:
+'ic' 'ignorecase'       ignore upper/lower case when searching
+'is' 'incsearch'        show partial matches for a search phrase
+'hls' 'hlsearch'        highlight all matching phrases
+
+use "no" in front of the option to disable the option
+```
+### Lesson 7.1: GETTING HELP
+Type 
+```
+:help
+```
+some options:
+:help w
+:help c_CTRL-D
+:help insert-index
+:help user-manual
+### Lesson 7.2: CREATE A STARTUP SCRIPT
+Set your defaults using .vimrc
+```
+Create a .vimrc in your home directory(~):  touch .vimrc 
+
+Edit .vimrc when you are in another file, type :e ~/.vimrc to ope            
+```
+### Lesson 7.3: COMPLETION
+```
+  1. Make sure Vim is not in compatible mode:  :set nocp
+
+  2. Look what files exist in the directory:  :!ls   or  :!dir
+
+  3. Type the start of a command:  :e
+
+  4. Press  CTRL-D  and Vim will show a list of commands that start with "e".
+
+  5. Type  d<TAB>  and Vim will complete the command name to ":edit".
+
+  6. Now add a space and the start of an existing file name:  :edit FIL
+
+  7. Press <TAB>.  Vim will complete the name (if it is unique).
+
+NOTE:  Completion works for many commands.  Just try pressing CTRL-D and
+       <TAB>.  It is especially useful for  :help .
+```
 
