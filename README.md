@@ -4,7 +4,7 @@ UNIX tips and tricks for beginners
 ## Softwares required
 For Windows, download the free version of MobaXterm from https://mobaxterm.mobatek.net/. 
 
-For Mac, use Terminal app. 
+For Apple, use Terminal app. 
 
 ## Resources
 [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
