@@ -43,7 +43,7 @@ For official article, read [Darling AC, Mau B, Blattner FR, Perna NT. Mauve: mul
 
 ### BWA 
 For official website, go to [Burrows-Wheeler Aligner](https://bio-bwa.sourceforge.net/). <br>
-For official article, read [Heng Li , Richard Durbin, Fast and accurate short read alignment with Burrows–Wheeler transform, Bioinformatics, Volume 25, Issue 14, July 2009, Pages 1754–1760](https://academic.oup.com/bioinformatics/article/31/12/i80/216559).
+For official article, read [Heng Li , Richard Durbin, Fast and accurate short read alignment with Burrows–Wheeler transform, Bioinformatics, Volume 25, Issue 14, July 2009, Pages 1754–1760](https://academic.oup.com/bioinformatics/article/25/14/1754/225615?login=false).
 
 ## Annotation tools
 ### Prokka
