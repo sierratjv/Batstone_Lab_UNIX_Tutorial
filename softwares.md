@@ -2,7 +2,6 @@
 # Bioinformatics softwares
 **Tips:**
 - For learning a program, read the official article about how the program works, and then read the manual on the official website for the command for running the program.
-- For running a program, make detailed notes on what files are the input files, what files are the output files, and the locations of these input and output files.
 - For running a program, run the program for one sample to check whether it runs correctly before running the program for all samples.
 
 ## Quality control tools
