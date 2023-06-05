@@ -404,6 +404,10 @@ type ``vimtutor``
 
 ## .bashrc/.vimrc 
 
+## variables
+create variable, for example, type ``i=2``
+
+show the variable, type ``echo $i`` (it will show 2) or ``echo "$i $j $k"`` for multiple variables
 
 
 
