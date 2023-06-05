@@ -396,3 +396,25 @@ w go forward to a word, b go backward a word
 type ``:q!`` to exit
 
 type ``vimtutor``
+
+## June 5, 2023
+## vi
+
+``.`` repeats the last command
+
+## .bashrc/.vimrc 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
