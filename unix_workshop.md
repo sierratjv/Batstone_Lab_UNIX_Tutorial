@@ -367,7 +367,7 @@ pdftotext (change pdf to a text; work in pipe)
 
 ### !! (give last command you typed, same as cd !$) 
 
-### !$
+### ``!$``
 ! means histroy reference; $ means the last thing (type ``cd !$`` gives the last command)
 
 ### alias ls="list" (type list is the same as ls, ls will still work)
