@@ -58,3 +58,6 @@ For official artical, read [Nadalin, F., Vezzi, F. & Policriti, A. GapFiller: a 
 ### IMAGE
 For official article, read [Tsai IJ, Otto TD, Berriman M. Improving draft assemblies by iterative mapping and assembly of short reads to eliminate gaps. Genome Biol. 2010;11(4):R41](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2884544/). 
 
+# Core genome identifier 
+### Spine 
+For offical website, go to [Spine](https://github.com/egonozer/Spine). 
