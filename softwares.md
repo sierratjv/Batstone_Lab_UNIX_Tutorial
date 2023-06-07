@@ -61,11 +61,3 @@ For official article, read [Tsai IJ, Otto TD, Berriman M. Improving draft assemb
 # Core genome identifier 
 ### Spine 
 For offical website, go to [Spine](https://github.com/egonozer/Spine). 
-
-# Perl 
-## Install perl modules (.pm)
-https://github.com/xtforgame/build-libopenssl-windows/blob/11afe6e2da7fea926504488c0b6d40239d6e1d14/bin/perl/perl/lib/File/Spec.pm
-
-https://metacpan.org/release/SHAY/perl-5.36.1/source/lib 
-
-https://github.com/sciurius/perl-Getopt-Long/blob/master/lib/Getopt/Long.pm
