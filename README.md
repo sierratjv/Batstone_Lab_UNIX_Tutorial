@@ -218,10 +218,12 @@ The first line tells what program (e.g. bash) to use to interpret the script. T
 4. Run shell script. <br>
 ``bash shell_script.sh`` <br>
 
-# wget
+## wget
 If flag ``—no-check-certificate`` is required, use ``md5sum`` or ``sha256sum`` to verify the download.
 
-# Run programs automatically 
+## Conda
+https://docs.conda.io/projects/conda/en/4.6.1/index.html 
+
 ## For Loop
 It is useful for running a program for multiple files. 
 
