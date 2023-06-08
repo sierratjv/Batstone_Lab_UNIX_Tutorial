@@ -222,7 +222,9 @@ The first line tells what program (e.g. bash) to use to interpret the script. T
 If flag ``—no-check-certificate`` is required, use ``md5sum`` or ``sha256sum`` to verify the download.
 
 ## Conda
-https://docs.conda.io/projects/conda/en/4.6.1/index.html 
+offical website: https://docs.conda.io/projects/conda/en/4.6.1/index.html 
+
+Intro: https://docs.conda.io/projects/conda/en/4.6.1/user-guide/getting-started.html
 
 ## For Loop
 It is useful for running a program for multiple files. 
