@@ -403,22 +403,98 @@ type ``vimtutor``
 ``.`` repeats the last command
 
 ## .bashrc/.vimrc 
+work every time when you use bash or vim
 
 ## variables
 create variable, for example, type ``i=2``
 
 show the variable, type ``echo $i`` (it will show 2) or ``echo "$i $j $k"`` for multiple variables
 
+# June 8, 2023
 
+# &
+sleep 150 & (run jobs in backrgound) <br>
+[1] 12698 
 
+ps aux | grep 12698 (find jobs)
 
+^Z (zombie jobs, Stop a job) <br>
+type ``bg`` to run it in background
 
+^C (kill job)
+kill %jobID (kill job)
 
+# chmod
+chmod u+x (user can execute)
 
+# .sh
+#!/bin/bash
 
+bourne shell, Bash (Bourne again shell)
 
+```
+  1 #!/bin/bash
+  2 cd folder
+  3 ls
+  4 myname=xingyuan
+  5 mydir=`pwd` ( use `program` to run a program)
+  6 # this is a comment
+  7 echo $myname
+  8 echo "current working directory is $mydir"  
+```
+```
+file1  file2  file3
+xingyuan
+current working directory is /home/xingyuan/unixworkshop/folder
+```
 
+`basename sample45.fasta .fasta`.alignment (assign output a name, basename is a program)
 
+# Compute Canada/Digital Research Alliance of Canada
+https://www.sharcnet.ca/my/front/
 
+https://docs.alliancecan.ca/wiki/Technical_documentation
+
+https://www.youtube.com/channel/UCCRmb5_GMWT2hSlALHlwIMg (watch the two videos for new users on the top)
+
+account: https://ccdb.alliancecan.ca/account_application 
+
+Run jobs:
+- Running longer than the runtime will be killed (need to estimate the runtime); cannot run for 7 days (need to break down the jobs)
+
+Login:
+              ssh terminal            batch system
+local computer ----------> login nodes --------> compute nodes
+
+access files:
+
+/home, /project, /scractch (no back up), nearline
+
+Check software on a cluster:
+
+```
+module avail
+module spider keyword_for_the_software
+```
+
+submit a serial job:
+```
+#!/bin/bash
+#SBATCH --time=00-01:00:00 # DD-HH:MM
+#SBATCH --account=def-user
+module load python/3.6
+
+submit a threaded job:
+
+```
+search online for commands
+```
+
+submit a. parallel job
+
+view jobs:
+
+commonly used slurm commands
+- squene
 
 
