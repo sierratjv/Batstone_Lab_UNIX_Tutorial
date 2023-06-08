@@ -226,6 +226,8 @@ offical website: https://docs.conda.io/projects/conda/en/4.6.1/index.html
 
 Intro: https://docs.conda.io/projects/conda/en/4.6.1/user-guide/getting-started.html
 
+list Conda environments: ``conda-env list``
+
 ## For Loop
 It is useful for running a program for multiple files. 
 
