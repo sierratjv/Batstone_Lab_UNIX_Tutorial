@@ -412,7 +412,7 @@ show the variable, type ``echo $i`` (it will show 2) or ``echo "$i $j $k"`` for 
 
 # June 8, 2023
 
-# &
+## &
 sleep 150 & (run jobs in backrgound) <br>
 [1] 12698 
 
@@ -424,10 +424,10 @@ type ``bg`` to run it in background
 ^C (kill job)
 kill %jobID (kill job)
 
-# chmod
+## chmod
 chmod u+x (user can execute)
 
-# .sh
+## .sh
 #!/bin/bash
 
 bourne shell, Bash (Bourne again shell)
@@ -450,7 +450,7 @@ current working directory is /home/xingyuan/unixworkshop/folder
 
 `basename sample45.fasta .fasta`.alignment (assign output a name, basename is a program)
 
-# Compute Canada/Digital Research Alliance of Canada
+## Compute Canada/Digital Research Alliance of Canada
 https://www.sharcnet.ca/my/front/
 
 https://docs.alliancecan.ca/wiki/Technical_documentation
@@ -483,6 +483,7 @@ submit a serial job:
 #SBATCH --time=00-01:00:00 # DD-HH:MM
 #SBATCH --account=def-user
 module load python/3.6
+```
 
 submit a threaded job:
 
@@ -497,4 +498,73 @@ view jobs:
 commonly used slurm commands
 - squene
 
+# June 9, 2023
+## if statement
+```
+[xingyuan@info114 ~]$ if [ -f file ]; then
+> echo found
+> else
+> echo not found
+> fi
+found
+```
 
+```
+[xingyuan@info114 ~]$ [[ -f file ]] && echo found || echo false
+found
+```
+
+## ` ` (suck up infomation and put into variable)
+[xingyuan@info114 ~]$ name=`wc file`
+[xingyuan@info114 ~]$ echo $name
+5 33 200 file
+
+## while
+```
+[xingyuan@info114 unixworkshop]$ while read line; do 
+> echo $line
+> done < file
+#!/bin/bash
+echo "Files in $HOME/Downloads older than 30 days are"
+find $HOME/Downloads -mtime +30
+read -p "Press key to continue.." -n1 -s < /dev/tty
+# find $HOME/Downloads -mtime +30 -exec rm {} ;
+```
+(same result as cat)
+
+```
+[xingyuan@info114 unixworkshop]$ while read line; do echo $line; echo ""; done < file
+#!/bin/bash
+
+echo "Files in $HOME/Downloads older than 30 days are"
+
+find $HOME/Downloads -mtime +30
+
+read -p "Press key to continue.." -n1 -s < /dev/tty
+
+# find $HOME/Downloads -mtime +30 -exec rm {} ;
+```
+
+```
+[xingyuan@info114 unixworkshop]$ while read line; do
+> echo $line
+> while read line; do
+> echo $line
+> done < example.fasta.1
+> done < file
+#!/bin/bash
+> M00719:224:000000000-AJ0H0:1:1101:17878:2093 1:N:0:1
+ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCGGAAGAGCACACGTCTGAACTCCAGTCACTAAGGCGAATCTCGTATGCCGTCTTCTGCTTGATTAAAATCTCTTTCTTTTTTTTTTTTTTTTTTTTTTTTTTTTCTTTTTTTTCTTTTCTTTTTTTTTTTTTTTTTTTCTTTTTTTTTTTCTTTTCCTTTTTTTTTTTTTTTTTTCTTTTTTTTTTTTTTTTTTTTTTTTT
+echo "Files in $HOME/Downloads older than 30 days are"
+> M00719:224:000000000-AJ0H0:1:1101:17878:2093 1:N:0:1
+ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCGGAAGAGCACACGTCTGAACTCCAGTCACTAAGGCGAATCTCGTATGCCGTCTTCTGCTTGATTAAAATCTCTTTCTTTTTTTTTTTTTTTTTTTTTTTTTTTTCTTTTTTTTCTTTTCTTTTTTTTTTTTTTTTTTTCTTTTTTTTTTTCTTTTCCTTTTTTTTTTTTTTTTTTCTTTTTTTTTTTTTTTTTTTTTTTTT
+find $HOME/Downloads -mtime +30
+> M00719:224:000000000-AJ0H0:1:1101:17878:2093 1:N:0:1
+ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCGGAAGAGCACACGTCTGAACTCCAGTCACTAAGGCGAATCTCGTATGCCGTCTTCTGCTTGATTAAAATCTCTTTCTTTTTTTTTTTTTTTTTTTTTTTTTTTTCTTTTTTTTCTTTTCTTTTTTTTTTTTTTTTTTTCTTTTTTTTTTTCTTTTCCTTTTTTTTTTTTTTTTTTCTTTTTTTTTTTTTTTTTTTTTTTTT
+read -p "Press key to continue.." -n1 -s < /dev/tty
+> M00719:224:000000000-AJ0H0:1:1101:17878:2093 1:N:0:1
+ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCGGAAGAGCACACGTCTGAACTCCAGTCACTAAGGCGAATCTCGTATGCCGTCTTCTGCTTGATTAAAATCTCTTTCTTTTTTTTTTTTTTTTTTTTTTTTTTTTCTTTTTTTTCTTTTCTTTTTTTTTTTTTTTTTTTCTTTTTTTTTTTCTTTTCCTTTTTTTTTTTTTTTTTTCTTTTTTTTTTTTTTTTTTTTTTTTT
+# find $HOME/Downloads -mtime +30 -exec rm {} ;
+> M00719:224:000000000-AJ0H0:1:1101:17878:2093 1:N:0:1
+ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCGGAAGAGCACACGTCTGAACTCCAGTCACTAAGGCGAATCTCGTATGCCGTCTTCTGCTTGATTAAAATCTCTTTCTTTTTTTTTTTTTTTTTTTTTTTTTTTTCTTTTTTTTCTTTTCTTTTTTTTTTTTTTTTTTTCTTTTTTTTTTTCTTTTCCTTTTTTTTTTTTTTTTTTCTTTTTTTTTTTTTTTTTTTTTTTTT
+```
