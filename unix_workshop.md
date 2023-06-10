@@ -514,7 +514,55 @@ found
 found
 ```
 
-## "` ` (suck up infomation and put into variable)"
+```
+#!/bin/bash
+# A script to read the first entry in a fasta file.
+# run as 'scriptName < filename'
+# or     'cat filename | scriptName'
+read firstline; echo $firstline
+while read abc; do 
+    if [[ $abc =~ ">" ]]; then 
+        echo "I am done everything in the file"
+        exit; 
+    fi
+    echo $abc
+done
+echo "While loop is done ... I am done everything in the file"
+```
+
+```
+#!/bin/bash
+# A script to read the n^th entry ($1) in a fasta file.
+# run as 'scriptName no < filename'
+# or     'cat filename | scriptName no'
+i=0
+while read line; do 
+    if [[ $line =~ ">" ]]; then
+        let i=$i+1
+    fi
+    if [ $i -eq $1 ]; then
+        echo $line
+    fi
+done
+
+#########################################################
+
+#!/bin/bash
+# A script to read the n^th entry ($1) in a fasta file ($2).
+# run as 'scriptName no filename'
+## i=0
+## { while read line; do 
+##     if [[ $line =~ ">" ]]; then
+##         let i=$i+1
+##     fi
+##     if [ $i -eq $1 ]; then
+##         echo $line
+##     fi
+## done } < $2
+
+```
+
+## suck up infomation and put into variable
 [xingyuan@info114 ~]$ name=`wc file`
 [xingyuan@info114 ~]$ echo $name
 5 33 200 file
