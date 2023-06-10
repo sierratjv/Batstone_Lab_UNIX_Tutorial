@@ -15,6 +15,8 @@ Some resources to learn UNIX:
 
 [An Introduction to Unix (Half a day)](https://www.bioinformatics.babraham.ac.uk/training.html#unix)
 
+[02: Introduction to Command Line](https://datascience.101workbook.org/02-IntroToCommandLine/00-IntroToCommandLine-LandingPage.html)
+
 ## Symobols in UNIX
 ``.`` represents the current directory. 
 
