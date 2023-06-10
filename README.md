@@ -7,8 +7,6 @@ For Windows, download the free version of MobaXterm from https://mobaxterm.mobat
 For Apple, use Terminal app. 
 
 ## Resources
-Some resources to learn UNIX:
-
 [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 
 [Bioinformatics_Data_Skills.pdf](https://github.com/sux21/Tips_and_Tricks/files/11593310/Bioinformatics_Data_Skills.pdf)
