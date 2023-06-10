@@ -170,11 +170,23 @@ Read about symbolic link on [Symlink Tutorial in Linux – How to Create and Rem
 
 To create symbolic link, go to the directory where you want to create the symbolic link, type ``ln -s pathname_of_the_file .`` (the ``.`` at the end means that you want to put the symbolic link in the current directory).
 
+To remove symbolic link, use ``rm``. When remove symbolic link, don't include ``/``. If not, you will get the following error:
+```
+[xingyuan@info114 tools]$ rm bin/
+rm: cannot remove `bin/': Is a directory
+[xingyuan@info114 tools]$ rmdir bin/
+rmdir: failed to remove `bin/': Not a directory
+[xingyuan@info114 tools]$ rmdir bin
+rmdir: failed to remove `bin': Not a directory
+[xingyuan@info114 tools]$ rm bin
+rm: remove symbolic link `bin'? y
+```
+
 **Tips:**
 - Check the number of files before and after creating the symbolic link, by typing ``ls file_name | wc -l``. Use wildcards (* symbol) to select files, such as ``ls *fastq`` for selecting all files ending in fastq, and ``wc -l`` will count all the lines which you select.
 
 **Troubleshooting:**
-- If the system cannot find the symbolic link, check the pathname of the original files to see if they are the same one used to create the symbolic link. If not, re-create the symbolic link with the correct pathname. 
+- If the system cannot find the symbolic link, check the pathname of the original files to see if they are the same one used to create the symbolic link. If not, re-create the symbolic link with the correct pathname.  
 
 ## Environmental variable
 To show all environmental variables, type ``env``.
