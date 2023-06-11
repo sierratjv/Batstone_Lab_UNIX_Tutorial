@@ -226,14 +226,20 @@ The first line tells what program (e.g. bash) to use to interpret the script. T
 ``bash shell_script.sh`` <br>
 
 ## wget
-If flag ``—no-check-certificate`` is required, use ``md5sum`` or ``sha256sum`` to verify the download.
+use ``md5sum file`` or ``sha256sum file`` to verify the download.
 
 ## Conda
 offical website: https://docs.conda.io/projects/conda/en/4.6.1/index.html 
 
 Intro: https://docs.conda.io/projects/conda/en/4.6.1/user-guide/getting-started.html
 
+Commands: https://docs.conda.io/projects/conda/en/4.6.1/commands.html#conda-general-commands
+
 list Conda environments: ``conda-env list``
+
+list channals: ``conda config --show channels``
+
+see conda: ``conda info``
 
 ## For Loop
 It is useful for running a program for multiple files. 
