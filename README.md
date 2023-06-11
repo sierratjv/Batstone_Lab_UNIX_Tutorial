@@ -1,4 +1,4 @@
-# Learning Shell 
+# Learning Bash Shell 
 
 ## Resources
 [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
