@@ -1,5 +1,4 @@
-# Tips_and_Tricks
-UNIX tips and tricks for beginners
+# Learning Shell 
 
 ## Resources
 [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
