@@ -1,7 +1,4 @@
 # Bioinformatics softwares
-**Guide**
-- Official article explains how the software works.
-- Official website or the Github page explains how to use the software.
 
 ## Quality control tools
 ### FastQC 
