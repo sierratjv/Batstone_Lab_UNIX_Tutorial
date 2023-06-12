@@ -42,10 +42,6 @@ For official article, read [Darling AC, Mau B, Blattner FR, Perna NT. Mauve: mul
 For official website, read [Burrows-Wheeler Aligner](https://bio-bwa.sourceforge.net/). <br>
 For official article, read [Heng Li , Richard Durbin, Fast and accurate short read alignment with Burrows–Wheeler transform, Bioinformatics, Volume 25, Issue 14, July 2009, Pages 1754–1760](https://academic.oup.com/bioinformatics/article/25/14/1754/225615?login=false).
 
-### MAFFT
-For official website, read [MAFFT](https://mafft.cbrc.jp/alignment/software/). <br>
-For official article, read [Kazutaka Katoh and others, MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform, Nucleic Acids Research, Volume 30, Issue 14, 15 July 2002, Pages 3059–3066](https://academic.oup.com/nar/article/30/14/3059/2904316?login=true). 
-
 ## Annotation 
 ### Prokka
 For official website, read [Prokka: rapid prokaryotic genome annotation](https://github.com/tseemann/prokka). <br>
