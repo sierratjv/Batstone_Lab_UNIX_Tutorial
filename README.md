@@ -5,9 +5,6 @@ UNIX is an operating system. It has different versions, for example, Sun Solaris
 
 The following contents are done in bash. 
 
-References:
-[UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
-
 ## Resources
 [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 
