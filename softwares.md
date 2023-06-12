@@ -36,7 +36,7 @@ For official article, read [Alexey Gurevich and others, QUAST: quality assessmen
 For official website, read [Bandage](http://rrwick.github.io/Bandage/). <br>
 For official article, read [Ryan R. Wick and others, Bandage: interactive visualization of de novo genome assemblies, Bioinformatics, Volume 31, Issue 20, October 2015, Pages 3350–3352](https://academic.oup.com/bioinformatics/article/31/20/3350/196114). 
 
-## Aligners
+## Alignment 
 ### Mauve
 For official website, read [mauve](https://darlinglab.org/mauve/mauve.html). <br>
 For official article, read [Darling AC, Mau B, Blattner FR, Perna NT. Mauve: multiple alignment of conserved genomic sequence with rearrangements. Genome Res. 2004 Jul;14(7):1394-403](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC442156/). 
@@ -45,7 +45,7 @@ For official article, read [Darling AC, Mau B, Blattner FR, Perna NT. Mauve: mul
 For official website, read [Burrows-Wheeler Aligner](https://bio-bwa.sourceforge.net/). <br>
 For official article, read [Heng Li , Richard Durbin, Fast and accurate short read alignment with Burrows–Wheeler transform, Bioinformatics, Volume 25, Issue 14, July 2009, Pages 1754–1760](https://academic.oup.com/bioinformatics/article/25/14/1754/225615?login=false).
 
-## Annotation tools
+## Annotation 
 ### Prokka
 For official website, read [Prokka: rapid prokaryotic genome annotation](https://github.com/tseemann/prokka). <br>
 For official artical, read [Torsten Seemann, Prokka: rapid prokaryotic genome annotation, Bioinformatics, Volume 30, Issue 14, July 2014, Pages 2068–2069](https://academic.oup.com/bioinformatics/article/30/14/2068/2390517).
@@ -58,7 +58,7 @@ For official artical, read [Nadalin, F., Vezzi, F. & Policriti, A. GapFiller: a 
 ### IMAGE
 For official article, read [Tsai IJ, Otto TD, Berriman M. Improving draft assemblies by iterative mapping and assembly of short reads to eliminate gaps. Genome Biol. 2010;11(4):R41](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2884544/). 
 
-# Core genome identifier 
+# Core and accessory genomes 
 ### Spine 
 For offical website, read [Spine](https://github.com/egonozer/Spine). <br>
 For official article, read [Ozer, E.A., Allen, J.P. & Hauser, A.R. Characterization of the core and accessory genomes of Pseudomonas aeruginosa using bioinformatic tools Spine and AGEnt. BMC Genomics 15, 737 (2014)](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-737#citeas). 
