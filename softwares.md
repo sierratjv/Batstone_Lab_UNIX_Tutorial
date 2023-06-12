@@ -42,6 +42,10 @@ For official article, read [Darling AC, Mau B, Blattner FR, Perna NT. Mauve: mul
 For official website, read [Burrows-Wheeler Aligner](https://bio-bwa.sourceforge.net/). <br>
 For official article, read [Heng Li , Richard Durbin, Fast and accurate short read alignment with Burrows–Wheeler transform, Bioinformatics, Volume 25, Issue 14, July 2009, Pages 1754–1760](https://academic.oup.com/bioinformatics/article/25/14/1754/225615?login=false).
 
+## Clustal Omega
+For official website, read [Clustal Omega](http://www.clustal.org/omega/). <br>
+For official article, read [Sievers, Fabian, Wilm, Andreas, Dineen, David, Gibson, Toby J, Karplus, Kevin, Li, Weizhong, Lopez, Rodrigo, McWilliam, Hamish, Remmert, Michael, Söding, Johannes, Thompson, Julie D, Higgins, Desmond G, (2011) Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega. Molecular Systems Biology, 7. 539](https://www.embopress.org/doi/full/10.1038/msb.2011.75). 
+
 ## Annotation 
 ### Prokka
 For official website, read [Prokka: rapid prokaryotic genome annotation](https://github.com/tseemann/prokka). <br>
