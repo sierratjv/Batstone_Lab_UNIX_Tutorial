@@ -182,7 +182,8 @@ tr "ACGT" "TGCA" (create complementary strand)
 ### split 
 cut files horizontally
 
-~/split -b -d ">" fasta. (-b splits before the pattern, pattern is the > sign) -----> gives files, each with one fasta sequence
+~/split -b -d ">" fasta. (-b splits before the pattern, pattern is the > sign) -----> gives files, each with one fasta sequence (This is written by 
+Dr. Golding, type ``~brian/bin/split -h`` to see the help page``)
 
 ## May 31, 2023
 ### grep - global regular expression parser (flags -c -v -i -l -n)
@@ -559,7 +560,6 @@ done
 ##         echo $line
 ##     fi
 ## done } < $2
-
 ```
 
 ## suck up infomation and put into variable
@@ -616,6 +616,31 @@ ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCGGAAGAGCACACGTCTGAACTCCAGTCACT
 > M00719:224:000000000-AJ0H0:1:1101:17878:2093 1:N:0:1
 ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCGGAAGAGCACACGTCTGAACTCCAGTCACTAAGGCGAATCTCGTATGCCGTCTTCTGCTTGATTAAAATCTCTTTCTTTTTTTTTTTTTTTTTTTTTTTTTTTTCTTTTTTTTCTTTTCTTTTTTTTTTTTTTTTTTTCTTTTTTTTTTTCTTTTCCTTTTTTTTTTTTTTTTTTCTTTTTTTTTTTTTTTTTTTTTTTTT
 ```
+
+# June 12, 2023
+## link
+
+``ln -s original_file new_file``
+
+## Redirect
+
+'cmd args > outfile' sents output to a file
+'cmd args < infile' gets input 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
