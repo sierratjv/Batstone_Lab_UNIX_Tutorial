@@ -58,7 +58,14 @@ For official artical, read [Nadalin, F., Vezzi, F. & Policriti, A. GapFiller: a 
 ### IMAGE
 For official article, read [Tsai IJ, Otto TD, Berriman M. Improving draft assemblies by iterative mapping and assembly of short reads to eliminate gaps. Genome Biol. 2010;11(4):R41](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2884544/). 
 
-# Core genome identifier 
+## Pangenome/Core genome analysis 
 ### Spine 
 For offical website, go to [Spine](https://github.com/egonozer/Spine). <br>
-For official article, go to [Ozer, E.A., Allen, J.P. & Hauser, A.R. Characterization of the core and accessory genomes of Pseudomonas aeruginosa using bioinformatic tools Spine and AGEnt. BMC Genomics 15, 737 (2014)](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-737#citeas). 
+For official article, read [Ozer, E.A., Allen, J.P. & Hauser, A.R. Characterization of the core and accessory genomes of Pseudomonas aeruginosa using bioinformatic tools Spine and AGEnt. BMC Genomics 15, 737 (2014)](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-737#citeas). 
+
+### Roary 
+For official website, go to [Roary: the Pan Genome Pipeline](https://sanger-pathogens.github.io/Roary/). <br>
+For official article, read [Andrew J. Page and others, Roary: rapid large-scale prokaryote pan genome analysis, Bioinformatics, Volume 31, Issue 22, November 2015, Pages 3691–3693](https://academic.oup.com/bioinformatics/article/31/22/3691/240757). 
+
+
+
