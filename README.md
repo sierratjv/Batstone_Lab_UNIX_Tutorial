@@ -147,6 +147,9 @@ Type ``scp file_pathname username@host:directory_pathname``.
 ## Extract files
 To extract a tar.gz file, type ``tar -xf archive.tar.gz``
 
+## sed
+convert .txt to .csv, ``sed 's/ \+/,/g' file.txt > file.csv``
+
 ## Working in background 
 It is useful for running time-consuming commands, so you can close your computer without terminating the commands.  
 
