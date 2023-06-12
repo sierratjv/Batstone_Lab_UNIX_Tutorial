@@ -59,12 +59,12 @@ For official artical, read [Nadalin, F., Vezzi, F. & Policriti, A. GapFiller: a 
 ### IMAGE
 For official article, read [Tsai IJ, Otto TD, Berriman M. Improving draft assemblies by iterative mapping and assembly of short reads to eliminate gaps. Genome Biol. 2010;11(4):R41](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2884544/). 
 
-# Core and accessory genomes 
+## Core and accessory genomes 
 ### Spine 
 For offical website, read [Spine](https://github.com/egonozer/Spine). <br>
 For official article, read [Ozer, E.A., Allen, J.P. & Hauser, A.R. Characterization of the core and accessory genomes of Pseudomonas aeruginosa using bioinformatic tools Spine and AGEnt. BMC Genomics 15, 737 (2014)](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-737#citeas). 
 
-# Phylogenetics 
+## Phylogenetics 
 ### IQ-TREE
 For official website, read [IQ-TREE](http://www.iqtree.org/). <br>
 For official article, read [Lam-Tung Nguyen and others, IQ-TREE: A Fast and Effective Stochastic Algorithm for Estimating Maximum-Likelihood Phylogenies, Molecular Biology and Evolution, Volume 32, Issue 1, January 2015, Pages 268–274](https://academic.oup.com/mbe/article/32/1/268/2925592?login=true). 
