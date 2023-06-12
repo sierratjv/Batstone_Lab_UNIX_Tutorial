@@ -1,7 +1,8 @@
 
 # Bioinformatics softwares
-**Tips:**
-- Read the official article about how the program works, and then read the manual on the official website for the command for running the program.
+**Guide**
+- Official article explains how the program works.
+- Official website or the Github page explains how to use the program.
 
 ## Quality control tools
 ### FastQC 
