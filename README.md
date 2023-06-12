@@ -240,6 +240,9 @@ list channals: ``conda config --show channels``
 
 see conda: ``conda info``
 
+## Perl 
+View perl include path (@INC), type ``perl -e "print qq(@INC)"``
+
 ## For Loop
 It is useful for running a program for multiple files. 
 
