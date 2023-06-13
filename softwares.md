@@ -62,7 +62,7 @@ For official article, read [Tsai IJ, Otto TD, Berriman M. Improving draft assemb
 ## Core and accessory genomes 
 ### Spine 
 For offical website, read [Spine](https://github.com/egonozer/Spine). <br>
-For official article, read [Ozer, E.A., Allen, J.P. & Hauser, A.R. Characterization of the core and accessory genomes of Pseudomonas aeruginosa using bioinformatic tools Spine and AGEnt. BMC Genomics 15, 737 (2014)](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-737#citeas). 
+For official article, read [Ozer, E.A., Allen, J.P. & Hauser, A.R. Characterization of the core and accessory genomes of Pseudomonas aeruginosa using bioinformatic tools Spine and AGEnt. BMC Genomics 15, 737 (2014)](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-737). 
 
 ## Phylogenetics 
 ### IQ-TREE
