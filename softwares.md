@@ -57,7 +57,7 @@ For official artical, read [Torsten Seemann, Prokka: rapid prokaryotic genome an
 
 ## Gap fillers
 ### GapFiller
-An earlier artical: [Nadalin F, Vezzi F, Policriti A: GapFiller: a preprocessing step for the de novo assembly problem [abstract]. Proceedings on the 8th annual meeting of the Bioinformatics Italian Society. 2011, 13-14](http://bioinformatics.hsanmartino.it/bits_library/library/01025.pdf). <br>
+For an earlier article, read [Nadalin F, Vezzi F, Policriti A: GapFiller: a preprocessing step for the de novo assembly problem [abstract]. Proceedings on the 8th annual meeting of the Bioinformatics Italian Society. 2011, 13-14](http://bioinformatics.hsanmartino.it/bits_library/library/01025.pdf). <br>
 For official artical, read [Nadalin, F., Vezzi, F. & Policriti, A. GapFiller: a de novo assembly approach to fill the gap within paired reads. BMC Bioinformatics 13 (Suppl 14), S8 (2012)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-13-S14-S8). 
 
 ### IMAGE
