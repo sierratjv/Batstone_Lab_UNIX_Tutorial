@@ -627,20 +627,70 @@ ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCGGAAGAGCACACGTCTGAACTCCAGTCACT
 'cmd args > outfile' sents output to a file
 'cmd args < infile' gets input 
 
+## alignment practice
 
+# June 13, 2023
+## split help
+``~brian/bin/split -h``
 
+## alignment 
+### clustalo
+default format, fasta
+```
+clustalo -i ~brian/example.fasta -o clustalo.aln -v --threads=5
+```
 
+clustal format, align line by line 
+```
+clustalo -i ~brian/example.fasta -o clustalo.aln -v --threads=5 --outfmt=clustal
+```
 
+phylip format, title is 10 characters, 2 numbers at the top (1st: number of sequences, 2nd: lenghth of the sequence)
+```
+clustalo -i ~brian/example.fasta -o clustalo.2.aln -v --threads=5 --outfmt=phylip
+```
 
+In UNIX, bin/ is executable files. 
 
+### blast
+blastn: nucleotide
 
+blastp: protein
 
+blastx: DNA to protein, and search protein
 
+```
+scratch/blastdb/ (blast database), allows to search locally
 
+BOLD: barcode of life database, elephant database, ...
 
+refseq_protein: curated, people think it is true
+```
 
+```
+blastn -query ~brian/exampleForBlast.fasta -out results113.out -db /scratch/blastdb/nt_v5
+```
 
+```
+/usr/local/blast/2.13.0+/bin/blastn -query ~brian/exampleForBlast.fasta -out crap3 -db /scratch/blastdb/nt
+```
 
+```
+/usr/local/blast/2.13.0+/bin/blastn -query ~brian/exampleForBlast.fasta -out resultNCBI.out -db nt -remote
+```
+(-remote sends the query to blast, use nt database on NCBI, don't send query after query)
+
+Make blast database:
+```
+makeblastdb -in Streptomyces_venezuelae.faa -title "Streptomyces venezuelae" -dbtype prot
+
+Will create 3 index files: .phr, .pin, .psq
+```
+
+Blast E.coli against Streptomyces venezuelae database just created
+```
+blastp -query 
+```
 
 
 
