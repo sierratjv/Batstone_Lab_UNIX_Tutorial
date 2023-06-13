@@ -46,6 +46,10 @@ For official article, read [Heng Li , Richard Durbin, Fast and accurate short re
 For official website, read [Clustal Omega](http://www.clustal.org/omega/). <br>
 For official article, read [Sievers, Fabian, Wilm, Andreas, Dineen, David, Gibson, Toby J, Karplus, Kevin, Li, Weizhong, Lopez, Rodrigo, McWilliam, Hamish, Remmert, Michael, Söding, Johannes, Thompson, Julie D, Higgins, Desmond G, (2011) Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega. Molecular Systems Biology, 7. 539](https://www.embopress.org/doi/full/10.1038/msb.2011.75). 
 
+### MUMmer 
+For official website, read [Ultra-fast alignment of large-scale DNA and protein sequences](https://mummer.sourceforge.net/). <br>
+For official article, read [Arthur L. Delcher and others, Alignment of whole genomes, Nucleic Acids Research, Volume 27, Issue 11, 1 June 1999, Pages 2369–2376](https://academic.oup.com/nar/article/27/11/2369/1258501?login=false). 
+
 ## Annotation 
 ### Prokka
 For official website, read [Prokka: rapid prokaryotic genome annotation](https://github.com/tseemann/prokka). <br>
