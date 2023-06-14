@@ -707,4 +707,13 @@ it has a manual page, ``man fastp``
 
 fastp --in1 701-501_S1_L001_R1_001.fastq.gz --in2 701-501_S1_L001_R2_001.fastq.gz --merge --merged_out Trimmed/bioproject16_merged.fastq.gz --out1 Trimmed/bioproject16_r1.fastq.gz --out2 Trimmed/bioproject16_r2.fastq.gz --detect_adapter_for_pe --correction --low_complexity_filter --cut_right --cut_right_window_size 4 --cut_right_mean_quality 15 --cut_front --cut_front_window_size 1 --cut_front_mean_quality 3 --cut_tail --cut_tail_window_size 1 --cut_tail_mean_quality 3 --overlap_len_require 15 --length_required 30 --html FastpLogs/bioproject16.html --json FastpLogs/bioproject16.json --thread 5 --report_title bioproject16 --unpaired1 Trimmed/bioproject16_u1.fastq.gz --unpaired2 Trimmed/bioproject16_u2.fastq.gz --failed_out FailedQC/bioproject16_failed.fastq.gz
 ```
+### fastqc 
+``fastqc --help``
+
+``fastqc -o myfastqc 701-501_S1_L001_R1_001.fastq.gz 701-501_S1_L001_R2_001.fastq.gz``
+
+
+
+
+
 
