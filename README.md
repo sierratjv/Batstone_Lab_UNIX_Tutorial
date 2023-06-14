@@ -259,6 +259,8 @@ It is useful for running a program for multiple files.
 
 For instructions, read [Lesson 06: For Loops](https://github.com/raynamharris/Shell_Intro_for_Bioinformatics_STG/blob/master/lessons/06_ForLoops.md).
 
+manipulating string (useful for writing loop): https://mywiki.wooledge.org/BashFAQ/100, https://tldp.org/LDP/abs/html/string-manipulation.html
+
 An example I used to run Trimmomatic:
 ```
 #!/bin/bash 
