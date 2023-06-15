@@ -251,10 +251,10 @@ see conda: ``conda info``
 ## Perl 
 View perl include path (@INC), type ``perl -e "print qq(@INC)"``
 
+add dir to @INC: ``export PERL5LIB=/home/foobar/code``
+
 ## Convert .txt to .csv (veiw files in excel or google spreadsheets)
 ``cat ifile.txt | tr -s '[:blank:]' ',' > ofile.txt``
-
-add dir to @INC: ``export PERL5LIB=/home/foobar/code``
 
 ## For Loop
 It is useful for running a program for multiple files. 
