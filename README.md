@@ -242,7 +242,7 @@ Intro: https://docs.conda.io/projects/conda/en/4.6.1/user-guide/getting-started.
 
 Commands: https://docs.conda.io/projects/conda/en/4.6.1/commands.html#conda-general-commands
 
-list Conda environments: ``conda-env list``
+list Conda environments: ``conda info --envs``
 
 list channals: ``conda config --show channels``
 
