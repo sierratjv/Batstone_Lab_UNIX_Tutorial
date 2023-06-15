@@ -707,13 +707,63 @@ it has a manual page, ``man fastp``
 
 fastp --in1 701-501_S1_L001_R1_001.fastq.gz --in2 701-501_S1_L001_R2_001.fastq.gz --merge --merged_out Trimmed/bioproject16_merged.fastq.gz --out1 Trimmed/bioproject16_r1.fastq.gz --out2 Trimmed/bioproject16_r2.fastq.gz --detect_adapter_for_pe --correction --low_complexity_filter --cut_right --cut_right_window_size 4 --cut_right_mean_quality 15 --cut_front --cut_front_window_size 1 --cut_front_mean_quality 3 --cut_tail --cut_tail_window_size 1 --cut_tail_mean_quality 3 --overlap_len_require 15 --length_required 30 --html FastpLogs/bioproject16.html --json FastpLogs/bioproject16.json --thread 5 --report_title bioproject16 --unpaired1 Trimmed/bioproject16_u1.fastq.gz --unpaired2 Trimmed/bioproject16_u2.fastq.gz --failed_out FailedQC/bioproject16_failed.fastq.gz
 ```
+
 ### fastqc 
 ``fastqc --help``
 
 ``fastqc -o myfastqc 701-501_S1_L001_R1_001.fastq.gz 701-501_S1_L001_R2_001.fastq.gz``
 
+# June 15, 2023
+## align reads back to genome
+### bwa
+
+index allows to map reads back to genome quicker
+
+type ``gbk`` and press ``tab`` twice, there is ``gbk2fasta`` to change gbk file to fasta file
+
+type ``fasta`` and press ``tab`` twice, you will find ``fasta2fasta      fasta2phy        fasta2snps       fastaFromBed     
+fasta2fastq      fasta2phyI       fasta2stockholm``
+
+### samtools
+change ``sam`` to ``bam`` files 
+
+### cdhit
+find does read back to a gene
+
+### edgeR, deseq2, voom
+analyze gene expression
+
+## phylogenetic trees
+### iqtree
+more samples, more possible trees, but program cannot go through all trees
+
+```
+options:
+-t  provide a starting tree 
+-wbt write bootstrap trees to .ufboot file (default: none)
+
+RATE HETEROGENEITY different sites evolve at different rates
 
 
+example: iqtree -s clustalo.aln -bb 1000 -wbt
 
+.log file:
+
+Alignment has 25 sequences with 441 columns and 284 patterns (229 informative sites)      column: width of alignment 
+
+```
+Change name in vi:
+```
+%s/Rabbit/\=printf(">Rabbit%d", line('.'))
+```
+
+visualize trees:
+```
+ssh -Y xingyuan@info.mcmaster.ca
+ssh -X info113
+(download XQuartz)
+
+figtree clustalo.aln.contree
+```
 
 
