@@ -1,5 +1,5 @@
 # Notes from Dr. Golding's UNIX Workshop
-## May 29, 2023
+# May 29, 2023
 ### Introduction
 different versions of UNIX: AIX, HP/UX, SunOS, ULTRIX, OSX, FreeBSD, LINUX
 
@@ -106,7 +106,7 @@ create file
 ### open 
 open any files
 
-## May 30, 2023
+# May 30, 2023
 **command format: flags and arguments**
 
 cmd -flags --flags args args args
@@ -185,7 +185,7 @@ cut files horizontally
 ~/split -b -d ">" fasta. (-b splits before the pattern, pattern is the > sign) -----> gives files, each with one fasta sequence (This is written by 
 Dr. Golding, type ``~brian/bin/split -h`` to see the help page``)
 
-## May 31, 2023
+# May 31, 2023
 ### grep - global regular expression parser (flags -c -v -i -l -n)
 grep pattern file
 
@@ -256,7 +256,7 @@ yourLapTop% scp std#@info.mcmaster.ca:file newfile (this has to be done on your 
 
 yourLapTop% scp file std#@info.mcmaster.ca:newfile (this has to be done on your laptop, not the server)
 
-## Jun 1, 2023
+# Jun 1, 2023
 
 ### scp 
 ``xingyuansu@Xingyuans-MacBook-Pro Desktop % scp xingyuan@info.mcmaster.ca:/home/xingyuan/unixworkshop/example.fasta.\* .`` (**the \ skips the sections**)
@@ -374,7 +374,7 @@ pdftotext (change pdf to a text; work in pipe)
 ### alias ls="list" (type list is the same as ls, ls will still work)
 ls (use alias); \ls (do not use alias)
 
-## Jun 2, 2023
+# Jun 2, 2023
 ### toss 
 throw things away, same as ``cat > /dev/null``
 
@@ -398,7 +398,7 @@ type ``:q!`` to exit
 
 type ``vimtutor``
 
-## June 5, 2023
+# June 5, 2023
 ## vi
 
 ``.`` repeats the last command
@@ -765,5 +765,34 @@ ssh -X info113
 
 figtree clustalo.aln.contree
 ```
+
+# June 16, 2023
+## Tex and Latex 
+markdown language
+
+https://ctan.org
+
+https://overleaf.org
+
+https://en.wikibooks.org/wiki/LaTeX
+
+https://tex.stackexchange.com
+
+```
+pdflatex first_page.tex
+
+output: first_page.pdf 
+```
+
+Many commands exist within environments. They begin with \begin{cmd}.
+
+Many characters are special to the system. Escape if needed.
+
+fixed length: \setlength
+
+
+
+
+
 
 
