@@ -68,6 +68,10 @@ For official article, read [Tsai IJ, Otto TD, Berriman M. Improving draft assemb
 For offical website, read [Spine](https://github.com/egonozer/Spine). <br>
 For official article, read [Ozer, E.A., Allen, J.P. & Hauser, A.R. Characterization of the core and accessory genomes of Pseudomonas aeruginosa using bioinformatic tools Spine and AGEnt. BMC Genomics 15, 737 (2014)](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-737). 
 
+### Roary
+For official website, read [Roary: the Pan Genome Pipeline](http://sanger-pathogens.github.io/Roary/). <br>
+For official article, read [Andrew J. Page and others, Roary: rapid large-scale prokaryote pan genome analysis, Bioinformatics, Volume 31, Issue 22, November 2015, Pages 3691–3693](https://academic.oup.com/bioinformatics/article/31/22/3691/240757).
+
 ## Phylogenetics 
 ### IQ-TREE
 For official website, read [IQ-TREE](http://www.iqtree.org/). <br>
