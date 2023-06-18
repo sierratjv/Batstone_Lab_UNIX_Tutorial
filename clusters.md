@@ -12,7 +12,7 @@
 ### Apply an account
 Apply your account on Compute Canada Data Base (CCDB): https://ccdb.alliancecan.ca/security/login. 
 
-**If you are students, you need a Compute Canada Role Identifier (CCDI) from your professor(s) for application.**
+**If you are students, you need a Compute Canada Role Identifier (CCRI) from your professor(s) for application.**
 
 FAQ page: https://docs.alliancecan.ca/wiki/Frequently_Asked_Questions_about_the_CCDB.
 
