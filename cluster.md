@@ -28,6 +28,6 @@ Transfer files from info server to compute canada server: ``[name@info114 ~]$ rs
 
 Use sha256sum check files, run the commands on both servers: ``[name@server ~]$ find path/to/files -type f -print0 | xargs -0 sha256sum | tee checksum-result.info.log`` 
 
-Use ``diff`` to check if there are differences between checksum, no output if no difference: ``diff checksum-result.info.log checksum-result.graham.log`
+Use ``diff`` to check if there are differences between checksum, no output if no difference: ``diff checksum-result.info.log checksum-result.graham.log``
 
 
