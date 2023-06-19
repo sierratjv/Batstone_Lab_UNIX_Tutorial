@@ -1,6 +1,3 @@
-# Info 
-
-
 # Compute Canada/Digital Research Alliance of Canada
 ## Resources for learning
 Watch this video: https://www.youtube.com/watch?v=JY1jo9GRffg&t=290s.
