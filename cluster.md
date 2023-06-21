@@ -98,5 +98,5 @@ The script looks like:
 #SBATCH --account=def-someuser
 
 commands you want to run
-``
+```
 
