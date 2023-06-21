@@ -104,7 +104,7 @@ a\(
 create file
 
 ### open 
-open any files
+open any files (.html, .pdf).  
 
 # May 30, 2023
 **command format: flags and arguments**
