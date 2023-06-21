@@ -25,7 +25,33 @@ info114:  13:43:05 up 204 days, 13:16,  3 users,  load average: 0.97, 0.95, 0.91
 info115:  13:43:05 up 205 days, 23:01,  6 users,  load average: 31.33, 26.07, 26.98
 info2020: 13:40:01 up 584 days, 17:18,  8 users,  load average: 58.73, 57.01, 57.33
 ```
+Type ``top`` to see what jobs are running currently.
+```
+top - 16:41:15 up 224 days, 16:14,  4 users,  load average: 1.18, 1.11, 1.01
+Tasks: 1313 total,   2 running, 1311 sleeping,   0 stopped,   0 zombie
+Cpu(s):  0.0%us,  0.0%sy,  2.1%ni, 97.9%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  264632216k total, 224453896k used, 40178320k free,   186608k buffers
+Swap:  1052668k total,  1051348k used,     1320k free, 220917416k cached
 
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+35231 xingyuan  30  10 26808  14m 1428 R 99.7  0.0   0:29.74 glimmer3           
+34851 xingyuan  30  10  141m 4668 2968 S  0.7  0.0   0:03.43 wget               
+35295 xingyuan  30  10 20172 2456 1104 R  0.7  0.0   0:00.14 top                
+ 4880 root      20   0  490m 6464 1436 S  0.3  0.0 169:10.42 fail2ban-server    
+    1 root      20   0 23600  552  332 S  0.0  0.0   0:06.39 init               
+    2 root      20   0     0    0    0 S  0.0  0.0   0:00.42 kthreadd           
+    3 root      RT   0     0    0    0 S  0.0  0.0   0:24.32 migration/0        
+    4 root      20   0     0    0    0 S  0.0  0.0   0:58.70 ksoftirqd/0        
+    5 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/0          
+    6 root      RT   0     0    0    0 S  0.0  0.0   0:17.39 watchdog/0         
+    7 root      RT   0     0    0    0 S  0.0  0.0   0:20.17 migration/1        
+    8 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/1          
+    9 root      20   0     0    0    0 S  0.0  0.0   0:49.50 ksoftirqd/1        
+   10 root      RT   0     0    0    0 S  0.0  0.0   0:18.08 watchdog/1         
+   11 root      RT   0     0    0    0 S  0.0  0.0   0:13.32 migration/2        
+   12 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/2          
+   13 root      20   0     0    0    0 S  0.0  0.0   0:38.90 ksoftirqd/2        
+```
 # Compute Canada/Digital Research Alliance of Canada
 ## Guides
 Beginner video: https://www.youtube.com/watch?v=JY1jo9GRffg&t=290s.
