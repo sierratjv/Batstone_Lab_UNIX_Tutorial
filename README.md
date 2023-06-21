@@ -47,7 +47,7 @@ Type ``ls -l``, it will list the infomation, such as file permissionns (drwx----
 
 Type ``ls -S``, it will list the files from largest size to smallest size.
 
-Type ``man ls``, this will open a manual page for ls, it has all the options of how to use ls. 
+Type ``man ls``, this will open a manual page for ls, it has all the options of how to use ls. Press <kbd>q</kbd> to quit the manual.
 
 You can also combline the flags, such as ``ls -lS``.
 
@@ -81,6 +81,10 @@ To make a new directory, type ``mkdir dir``(``dir`` is the name for that directo
 ## touch 
 Type ``touch file1 file2 file3``, it will create file1, file2, file3. 
 
+## cp - copy files and directories
+Type ``cp file1 file2``, it will copy contents in file1 to file2 (if file2 exists, it will ask whether to overwrite it or not; if file2 does not exit, it will create file2).
+
+Type ``cp file{1..5} folder``, it will copy file1, file2, file3, file4, file5 to a directory called folder (folder needs to be existed before copying files). 
 
 ## rm - remove files or directories
 **This command can be dangerous. For example, ``rm *`` will remove everything from your current directory. There is no recovery for removed files.**
@@ -89,7 +93,7 @@ To delete a file, type ``rm file`` (``file`` is the name of the file).
 
 To delete an empty directory, type ``rmdir directory`` (``directory`` is the name of the directory).
 
-Type ``rm -r directory`` to remove directory with its contents (``directory`` is the name of the directory which you want to delete). You will notice you have to enter "yes" before deleting each file. To delete the contents without doing that, run the command in shell script. See [Shell script](#shell-script).
+Type ``rm -r dir``, it will go into to the directory and removes everyting. 
 
 ## mv - move (rename) files
 
