@@ -61,32 +61,30 @@ To list files in the current directory ending with **...logy**, type ``ls *logy`
 To count the number of files ending in .fastq, type ``ls *.fastq | wc -l``. 
 
 ## man - format and display the on-line manual pages
-This is useful for finding out different options for a command. For example, by typing ``man ls``, you can find different options for the command, ``ls -a``, ``ls -A``, ``cd --author``, etc. 
+Type ``man cmd`` to see the manual of a command (``cmd`` is the command you want to look up).
 
-Type ``man command`` to see the manual of a command (``command`` is the command you want to look up).
-
-Type ``man ls`` to open the manual for the ``ls`` command. Type ``q`` and press <kbd>Enter</kbd> to exit.
-
-**example**
-
-Type ``man ls``. 
+Type ``man man`` to open a manual page for man. 
 
 ## cd - change directory 
-Directory is a folder.
-
-To move ahead one directory, type ``cd directory`` (``directory`` is the name of the directory you want to go to).
+To move ahead one directory, type ``cd dir`` (``dir`` is the directory you want to go to).
 
 To move back one directory, type ``cd ..``.
 
-To move to home directory from any directories, type ``cd``. 
+To move to home directory from any directories, type ``cd`` or ``cd ~``. 
 
 ## pwd - print name of current/working directory
-To view the absolute pathname of a directory, ``cd`` to that directory first, then type ``pwd``.
+Type ``pwd``, it will print the path of your current directory.
 
 ## mkdir - make directories
-To make a new directory, type ``mkdir directory``(``directory`` is the name for that directory). Type ``ls`` to verify the directory is made successfully. 
+To make a new directory, type ``mkdir dir``(``dir`` is the name for that directory). Type ``ls`` to verify the directory is made successfully. 
+
+## touch 
+Type ``touch file1 file2 file3``, it will create file1, file2, file3. 
+
 
 ## rm - remove files or directories
+**This command can be dangerous. For example, ``rm *`` will remove everything from your current directory. There is no recovery for removed files.**
+
 To delete a file, type ``rm file`` (``file`` is the name of the file).
 
 To delete an empty directory, type ``rmdir directory`` (``directory`` is the name of the directory).
