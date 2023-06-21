@@ -5,7 +5,7 @@ UNIX is an operating system. The UNIX is made up of kernel, shell, and programs.
 
 The following contents are done in bash shell. 
 
-## Resources
+## Learning Resources
 [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 
 [Bioinformatics_Data_Skills.pdf](https://github.com/sux21/Tips_and_Tricks/files/11593310/Bioinformatics_Data_Skills.pdf)
@@ -22,7 +22,6 @@ The following contents are done in bash shell.
 ``~`` represents the home directory.
 
 ## Using Keyboard
-
 Press <kbd>Control</kbd> + <kbd>C</kbd> to delete the command that you type in.
 
 Press <kbd>↑</kbd> to search the commands that you typed before.
@@ -35,43 +34,22 @@ Press <kbd>Control</kbd> + <kbd>E</kbd> to go to the end of a command.
 
 Press <kbd>Control</kbd> + <kbd>Z</kbd> to stop a command that is running.
 
-## Info server 
-Info server consists a head (called info) and serveral nodes (called info16, info17, info18, ...). Head and nodes are different computers.
-
-Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
-
-Login to nodes, for example, info114: type ``ssh info114``. Then type ``password``. Type ``exix`` to leave the node and go back to the server head. 
-
-In the head, type ``usage`` to how these computers are being used.
-```
- Usage script is located in /usr/local/bin 
- Collecting information ... please wait 
-
-info:    13:43:05 up 37 days, 23:20, 11 users,  load average: 0.00, 0.02, 0.05
-
-info16:  13:43:05 up 31 days,  2:52,  0 users,  load average: 0.00, 0.00, 0.00
-info17:  13:43:05 up 31 days,  2:54,  1 user,  load average: 0.23, 0.33, 0.27
-info18:  13:43:05 up 30 days, 23:01,  1 user,  load average: 0.17, 0.31, 0.37
-info19:  13:43:05 up 30 days, 23:01,  0 users,  load average: 0.24, 0.15, 0.10
-info20:  13:43:05 up 1 day, 23:47,  2 users,  load average: 0.35, 0.23, 0.09
-
-info113:  13:43:05 up 205 days, 22:50,  5 users,  load average: 0.01, 0.10, 0.07
-info114:  13:43:05 up 204 days, 13:16,  3 users,  load average: 0.97, 0.95, 0.91
-info115:  13:43:05 up 205 days, 23:01,  6 users,  load average: 31.33, 26.07, 26.98
-info2020: 13:40:01 up 584 days, 17:18,  8 users,  load average: 58.73, 57.01, 57.33
-```
-
-**Tips:**
-- Run programs on **nodes**. Running programs on the head (which is the place when you login) will greatly slow the system. 
-
 ## ls - list directory contents
-To list content in a directory, type ``ls``.
+Type ``ls``, and it will list contents in your current directory. 
 
-To list hidden files (files beginning with ``.``), type ``ls -a``. 
+Type ``ls -a``, and it will list hidden files (files beginning with ``.``) in your current directory.
 
-To list access rights of files, type ``ls -l``. Read [How to change directory permissions in Linux with chmod](https://www.pluralsight.com/blog/it-ops/linux-file-permissions) for instructions about how to change access rights. 
+Type ``ls --color``, it will list and colorize output in your current directory. 
 
-Type ``man ls`` to open the manual for the ``ls`` command. Type ``q`` and press <kbd>Enter</kbd> to exit.
+Type ``ls -F``, it will list and classify the files in your current directory. For example, the name of a directory will have ``/`` at the end. 
+
+Type ``ls -l``, it will list the infomation, such as file permissionns (drwx------), owner name, owner group, file size, last modification time. Learn about file permissions here: https://www.pluralsight.com/blog/it-ops/linux-file-permissions. 
+
+Type ``ls -S``, it will list the files from largest size to smallest size.
+
+Type ``man ls``, this will open a manual page for ls, it has all the options of how to use ls. 
+
+You can also combline the flags, such as ``ls -lS``.
 
 **Wildcard** <br>
 This allows you to work with multiple files at the same time using ``*`` symbol. 
@@ -86,6 +64,8 @@ To count the number of files ending in .fastq, type ``ls *.fastq | wc -l``.
 This is useful for finding out different options for a command. For example, by typing ``man ls``, you can find different options for the command, ``ls -a``, ``ls -A``, ``cd --author``, etc. 
 
 Type ``man command`` to see the manual of a command (``command`` is the command you want to look up).
+
+Type ``man ls`` to open the manual for the ``ls`` command. Type ``q`` and press <kbd>Enter</kbd> to exit.
 
 **example**
 
