@@ -1,3 +1,31 @@
+# Info server
+**Do not run programs on the head, which is the place you first login. Login to a node immediately.**
+
+Info server consists a head (called info) and serveral nodes (called info16, info17, info18, ...). Head and nodes are different computers.
+
+Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
+
+Login to nodes, for example, info114: type ``ssh info114``. Then type ``password``. Type ``exix`` to leave the node and go back to the server head. 
+
+In the head, type ``usage`` to how these computers are being used.
+```
+ Usage script is located in /usr/local/bin 
+ Collecting information ... please wait 
+
+info:    13:43:05 up 37 days, 23:20, 11 users,  load average: 0.00, 0.02, 0.05
+
+info16:  13:43:05 up 31 days,  2:52,  0 users,  load average: 0.00, 0.00, 0.00
+info17:  13:43:05 up 31 days,  2:54,  1 user,  load average: 0.23, 0.33, 0.27
+info18:  13:43:05 up 30 days, 23:01,  1 user,  load average: 0.17, 0.31, 0.37
+info19:  13:43:05 up 30 days, 23:01,  0 users,  load average: 0.24, 0.15, 0.10
+info20:  13:43:05 up 1 day, 23:47,  2 users,  load average: 0.35, 0.23, 0.09
+
+info113:  13:43:05 up 205 days, 22:50,  5 users,  load average: 0.01, 0.10, 0.07
+info114:  13:43:05 up 204 days, 13:16,  3 users,  load average: 0.97, 0.95, 0.91
+info115:  13:43:05 up 205 days, 23:01,  6 users,  load average: 31.33, 26.07, 26.98
+info2020: 13:40:01 up 584 days, 17:18,  8 users,  load average: 58.73, 57.01, 57.33
+```
+
 # Compute Canada/Digital Research Alliance of Canada
 ## Resources for learning
 Watch this video: https://www.youtube.com/watch?v=JY1jo9GRffg&t=290s.
