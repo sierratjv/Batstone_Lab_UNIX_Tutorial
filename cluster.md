@@ -42,7 +42,7 @@ Read the how-to guides on this web page to learn how to transfer files and run j
 ## Apply an account
 Apply your account on Compute Canada Data Base (CCDB): https://ccdb.alliancecan.ca/security/login. 
 
-**If you are a student, you need a Compute Canada Role Identifier (CCRI) from your professor(s) for application.**
+**If you are a student, you need a Compute Canada Role Identifier (CCRI) from your professor for application.**
 
 ## Login 
 Login to login node using, for example, ``ssh username@graham.computecanada.ca``.
