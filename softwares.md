@@ -63,7 +63,7 @@ For official artical, read [Nadalin, F., Vezzi, F. & Policriti, A. GapFiller: a 
 ### IMAGE
 For official article, read [Tsai IJ, Otto TD, Berriman M. Improving draft assemblies by iterative mapping and assembly of short reads to eliminate gaps. Genome Biol. 2010;11(4):R41](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2884544/). 
 
-## Core and accessory genomes 
+## Pan genome, Core genome, and Accessory genome
 ### Spine 
 For offical website, read [Spine](https://github.com/egonozer/Spine). <br>
 For official article, read [Ozer, E.A., Allen, J.P. & Hauser, A.R. Characterization of the core and accessory genomes of Pseudomonas aeruginosa using bioinformatic tools Spine and AGEnt. BMC Genomics 15, 737 (2014)](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-737). 
@@ -71,6 +71,16 @@ For official article, read [Ozer, E.A., Allen, J.P. & Hauser, A.R. Characterizat
 ### Roary
 For official website, read [Roary: the Pan Genome Pipeline](http://sanger-pathogens.github.io/Roary/). <br>
 For official article, read [Andrew J. Page and others, Roary: rapid large-scale prokaryote pan genome analysis, Bioinformatics, Volume 31, Issue 22, November 2015, Pages 3691–3693](https://academic.oup.com/bioinformatics/article/31/22/3691/240757).
+
+## Genes Prediction
+### Glimmer
+For official website, read [Glimmer](http://ccb.jhu.edu/software/glimmer/index.shtml). <br>
+For official article, read [S. Salzberg, A. Delcher, S. Kasif, and O. White. Microbial gene identification using interpolated Markov models, Nucleic Acids Research 26:2 (1998), 544-548](https://academic.oup.com/nar/article/26/2/544/1174019). 
+
+## Protein Function Classification
+### IntroProScan 
+For official website, read [InterProScan documentation](https://interproscan-docs.readthedocs.io/en/latest/). <br>
+For official article, read [Evgeni M. Zdobnov , Rolf Apweiler, InterProScan – an integration platform for the signature-recognition methods in InterPro , Bioinformatics, Volume 17, Issue 9, September 2001, Pages 847–848](https://academic.oup.com/bioinformatics/article/17/9/847/206564?login=true). 
 
 ## Phylogenetics 
 ### IQ-TREE
