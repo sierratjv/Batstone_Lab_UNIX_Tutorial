@@ -86,4 +86,17 @@ Use sha256sum check files, run the commands on both servers: ``[name@server ~]$ 
 
 Use ``diff`` to check if there are differences between checksum, no output if no difference: ``diff checksum-result.info.log checksum-result.graham.log``
 
+## Run jobs
+Write your job in a script, and use ``sbatch`` to submit job.
+```
+sbatch simple_job.sh
+```
+The script looks like:
+```
+#!/bin/bash
+#SBATCH --time=00:15:00
+#SBATCH --account=def-someuser
+
+commands you want to run
+``
 
