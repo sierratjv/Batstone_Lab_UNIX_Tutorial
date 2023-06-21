@@ -27,8 +27,8 @@ info2020: 13:40:01 up 584 days, 17:18,  8 users,  load average: 58.73, 57.01, 57
 ```
 
 # Compute Canada/Digital Research Alliance of Canada
-## Resources for learning
-Watch this video: https://www.youtube.com/watch?v=JY1jo9GRffg&t=290s.
+## Guides
+Beginner video: https://www.youtube.com/watch?v=JY1jo9GRffg&t=290s.
 
 Read the how-to guides on this web page to learn how to transfer files and run jobs: https://docs.alliancecan.ca/wiki/Technical_documentation. 
 
