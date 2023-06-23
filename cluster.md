@@ -100,3 +100,14 @@ The script looks like:
 commands you want to run
 ```
 
+## Check jobs status
+```
+squeue -u username (replace username with your username)
+```
+Output may look like:
+```
+JOBID       USER              ACCOUNT           NAME  ST  TIME_LEFT NODES CPUS TRES_PER_N MIN_MEM NODELIST (REASON) 
+7383005    sux21     def-batstone_cpu        test.sh  PD      10:00     1   32        N/A     10G  (Priority) 
+
+```
+
