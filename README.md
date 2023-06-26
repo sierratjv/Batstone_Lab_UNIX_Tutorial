@@ -87,9 +87,6 @@ To delete an empty directory, type ``rmdir dir``.
 Type ``rm -r dir``, it will go into to the directory and removes everyting. 
 
 ## mv - move (rename) files
-
-**Move all files from one directory to another directory**
-
 Type ``mkdir dir1 dir2`` to create two directories named dir1 and dir2. Type ``ls`` to confirm.
 
 Type ``cd dir1`` to go into dir1, and type ``touch file1, file2, file3`` to create 3 files. Type ``ls`` to confirm. Type ``cd ..`` to exit dir1.
