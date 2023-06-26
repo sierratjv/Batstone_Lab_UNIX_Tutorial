@@ -51,15 +51,6 @@ Type ``man ls``, this will open a manual page for ls, it has all the options of 
 
 You can also combline the flags, such as ``ls -lS``.
 
-**Wildcard** <br>
-This allows you to work with multiple files at the same time using ``*`` symbol. 
-
-To list files in the current directory beginning with **bio...**, type ``ls bio*`` .
-
-To list files in the current directory ending with **...logy**, type ``ls *logy``.
-
-To count the number of files ending in .fastq, type ``ls *.fastq | wc -l``. 
-
 ## man - format and display the on-line manual pages
 Type ``man cmd`` to see the manual of a command (``cmd`` is the command you want to look up).
 
