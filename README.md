@@ -80,9 +80,9 @@ Type ``cp file{1..5} folder``, it will copy file1, file2, file3, file4, file5 to
 ## rm - remove files or directories
 **This command can be dangerous. For example, ``rm *`` will remove everything from your current directory. There is no recovery for removed files.**
 
-To delete a file, type ``rm file`` (``file`` is the name of the file).
+To delete a file, type ``rm file`` . 
 
-To delete an empty directory, type ``rmdir directory`` (``directory`` is the name of the directory).
+To delete an empty directory, type ``rmdir dir``. 
 
 Type ``rm -r dir``, it will go into to the directory and removes everyting. 
 
@@ -90,7 +90,11 @@ Type ``rm -r dir``, it will go into to the directory and removes everyting.
 
 **Move all files from one directory to another directory**
 
-``mv pathname_old_directory/* pathname_new_directory/`` (``*`` symbol selects all files in the old directory). 
+Type ``mkdir dir1 dir2`` to create two directories named dir1 and dir2. Type ``ls`` to confirm.
+
+Type ``cd dir1`` to go into dir1, and type ``touch file1, file2, file3`` to create 3 files. Type ``ls`` to confirm. Type ``cd ..`` to exit dir1.
+
+Type ``mv dir1/* dir2/`` to move contents from dir1 to dir2 (* symbol selects all files in directory 1). Type ``ls dir1``, it should return nothing, meaning dir1 is empty. Type ``ls dir2``, you should have file1, file2, file3 in dir2, meaning the 3 files are transferred.
 
 ## less - open files
 To open a file, type ``less file`` (``file`` is the name of the file).
