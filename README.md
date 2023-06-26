@@ -91,7 +91,7 @@ Type ``mkdir dir1 dir2`` to create two directories named dir1 and dir2. Type ``l
 
 Type ``cd dir1`` to go into dir1, and type ``touch file1, file2, file3`` to create 3 files. Type ``ls`` to confirm. Type ``cd ..`` to exit dir1.
 
-Type ``mv dir1/* dir2/`` to move contents from dir1 to dir2 (* symbol selects all files in directory 1). Type ``ls dir1``, it should return nothing, meaning dir1 is empty. Type ``ls dir2``, you should have file1, file2, file3 in dir2, meaning the 3 files are transferred.
+Type ``mv dir1/* dir2/`` to move contents from dir1 to dir2 (* symbol selects all files in dir1). Type ``ls dir1``, it should return nothing, meaning dir1 is empty. Type ``ls dir2``, you should have file1, file2, file3 in dir2, meaning the 3 files are transferred.
 
 ## less - open files
 To open a file, type ``less file`` (``file`` is the name of the file).
