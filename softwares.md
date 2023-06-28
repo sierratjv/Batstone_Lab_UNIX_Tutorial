@@ -78,7 +78,7 @@ For official website, read [Glimmer](http://ccb.jhu.edu/software/glimmer/index.s
 For official article, read [S. Salzberg, A. Delcher, S. Kasif, and O. White. Microbial gene identification using interpolated Markov models, Nucleic Acids Research 26:2 (1998), 544-548](https://academic.oup.com/nar/article/26/2/544/1174019). 
 
 ## Protein Function Classification
-### IntroProScan 
+### InterProScan 
 For official website, read [InterProScan documentation](https://interproscan-docs.readthedocs.io/en/latest/). <br>
 For official article, read [Evgeni M. Zdobnov , Rolf Apweiler, InterProScan – an integration platform for the signature-recognition methods in InterPro , Bioinformatics, Volume 17, Issue 9, September 2001, Pages 847–848](https://academic.oup.com/bioinformatics/article/17/9/847/206564?login=true). 
 
