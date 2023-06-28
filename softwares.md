@@ -29,15 +29,7 @@ For official artical, read [Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin
 For official website, read [Quast](https://quast.sourceforge.net/). <br>
 For official article, read [Alexey Gurevich and others, QUAST: quality assessment tool for genome assemblies, Bioinformatics, Volume 29, Issue 8, April 2013, Pages 1072–1075](https://academic.oup.com/bioinformatics/article/29/8/1072/228832).
 
-### Bandage
-For official website, read [Bandage](http://rrwick.github.io/Bandage/). <br>
-For official article, read [Ryan R. Wick and others, Bandage: interactive visualization of de novo genome assemblies, Bioinformatics, Volume 31, Issue 20, October 2015, Pages 3350–3352](https://academic.oup.com/bioinformatics/article/31/20/3350/196114). 
-
 ## Alignment 
-### Mauve
-For official website, read [mauve](https://darlinglab.org/mauve/mauve.html). <br>
-For official article, read [Darling AC, Mau B, Blattner FR, Perna NT. Mauve: multiple alignment of conserved genomic sequence with rearrangements. Genome Res. 2004 Jul;14(7):1394-403](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC442156/). 
-
 ### BWA 
 For official website, read [Burrows-Wheeler Aligner](https://bio-bwa.sourceforge.net/). <br>
 For official article, read [Heng Li , Richard Durbin, Fast and accurate short read alignment with Burrows–Wheeler transform, Bioinformatics, Volume 25, Issue 14, July 2009, Pages 1754–1760](https://academic.oup.com/bioinformatics/article/25/14/1754/225615?login=false).
@@ -59,9 +51,6 @@ For official artical, read [Torsten Seemann, Prokka: rapid prokaryotic genome an
 ### GapFiller
 For an earlier article, read [Nadalin F, Vezzi F, Policriti A: GapFiller: a preprocessing step for the de novo assembly problem [abstract]. Proceedings on the 8th annual meeting of the Bioinformatics Italian Society. 2011, 13-14](http://bioinformatics.hsanmartino.it/bits_library/library/01025.pdf). <br>
 For official artical, read [Nadalin, F., Vezzi, F. & Policriti, A. GapFiller: a de novo assembly approach to fill the gap within paired reads. BMC Bioinformatics 13 (Suppl 14), S8 (2012)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-13-S14-S8). 
-
-### IMAGE
-For official article, read [Tsai IJ, Otto TD, Berriman M. Improving draft assemblies by iterative mapping and assembly of short reads to eliminate gaps. Genome Biol. 2010;11(4):R41](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2884544/). 
 
 ## Pan genome, Core genome, and Accessory genome
 ### Spine 
