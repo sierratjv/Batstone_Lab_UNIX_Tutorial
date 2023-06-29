@@ -101,6 +101,7 @@ commands you want to run
 ```
 
 ## Check jobs status
+**sequeue**
 ```
 squeue -u username (replace username with your username)
 ```
@@ -108,6 +109,18 @@ Output may look like:
 ```
 JOBID       USER              ACCOUNT           NAME  ST  TIME_LEFT NODES CPUS TRES_PER_N MIN_MEM NODELIST (REASON) 
 7383005    sux21     def-batstone_cpu        test.sh  PD      10:00     1   32        N/A     10G  (Priority) 
-
+```
+**seff**
+```
+seff JOBID
+```
+Output may look like:
+```
+Job ID: 7545708
+Cluster: graham
+User/Group: sux21/sux21
+State: PENDING
+Cores: 1
+Efficiency not available for jobs in the PENDING state.
 ```
 
