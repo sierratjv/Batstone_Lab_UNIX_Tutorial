@@ -24,6 +24,10 @@ For official website, read [SPAdes](https://cab.spbu.ru/software/spades/). <br>
 Alekseyev M. A. SPAdes: новый ассемблер геномов с поддержкой одноклеточного секвенирования. (talk), 2011. <br>
 For official artical, read [Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin M, Kulikov AS, Lesin VM, Nikolenko SI, Pham S, Prjibelski AD, Pyshkin AV, Sirotkin AV, Vyahhi N, Tesler G, Alekseyev MA, Pevzner PA. SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. J Comput Biol. 2012 May;19(5):455-77](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342519/). 
 
+## Gap filler
+### Sealer
+For official article, read [Paulino, D., Warren, R.L., Vandervalk, B.P. et al. Sealer: a scalable gap-closing application for finishing draft genomes. BMC Bioinformatics 16, 230 (2015)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0663-4).
+
 ## Quality assessment for genome assembly
 ### Quast
 For official website, read [Quast](https://quast.sourceforge.net/). <br>
