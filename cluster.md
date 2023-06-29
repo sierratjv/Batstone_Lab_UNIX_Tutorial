@@ -101,7 +101,7 @@ commands you want to run
 ```
 
 ## Check jobs status
-**sequeue, sq**
+**squeue, sq**
 ```
 squeue -u username (replace username with your username)
 
