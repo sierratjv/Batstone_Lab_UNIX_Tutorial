@@ -116,7 +116,7 @@ JOBID       USER              ACCOUNT           NAME  ST  TIME_LEFT NODES CPUS T
 ```
 **seff**
 ```
-seff jobID (need job ID)
+seff jobID (replace job ID with yours)
 ```
 Output may look like:
 ```
