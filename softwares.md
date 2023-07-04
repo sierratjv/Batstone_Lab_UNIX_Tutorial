@@ -75,6 +75,12 @@ For official article, read [S. Salzberg, A. Delcher, S. Kasif, and O. White. Mic
 For official website, read [InterProScan documentation](https://interproscan-docs.readthedocs.io/en/latest/). <br>
 For official article, read [Evgeni M. Zdobnov , Rolf Apweiler, InterProScan – an integration platform for the signature-recognition methods in InterPro , Bioinformatics, Volume 17, Issue 9, September 2001, Pages 847–848](https://academic.oup.com/bioinformatics/article/17/9/847/206564?login=true). 
 
+## Protein Sequence Clustering
+### CD-HIT
+For official website, read [CD-HIT](https://sites.google.com/view/cd-hit). <br>
+For codes to run the program, read [User's Guide](https://github.com/weizhongli/cdhit/wiki/3.-User's-Guide). <br>
+For official article, read ["Clustering of highly homologous sequences to reduce the size of large protein database", Weizhong Li, Lukasz Jaroszewski & Adam Godzik Bioinformatics, (2001) 17:282-283](https://academic.oup.com/bioinformatics/article/17/3/282/189639?login=true).
+
 ## Phylogenetics 
 ### IQ-TREE
 For official website, read [IQ-TREE](http://www.iqtree.org/). <br>
