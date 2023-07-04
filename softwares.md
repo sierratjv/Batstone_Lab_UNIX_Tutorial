@@ -78,7 +78,7 @@ For official article, read [Evgeni M. Zdobnov , Rolf Apweiler, InterProScan – 
 ## Protein Sequence Clustering
 ### CD-HIT
 For official website, read [CD-HIT](https://sites.google.com/view/cd-hit). <br>
-For codes to run the program, read [User's Guide](https://github.com/weizhongli/cdhit/wiki/3.-User's-Guide). <br>
+For running the program, read [User's Guide](https://github.com/weizhongli/cdhit/wiki/3.-User's-Guide). <br>
 For official article, read ["Clustering of highly homologous sequences to reduce the size of large protein database", Weizhong Li, Lukasz Jaroszewski & Adam Godzik Bioinformatics, (2001) 17:282-283](https://academic.oup.com/bioinformatics/article/17/3/282/189639?login=true).
 
 ## Phylogenetics 
