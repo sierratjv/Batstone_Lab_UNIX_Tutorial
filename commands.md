@@ -22,8 +22,6 @@ Press <kbd>Control</kbd> + <kbd>E</kbd> to go to the end of a command.
 Press <kbd>Control</kbd> + <kbd>Z</kbd> to stop a command that is running.
 
 ## ls - list directory contents
-**Type the following commands and see what happens**
-
 Type ``ls``, and it will list contents in your current directory. 
 
 Type ``ls -a``, and it will list hidden files (files beginning with ``.``) in your current directory.
