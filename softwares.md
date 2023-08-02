@@ -11,6 +11,10 @@ For official article, read ["Clustering of highly homologous sequences to reduce
 For official website, read [Clustal Omega](http://www.clustal.org/omega/). <br>
 For official article, read [Sievers, Fabian, Wilm, Andreas, Dineen, David, Gibson, Toby J, Karplus, Kevin, Li, Weizhong, Lopez, Rodrigo, McWilliam, Hamish, Remmert, Michael, Söding, Johannes, Thompson, Julie D, Higgins, Desmond G, (2011) Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega. Molecular Systems Biology, 7. 539](https://www.embopress.org/doi/full/10.1038/msb.2011.75). 
 
+### FastANI
+For official website, read [FastANI](https://github.com/ParBLiSS/FastANI). <br>
+For official article, read [Jain, C., Rodriguez-R, L.M., Phillippy, A.M. et al. High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries. Nat Commun 9, 5114 (2018)](https://www.nature.com/articles/s41467-018-07641-9).
+
 ### FastQC 
 For official website, read [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/). <br>
 For manual, type ``fastqc -h``. 
