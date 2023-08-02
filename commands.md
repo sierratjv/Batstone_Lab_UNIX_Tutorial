@@ -1,4 +1,6 @@
 # Commands
+[Go back to the main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
+
 ## Symobols in UNIX
 ``.`` represents the current directory. 
 
