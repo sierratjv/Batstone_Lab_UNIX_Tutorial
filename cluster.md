@@ -55,10 +55,9 @@ Swap:  1052668k total,  1051348k used,     1320k free, 220917416k cached
    13 root      20   0     0    0    0 S  0.0  0.0   0:38.90 ksoftirqd/2        
 ```
 # Compute Canada/Digital Research Alliance of Canada
-## Guides
-Beginner video: https://www.youtube.com/watch?v=JY1jo9GRffg&t=290s.
+**Watch this beginner video https://www.youtube.com/watch?v=JY1jo9GRffg&t=290s.**
 
-Read the how-to guides on this web page to learn how to transfer files and run jobs: https://docs.alliancecan.ca/wiki/Technical_documentation. 
+**This is the document of how to use the clusters https://docs.alliancecan.ca/wiki/Technical_documentation.**
 
 ## clusters
 - cedar.computecanada.ca
