@@ -17,4 +17,4 @@ The Commands section of this tutorial has examples, so you can try running comma
 [02: Introduction to Command Line](https://datascience.101workbook.org/02-IntroToCommandLine/00-IntroToCommandLine-LandingPage.html)
 
 ## Section: Commands
-Go to this section to learn commands in bash [Commands](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/commands.md). 
+Go to this section to learn commands in bash: [Commands](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/commands.md). 
