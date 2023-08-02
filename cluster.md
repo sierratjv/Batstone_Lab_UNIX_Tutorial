@@ -1,4 +1,4 @@
-# Info server
+# Info 
 **Do not run programs on the head, which is the place you first login. Login to a node immediately.**
 
 Info server consists a head (called info) and serveral nodes (called info16, info17, info18, ...). Head and nodes are different computers.
