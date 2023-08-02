@@ -5,8 +5,6 @@ UNIX is an operating system. There are different versions of unix: AIX, HP/UX, S
 
 This tutorial will be done in bash shell. 
 
-The Commands section of this tutorial has examples, so you can try running commands by youself.
-
 ## Learning Resources
 [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 
