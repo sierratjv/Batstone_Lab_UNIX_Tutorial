@@ -3,7 +3,7 @@
 ## UNIX
 UNIX is an operating system. The UNIX is made up of kernel, shell, and programs. The kernel distributes time and memory to programs and handles the filestore and communications in response to system calls. The shell is a command-line interpreter. The shell has different versions, for example, sh, csh, tcsh, ksh, bash, zsh. When a user typies a command, the shell searches the filestore for a program to run that command and requests the kernel to execute the program. 
 
-The following contents are done in bash shell. 
+The following contents will be done in bash shell. 
 
 ## Learning Resources
 [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
