@@ -6,12 +6,8 @@ UNIX is an operating system. There are different versions of unix: AIX, HP/UX, S
 This tutorial will be done in bash shell. 
 
 ## Learning Resources
-[UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+UNIX Tutorial for Beginners. http://www.ee.surrey.ac.uk/Teaching/Unix/. 
 
-[Bioinformatics_Data_Skills.pdf](https://github.com/sux21/Tips_and_Tricks/files/11593310/Bioinformatics_Data_Skills.pdf)
-
-[An Introduction to Unix (Half a day)](https://www.bioinformatics.babraham.ac.uk/training.html#unix)
-
-[02: Introduction to Command Line](https://datascience.101workbook.org/02-IntroToCommandLine/00-IntroToCommandLine-LandingPage.html)
+Bioinformatics_Data_Skills.pdf. https://github.com/sux21/Tips_and_Tricks/files/11593310/Bioinformatics_Data_Skills.pdf. 
 
 ## [1. Commands](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/commands.md)
