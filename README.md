@@ -8,7 +8,7 @@ This tutorial will be done in bash shell.
 # Learning Resources
 UNIX Tutorial for Beginners. http://www.ee.surrey.ac.uk/Teaching/Unix/. 
 
-Bioinformatics_Data_Skills.pdf. https://github.com/sux21/Tips_and_Tricks/files/11593310/Bioinformatics_Data_Skills.pdf. 
+*Bioinformatics_Data_Skills*. https://github.com/sux21/Tips_and_Tricks/files/11593310/Bioinformatics_Data_Skills.pdf. 
 
 # Table of Contents
 ## [1. Commands](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/commands.md)
