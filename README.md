@@ -8,8 +8,8 @@ This tutorial will be done in bash.
 
 *Reference: UNIX Introduction. http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html.*
 # Table of Contents
-## [1. Commands](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/commands.md)
-## [2. Text editors](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/editors.md)
-## [3. If statements, While loop, For loop](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/loops.md)
-## [4. Info cluster, Compute canada cluster](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/cluster.md)
+## [1. Info cluster, Compute canada cluster](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/cluster.md)
+## [2. Commands](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/commands.md)
+## [3. Text editors](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/editors.md)
+## [4. If statements, While loop, For loop](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/loops.md)
 ## [5. Softwares](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/softwares.md)
