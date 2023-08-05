@@ -185,10 +185,17 @@ Type ``nano file``. Write these words ``biology biology chemistry physics physic
 ## wget, curl
 
 ## ssh
+**Connect to a remote computer**
+
+Type ``username@info.mcmaster.ca`` to connect to info cluster.
+
+Type ``username@graham.computecanada.ca`` to connect to graham cluster. 
 
 ## scp 
+**Transfer files from your local computer to a remoter computer**
 
 ## history
+Type ``history`` to see the commands you typed before.
 
 ## alias
 
