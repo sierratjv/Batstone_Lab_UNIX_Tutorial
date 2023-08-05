@@ -209,3 +209,4 @@ Type ``nano file``. Write these words ``biology biology chemistry physics physic
 
 ## .bashrc
 
+[Go back to the main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
