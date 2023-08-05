@@ -1,5 +1,5 @@
 # Learning Bash  
-**For Windows computers, download the free version of MobaXterm (https://mobaxterm.mobatek.net/). For Apple computers, open the Terminal application**
+**For Windows computers, download the free version of MobaXterm (https://mobaxterm.mobatek.net/). For Apple computers, use the Terminal application.**
 
 # UNIX
 UNIX is an operating system. There are different versions of UNIX: AIX, HP/UX, SunOS, ULTRIX, OSX, FreeBSD, LINUX, and so on. The UNIX is made up of kernel, shell, and programs. The kernel distributes time and memory to programs and handles the filestore and communications in response to system calls. The shell is a command-line interpreter. The shell has different versions: sh (Bourne shell), csh (C shell), tcsh (TENEX C Shell
