@@ -7,6 +7,12 @@ UNIX is an operating system. There are different versions of UNIX: AIX, HP/UX, S
 This tutorial will be done in bash. 
 
 *Reference: UNIX Introduction. http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html.*
+
+# Using UNIX
+**For Windows computers, download the free version of MobaXterm**
+
+**For Apple computers, open the Terminal application**
+
 # Table of Contents
 ## [1. Info cluster, Compute canada cluster](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/cluster.md)
 ## [2. Commands](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/commands.md)
