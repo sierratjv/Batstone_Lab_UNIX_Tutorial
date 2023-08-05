@@ -74,24 +74,24 @@ To delete an empty directory, type ``rmdir dir``.
 Type ``rm -r dir``, it will go into to the directory and removes this directory and every files inside. 
 
 ## mv 
-**move files**
+**move files** <br>
 Type ``mkdir dir1 dir2`` to create two directories named dir1 and dir2. Type ``ls`` to confirm.
 
 Type ``cd dir1`` to go into dir1, and type ``touch file{1..3}`` to create 3 files in dir1. Type ``ls`` to confirm. Type ``cd ..`` to exit dir1.
 
 Type ``mv dir1/* dir2/`` to move contents from dir1 to dir2 (* symbol selects all files in dir1). Type ``ls dir1``, it should return nothing, meaning dir1 is empty. Type ``ls dir2``, you should have file1, file2, file3 in dir2, meaning the 3 files are transferred from dir1 to dir2.
 
-**rename files or directories**
+**rename files or directories** <br>
 Type ``mv dir1 dir3``, this will change the name of dir1 to dir3. 
 
 ## Open
 Type ``open file`` to open a .html or a .pdf file. 
 
 ## cat
-**View contents in a file**
+**View contents in a file** <br>
 Type ``nano file`` to create and edit a file (nano is a text editor). Type ``math, physics, chemistry, biology`` to create contents in the file. Press <kbd>Control</kbd> + <kbd>X</kbd> and Press <kbd>Y</kbd> and Press <kbd>Enter</kbd> to save and close the file. Type ``cat file``, and you should see ``math, physics, chemistry, biology``. 
 
-**Combine contents from different files**
+**Combine contents from different files** <br>
 Type ``nano file2``, and write ``geography, history, computer science``. Save and close file2. Type ``cat file2`` to check the contents. Type ``cat file file2``, and you should see:
 ```
 math, physics, chemistry, biology
