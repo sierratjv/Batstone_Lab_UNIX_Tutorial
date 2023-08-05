@@ -104,10 +104,16 @@ geography, history, computer science
 ```
 
 ## more
+**View contents in a file** <br>
+Type ``more file`` to view a file. This will read how big is your screen and give you a screenful information. Press <kbd>Enter</kbd> to see the rest of the contents. Press <kbd>q</kbd> to stop viewing the file.
 
 ## less
+**View contents in a file** <br>
+Type ``less file`` to view a file. This is similar to more. Press <kbd>q</kbd> to stop viewing the file.
 
 ## rev
+**reverse lines of a file or files** <br>
+Type ``nano file`` to create a file and type ``abcdef``. Save and close the file. Type ``cat file`` and it should give ``abcdef``. Type ``rev file`` and it should give ``fedcba``.
 
 ## head 
 
