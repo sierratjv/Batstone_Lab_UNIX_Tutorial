@@ -190,6 +190,7 @@ Type ``nano file`` and write ``ATCG``. Save and close the file. Type ``more file
 **Get a pattern from a files**
 
 Type ``nano file``. Write these words ``biology biology chemistry physics physics physics`` in the file. Save and close the file. Type ``more file`` to check. 
+
 ## find
 
 ## wget, curl
