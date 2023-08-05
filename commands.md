@@ -1,6 +1,8 @@
 # 1. Commands
 [Go back to the main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
 
+**If any commands below that do not work as expected, use the info cluster**
+
 ## Symbols
 ``.`` represents the current directory. 
 
@@ -89,7 +91,7 @@ Type ``open file`` to open a .html or a .pdf file.
 
 ## cat
 **View contents in a file** <br>
-Type ``nano file`` to create and edit a file (nano is a text editor). Type ``math, physics, chemistry, biology`` to create contents in the file. Press <kbd>Control</kbd> + <kbd>X</kbd>, then Press <kbd>Y</kbd>, and Press <kbd>Enter</kbd> to save and close the file. Type ``cat file``, and you should see ``math, physics, chemistry, biology``. 
+Type ``nano file`` to create and edit a file (nano is a text editor). Type ``math, physics, chemistry, biology`` to create contents in the file. Press <kbd>Control</kbd> + <kbd>X</kbd>, then press <kbd>Y</kbd>, and press <kbd>Enter</kbd> to save and close the file. Type ``cat file``, and you should see ``math, physics, chemistry, biology``. 
 
 **Combine contents from different files** <br>
 Type ``nano file2``, and write ``geography, history, computer science``. Save and close file2. Type ``cat file2`` to check the contents. Type ``cat file file2``, and you should see:
@@ -116,8 +118,30 @@ Type ``less file`` to view a file. This is similar to more. Press <kbd>q</kbd> t
 Type ``nano file`` to create a file and type ``abcdef``. Save and close the file. Type ``cat file`` and it should give ``abcdef``. Type ``rev file`` and it should give ``fedcba``.
 
 ## head 
+**output the first part of files** <br>
+Type ``nano file``. Type number 1 to 15 vertically. Save and close the file. Type ``cat file`` and it should give:
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+```
+Type ``head file`` and it should give the first 10 lines of the file (1 to 10). Type ``head -12 file`` and it should give the first 12 lines (1 to 12). 
 
 ## tail
+**output the last part of files** <br>
+Type ``tail file`` and it should give the last 10 lines (6 to 15). 
 
 ## wc
 
@@ -147,5 +171,5 @@ Type ``nano file`` to create a file and type ``abcdef``. Save and close the file
 
 ## rsync 
 
-## 
+## .bashrc
 
