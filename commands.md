@@ -135,7 +135,7 @@ Type ``more file`` to view a file. This will read how big is your screen and giv
 ## less
 **View files** 
 
-Type ``less file`` to view a file. This is similar to more. Press <kbd>q</kbd> to stop viewing the file.
+Type ``less file`` to view a file. Type "/pattern", to search for word "pattern". Press <kbd>n</kbd> to go to the next pattern. Press <kbd>N</kbd> to go to the previous pattern. Press <kbd>q</kbd> to stop viewing the file.
 
 ## rev
 **Reverse lines of files** 
@@ -175,19 +175,8 @@ Type ``tail file`` and it should give the last 10 lines (6 to 15).
 
 Type ``touch file{1..10}`` to create 10 files. Type ``ls file*`` (* symbol will match with any characters after "e"), and it should give ``file1  file10  file2  file3  file4  file5  file6  file7  file8  file9``. Type ``ls file* | wc -l``, and it should give ``10`` (| symbol takes the output from the previous command and passes to the next command.)
 
-## sort
-
-## tr
-**Translate or delete characters** 
-
-Type ``nano file`` and write ``ATCG``. Save and close the file. Type ``more file`` and it should give ``ATCG``. 
-
-## cut
-
-## split
-
 ## grep
-**Get a pattern from a files**
+**Find patterns from files**
 
 Type ``nano file``. Write these words ``biology biology chemistry physics physics physics`` in the file. Save and close the file. Type ``more file`` to check. 
 
@@ -195,17 +184,13 @@ Type ``nano file``. Write these words ``biology biology chemistry physics physic
 
 ## wget, curl
 
-## rsh, ssh
+## ssh
 
 ## scp 
 
 ## history
 
 ## alias
-
-## toss
-
-## rsync 
 
 ## .bashrc
 
