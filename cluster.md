@@ -100,24 +100,16 @@ commands you want to run
 ```
 
 ## Check jobs status
-**squeue, sq**
-```
-squeue -u username (replace username with your username)
+**sq**
 
-or
-
-sq (give same output)
-```
-Output may look like:
+Type ``sq`` to get the job ID and status (ST) of your jobs:
 ```
 JOBID       USER              ACCOUNT           NAME  ST  TIME_LEFT NODES CPUS TRES_PER_N MIN_MEM NODELIST (REASON) 
 7383005    sux21     def-batstone_cpu        test.sh  PD      10:00     1   32        N/A     10G  (Priority) 
 ```
 **seff**
-```
-seff jobID (replace job ID with yours)
-```
-Output may look like:
+
+Type ``seff jobID``:
 ```
 Job ID: 7545708
 Cluster: graham
