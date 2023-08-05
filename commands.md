@@ -1,4 +1,4 @@
-# 1. Commands
+# 2. Commands
 [Go back to the main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
 
 **If any commands below that do not work as expected, use the info cluster. Ask Dr. Golding for an account. Type ``ssh username@info.mcmaster.ca`` and the password to login (You don't see the password when typing).**
