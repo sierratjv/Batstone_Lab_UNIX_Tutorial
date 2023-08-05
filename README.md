@@ -2,7 +2,7 @@
 
 # UNIX
 UNIX is an operating system. There are different versions of UNIX: AIX, HP/UX, SunOS, ULTRIX, OSX, FreeBSD, LINUX, and so on. The UNIX is made up of kernel, shell, and programs. The kernel distributes time and memory to programs and handles the filestore and communications in response to system calls. The shell is a command-line interpreter. The shell has different versions: sh (Bourne shell), csh (C shell), tcsh (TENEX C Shell
-), ksh (KornShell), bash (Bourne Again Shell), zsh (Z shell). When a user typies a command, the shell searches the filestore for a program to run that command and requests the kernel to execute the program (UNIX Tutorial for Beginners, http://www.ee.surrey.ac.uk/Teaching/Unix/). 
+), ksh (KornShell), bash (Bourne Again Shell), zsh (Z shell). When a user typies a command, the shell searches the filestore for a program to run that command and requests the kernel to execute the program (Reference: UNIX Tutorial for Beginners, http://www.ee.surrey.ac.uk/Teaching/Unix/). 
 
 This tutorial will be done in bash. 
 
