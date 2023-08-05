@@ -89,7 +89,7 @@ Type ``open file`` to open a .html or a .pdf file.
 
 ## cat
 **View contents in a file** <br>
-Type ``nano file`` to create and edit a file (nano is a text editor). Type ``math, physics, chemistry, biology`` to create contents in the file. Press <kbd>Control</kbd> + <kbd>X</kbd> and Press <kbd>Y</kbd> and Press <kbd>Enter</kbd> to save and close the file. Type ``cat file``, and you should see ``math, physics, chemistry, biology``. 
+Type ``nano file`` to create and edit a file (nano is a text editor). Type ``math, physics, chemistry, biology`` to create contents in the file. Press <kbd>Control</kbd> + <kbd>X</kbd>, then Press <kbd>Y</kbd>, and Press <kbd>Enter</kbd> to save and close the file. Type ``cat file``, and you should see ``math, physics, chemistry, biology``. 
 
 **Combine contents from different files** <br>
 Type ``nano file2``, and write ``geography, history, computer science``. Save and close file2. Type ``cat file2`` to check the contents. Type ``cat file file2``, and you should see:
