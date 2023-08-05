@@ -144,6 +144,8 @@ Type ``head file`` and it should give the first 10 lines of the file (1 to 10). 
 Type ``tail file`` and it should give the last 10 lines (6 to 15). 
 
 ## wc
+**Count number of files in a directory** <br>
+Type ``touch file{1..10}`` to create 10 files. Type ``ls file*`` (* symbol will match with any characters after "e"), and it should give ``file1  file10  file2  file3  file4  file5  file6  file7  file8  file9``. Type ``ls file* | wc -l``, and it should give ``10`` (| symbol takes the output from the previous command and passes to the next command.)
 
 ## sort 
 
