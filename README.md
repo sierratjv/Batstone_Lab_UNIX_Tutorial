@@ -12,6 +12,11 @@ This tutorial will be done in bash.
 # Table of Contents
 ## [1. Computer clusters](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/clusters.md)
 **This section shows how to get an account for info cluster and compute canada clusters.**
+
+**A reason why to use computer clusters:**
+
+*"If you have a program that takes months to run on your PC, you could probably run it within a few hours using hundreds of processors on SHARCNET / Compute Canada clusters, provided your program is inherently parallelisable. If you have hundreds or thousands of test cases to run through on your PC or computers in your lab, then with hundreds of processors running those cases independently will significantly reduce your test cycles." -- What can I do with SHARCNET? https://helpwiki.sharcnet.ca/wiki/FAQ#About_SHARCNET*
+
 ## [2. Commands](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/commands.md)
 **This section shows how to use some common commands.**
 ## [3. Text editor: vi](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/editors.md)
