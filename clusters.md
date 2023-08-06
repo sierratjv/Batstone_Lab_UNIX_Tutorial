@@ -83,37 +83,5 @@ Login to login node using, for example, ``ssh username@graham.computecanada.ca``
 
 Once you login as a student, at your home directory, you will see 3 directories: ``nearline``, ``projects``, ``scratch``. In ``nearline`` and ``project``, you will see you professor name, ``def-batstone``. In ``def-batstone``, you will see each user. 
 
-### Run jobs
-Write your job in a script, and use ``sbatch`` to submit job.
-```
-sbatch simple_job.sh
-```
-The script looks like:
-```
-#!/bin/bash
-#SBATCH --time=00:15:00
-#SBATCH --account=def-someuser
 
-commands you want to run
-```
-
-### Check jobs status
-**sq**
-
-Type ``sq`` to get the job ID and status (ST) of your jobs:
-```
-JOBID       USER              ACCOUNT           NAME  ST  TIME_LEFT NODES CPUS TRES_PER_N MIN_MEM NODELIST (REASON) 
-7383005    sux21     def-batstone_cpu        test.sh  PD      10:00     1   32        N/A     10G  (Priority) 
-```
-**seff**
-
-Type ``seff jobID``:
-```
-Job ID: 7545708
-Cluster: graham
-User/Group: sux21/sux21
-State: PENDING
-Cores: 1
-Efficiency not available for jobs in the PENDING state.
-```
 
