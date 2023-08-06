@@ -2,6 +2,8 @@
 ## Info 
 **Do not run programs on the head, which is the place you first login. Login to a node immediately.**
 
+**On each node, do not use more than 6 CPUs to run jobs.**
+
 Info server consists a head (called info) and serveral nodes (called info16, info17, info18, ...). Head and nodes are different computers.
 
 Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (You don't see the characters when you enter the password). Type ``exit`` to leave the server.
