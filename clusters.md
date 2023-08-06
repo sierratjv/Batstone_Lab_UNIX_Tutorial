@@ -1,4 +1,4 @@
-# 1. Computer clusters
+# 1. Computer clusters / Servers
 [Go to main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
 
 ## Info cluster
