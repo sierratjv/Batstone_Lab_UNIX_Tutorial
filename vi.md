@@ -6,7 +6,7 @@
 - Type ``vi file`` to create and edit and a file. 
 
 - You can use .vimrc file to set up default settings. At your home directory (~), type ls -a to find the .vimrc file. Type ``vi .vimrc`` to edit it. See "Lesson 7.2" in ``vimtutor``.
-  - Examples of a .vimrc file:
+  - Some useful settings:
 ```
 set ruler
 syntax on
