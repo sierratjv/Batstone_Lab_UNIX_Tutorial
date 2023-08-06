@@ -50,8 +50,31 @@ ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCG
 >seq5
 ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCG
 ```
-
-
+The following script will extract the first sequence in the list:
+```
+#!/bin/bash
+# A script to read the first entry in a fasta file.
+# run as 'scriptName < filename'
+# or     'cat filename | scriptName'
+read firstline; echo $firstline
+while read abc; do 
+    if [[ $abc =~ ">" ]]; then 
+        echo "I am done everything in the file"
+        exit; 
+    fi
+    echo $abc
+done
+echo "While loop is done ... I am done everything in the file"
+```
+This should be the output from the script:
+```
+[xingyuan@info114 unix_workshop]$ vi example2.sh
+[xingyuan@info114 unix_workshop]$ chmod +x example2.sh 
+[xingyuan@info114 unix_workshop]$ ./example2.sh < example2.fasta 
+>seq1
+ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCG
+I am done everything in the file
+```
 
 
 
