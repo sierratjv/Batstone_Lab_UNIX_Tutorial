@@ -1,5 +1,7 @@
 
 ## 1. Info cluster
+[Go to main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
+
 **Do not run programs on the head, which is the place you first login. Login to a node immediately.**
 
 **On each node, do not use more than 6 CPUs to run jobs.**
@@ -82,6 +84,8 @@ Apply your account on Compute Canada Data Base (CCDB): https://ccdb.alliancecan.
 Login to login node using, for example, ``ssh username@graham.computecanada.ca``.
 
 Once you login as a student, at your home directory, you will see 3 directories: ``nearline``, ``projects``, ``scratch``. In ``nearline`` and ``project``, you will see you professor name, ``def-batstone``. In ``def-batstone``, you will see each user. 
+
+[Go to main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
 
 
 
