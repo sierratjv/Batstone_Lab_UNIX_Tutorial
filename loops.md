@@ -75,10 +75,31 @@ This should be the output from the script:
 ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCG
 I am done everything in the file
 ```
-
-
-
-
+## Example 3: Extract any sequences (using the sequences file from example 2)
+Try this script:
+```
+#!/bin/bash
+# A script to read the n^th entry ($1) in a fasta file.
+# run as 'scriptName no < filename'
+# or     'cat filename | scriptName no'
+i=0
+while read line; do 
+    if [[ $line =~ ">" ]]; then
+        let i=$i+1
+    fi
+    if [ $i -eq $1 ]; then
+        echo $line
+    fi
+done
+```
+If you want the 4th sequence, this should give:
+```
+[xingyuan@info114 unix_workshop]$ vi example3.sh 
+[xingyuan@info114 unix_workshop]$ chmod +x example3.sh 
+[xingyuan@info114 unix_workshop]$ ./example3.sh 4 < example2.fasta 
+>seq4
+ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCG
+```
 
 
 
