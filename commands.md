@@ -181,18 +181,36 @@ Type ``touch file{1..10}`` to create 10 files. Type ``ls file*`` (* symbol will 
 Type ``nano file``. Write these words ``biology biology chemistry physics physics physics`` in the file. Save and close the file. Type ``more file`` to check. 
 
 ## find
+**Search for files**
 
-## wget, curl
+Type ``find directory -iname "pattern"``. It will go to the directory and find the pattern.
+
+In the example, searching "file" in the home directory (``~``). ``-iname`` option lets the match to be case insensitive, so ``file`` and ``File`` are found:
+```
+[xingyuan@infoserv ~]$ find ~ -iname "file"
+/home/xingyuan/trash/file
+/home/xingyuan/.conda/pkgs/perl-5.26.2-h14c3975_0/lib/5.26.2/x86_64-linux-thread-multi/auto/File
+/home/xingyuan/.conda/pkgs/perl-5.26.2-h14c3975_0/lib/5.26.2/x86_64-linux-thread-multi/File
+/home/xingyuan/.conda/pkgs/perl-5.26.2-h14c3975_0/lib/5.26.2/TAP/Formatter/File
+/home/xingyuan/.conda/pkgs/perl-5.26.2-h14c3975_0/lib/5.26.2/File
+/home/xingyuan/.conda/pkgs/perl-file-which-1.23-pl526_0/lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/File
+/home/xingyuan/.conda/pkgs/perl-file-which-1.23-pl526_0/lib/site_perl/5.26.2/File
+```
+
+## wget
+**Download file from internet**
+
+Type ``wget https://github.com/broadinstitute/picard/releases/download/3.1.0/picard.jar`` to download a program called picard. 
 
 ## ssh
 **Connect to a remote computer**
 
-Type ``username@info.mcmaster.ca`` to connect to info cluster.
+Type ``username@info.mcmaster.ca`` to connect to info cluster. Enter the password. You don't see the password when you are typing. 
 
 Type ``username@graham.computecanada.ca`` to connect to graham cluster. 
 
 ## scp 
-**Copy a file from a remote computer to your local compute.**
+**Copy a file from a remote computer to your local computer.**
 
 Login to info cluster. Type ``touch file`` create a file. Type ``pwd`` to get the path to the file:
 ```
@@ -227,6 +245,18 @@ Documents/    Movies/       Public/       file2         file5
 Type ``history`` to see the commands you typed before.
 
 ## alias
+**Make your own commands**
+
+Type ``alias ls="ls -F"``. The next time you type ``ls``, it is the same as typing ``ls -F``:
+```
+[xingyuan@infoserv ~]$ ls
+2018_strains  R  rhizo_ee  snap  tools	trash  unix_workshop
+[xingyuan@infoserv ~]$ alias ls="ls -F"
+[xingyuan@infoserv ~]$ ls
+2018_strains/  R/  rhizo_ee/  snap/  tools/  trash/  unix_workshop/
+```
+
+Type ``alias``. This will list the aliases you currently have. 
 
 ## .bashrc
 
