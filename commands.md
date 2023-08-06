@@ -40,12 +40,12 @@ Type ``ls -S``, it will list the files from largest size to smallest size.
 
 Type ``man ls``, this will open a manual page for ls, it has all the options of how to use ls. Press <kbd>q</kbd> to quit the manual.
 
-You can also combline the flags, such as ``ls -lS``.
+You can also combline the options, such as ``ls -lS``.
 
 ## man 
 **An interface to the on-line reference manuals**
 
-Type ``man cmd`` to see the manual of a command (``cmd`` is the command you want to look up).
+Type ``man ls`` to open a manual page for ls.
 
 Type ``man man`` to open a manual page for man. 
 
@@ -79,6 +79,19 @@ Type ``touch file1 file2 file3``, it will create file1, file2, file3.
 Type ``cp file1 file2``, it will copy contents in file1 to file2 (if file2 exists, it will ask whether to overwrite it or not; if file2 does not exit, it will create file2).
 
 Type ``cp file{1..5} folder``, it will copy file1, file2, file3, file4, file5 to a directory called folder (folder needs to be existed before copying files). 
+
+## ln -s
+**Create a symbolic link to a file**
+
+Type ``touch file`` to create a file. Type ``ln -s file link`` to create symbolic link to the file. Type ``ls -l``. The symbolic link has an arrow pointing to the actual file. When you want to create a copy of a very large file, you can use ``ln -s`` instead of ``cp``, since the size of symbolic link is smaller than the actual file. 
+```
+[xingyuan@infoserv unix_workshop]$ touch file
+[xingyuan@infoserv unix_workshop]$ ln -s file link
+[xingyuan@infoserv unix_workshop]$ ls -l
+total 0
+-rw-rw-r-- 1 xingyuan xingyuan 0 Aug  6 13:17 file
+lrwxrwxrwx 1 xingyuan xingyuan 4 Aug  6 13:18 link -> file
+```
 
 ## rm 
 **Remove files or directories**
