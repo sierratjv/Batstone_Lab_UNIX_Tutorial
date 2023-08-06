@@ -373,6 +373,4 @@ export PATH=/usr/local/qualimap_v2.2.1:$PATH
 export PATH=/home/xingyuan/tools/Spine-0.3.2:$PATH
 ```
 
-[Go to Section 3: Text Editors](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/editors.md)
-
 [Go to the main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
