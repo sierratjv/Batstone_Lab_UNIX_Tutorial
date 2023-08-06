@@ -13,7 +13,7 @@ Type the followings ``if [ -f file ]; then``, ``echo found``, ``else``, ``echo n
 > fi
 not found
 ```
-You can also write the if statement in a script. Type ``vi example1.sh`` to create and edit a file. Type the following in the script (The first line has to be ``#!/bin/bash`` which tells the computer to run the script using bash because the default shell to run is sh):
+You can also write the if statement in a script. Type ``vi example1.sh`` to create and edit a file. Type the following in the script (The first line has to be ``#!/bin/bash`` which tells the computer to run the script using bash because the default shell is sh):
 ```
 #!/bin/bash
 if [ -f file ]; then
