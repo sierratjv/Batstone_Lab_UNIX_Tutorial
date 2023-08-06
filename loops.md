@@ -35,7 +35,6 @@ fi
 [xingyuan@info114 unix_workshop]$ chmod +x example1.sh 
 [xingyuan@info114 unix_workshop]$ ./example1.sh
 not found
-
 ```
 
 
