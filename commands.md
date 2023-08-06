@@ -176,9 +176,29 @@ Type ``tail file`` and it should give the last 10 lines (6 to 15).
 Type ``touch file{1..10}`` to create 10 files. Type ``ls file*`` (* symbol will match with any characters after "e"), and it should give ``file1  file10  file2  file3  file4  file5  file6  file7  file8  file9``. Type ``ls file* | wc -l``, and it should give ``10`` (| symbol takes the output from the previous command and passes to the next command.)
 
 ## grep
-**Find patterns from files**
+**Find a pattern from files and print the lines with that patterns**
 
-Type ``nano file``. Write these words ``biology biology chemistry physics physics physics`` in the file. Save and close the file. Type ``more file`` to check. 
+Type ``nano file``. Write these words ``biology biology chemistry physics physics physics`` in the file vertically. Save and close the file. Type ``more file`` to check. Type ``grep "biology" file``, it should give the two lines with "biology":
+```
+[xingyuan@infoserv unix_workshop]$ more file
+biology 
+biology 
+chemistry 
+physics 
+physics 
+physics
+[xingyuan@infoserv unix_workshop]$ grep "biology" file
+biology 
+biology 
+```
+
+**Count the number of a pattern**
+
+Type ``grep -c "biology" file``, and it should give ``2``:
+```
+[xingyuan@infoserv unix_workshop]$ grep -c "biology" file
+2
+```
 
 ## find
 **Search for files**
