@@ -2,8 +2,7 @@
 
 [Go to main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
 
-## If statement
-### Example 1: Check if a file exists
+## Example 1: Check if a file exists
 Type the followings ``if [ -f file ]; then``, ``echo found``, ``else``, ``echo not found``, ``fi``. This should output "found" if a file named "file" exists and "not found" if it does not exist.
 ```
 [xingyuan@info114 unix_workshop]$ if [ -f file ]; then
@@ -37,7 +36,20 @@ fi
 not found
 ```
 
-
+## Example 2: Extract sequences from a file
+Type ``vi example2.fasta`` and copy the following DNA sequences to the file:
+```
+>seq1
+ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCG
+>seq2
+ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCG
+>seq3
+ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCG
+>seq4
+ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCG
+>seq5
+ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCG
+```
 
 
 
