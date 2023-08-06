@@ -1,6 +1,7 @@
-
-## 1. Info cluster
+# 1. Computer clusters
 [Go to main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
+
+## Info cluster
 
 **Do not run programs on the head, which is the place you first login. Login to a node immediately.**
 
