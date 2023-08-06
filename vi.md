@@ -5,12 +5,13 @@ Type ``vimtutor`` to open the tutorial page and learn how to use vi editor. Pres
 
 Type ``vi file`` to create and edit and a file. 
 
-You can use .vimrc file to set up default settings. At your home directory (~), type ls -a to find the .vimrc file. Type ``vi .vimrc`` to edit it.
+You can use .vimrc file to set up default settings. At your home directory (~), type ls -a to find the .vimrc file. Type ``vi .vimrc`` to edit it. See "Lesson 7.2" in ``vimtutor``.
 
-Examples of some useful settings:
+Examples of a .vimrc file:
 ```
 set ruler
 syntax on
+set spell
 set number
 set hlsearch
 ```
