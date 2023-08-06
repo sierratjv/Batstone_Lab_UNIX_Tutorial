@@ -1,4 +1,4 @@
-# If statements, While loop, For loop
+# If statements, While loops, For loops
 
 [Go to main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
 
