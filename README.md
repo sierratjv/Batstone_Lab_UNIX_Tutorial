@@ -19,6 +19,7 @@ This tutorial will be done in bash.
 ## [2. Commands](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/commands.md)
 **This section shows how to use some common commands.**
 ## [3. Text editor: vi](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/editors.md)
-**This sections shows how to use a text editor called vi to edit files in UNIX.** 
-## [4. If statements, While loop, For loop](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/loops.md)
+**This section shows how to use a text editor called vi to edit files in UNIX.** 
+## [4. If statements, While loops, For loops](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/loops.md)
+**This section shows some examples of if statements, while loops, and for loops.**
 ## [5. Softwares](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/softwares.md)
