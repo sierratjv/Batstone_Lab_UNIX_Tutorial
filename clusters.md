@@ -1,5 +1,5 @@
 
-## Info cluster
+## 1. Info cluster
 **Do not run programs on the head, which is the place you first login. Login to a node immediately.**
 
 **On each node, do not use more than 6 CPUs to run jobs.**
