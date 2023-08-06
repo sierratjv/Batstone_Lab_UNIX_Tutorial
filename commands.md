@@ -278,6 +278,32 @@ Type ``alias ls="ls -F"``. The next time you type ``ls``, it is the same as typi
 
 Type ``alias``. This will list the aliases you currently have. 
 
+Other examples of aliases:
+```
+alias ls="ls --color -F"
+alias rm="rm -i"
+alias hi="history"
+alias ll="ls -hl"
+```
+
+## variables
+Type ``i=2`` to create a variable i. Type ``echo $i`` to show the variable:
+```
+[xingyuan@infoserv ~]$ i=2
+[xingyuan@infoserv ~]$ echo $i
+2
+```
+
+**PATH variable**
+
+**Be careful of not overwrting the PATH variable when you add new directory to it. Keep a copy of the PATH variable when you try to add a new directory for the first time**
+
+It includes directories that will be checked when you run a command. When you type a command, it will search PATH to find a program to run that command. The command cannot be run if the program is not found. Type ``echo $PATH`` to show the PATH variable:
+```
+[xingyuan@infoserv ~]$ echo $PATH
+/home/xingyuan/tools/GenAPI/bin:/home/xingyuan/tools/tbl2asn:/home/xingyuan/tools/interproscan-5.62-94.0:/home/xingyuan/tools/jdk-20.0.1/bin:/home/xingyuan/tools/barrnap:/usr/local/prokka/bin:/usr/local/perl5.24/perl-5.24.0/perl:/usr/local/mummer/current/:/home/xingyuan/tools/Spine-0.3.2:/usr/local/qualimap_v2.2.1:/usr/local/bwa/current:/usr/local/samtools/1.11/samtools:/usr/local/python3/Python-3.5.1:/usr/local/spades/version.3.15.2/bin:.:/home/xingyuan/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/xingyuan/.local/bin:/home/xingyuan/bin
+```
+
 ## .bashrc
 
 [Go back to the main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
