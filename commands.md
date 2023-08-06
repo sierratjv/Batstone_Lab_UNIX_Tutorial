@@ -305,7 +305,7 @@ It includes directories that will be checked when you run a command. When you ty
 ```
 
 ## .bashrc
-.bashrc is a script that will be run when you login to bash. It is useful to write your aliases and variables in the .bashrc file, so they become your customized default settings. 
+.bashrc is a script that will be run when you login to bash. It is useful to write your aliases and variables in the .bashrc file, so they become your default settings. 
 
 .bashrc is located in your home directory. Type ``ls -a ~/`` to see .bashrc file. 
 
