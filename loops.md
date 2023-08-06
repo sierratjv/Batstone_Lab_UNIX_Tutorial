@@ -3,7 +3,7 @@
 [Go to main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
 
 ## Example 1: Check if a file exists
-Type the followings ``if [ -f file ]; then``, ``echo found``, ``else``, ``echo not found``, ``fi``. This should output "found" if a file named "file" exists and "not found" if it does not exist.
+Type ``if [ -f file ]; then``, ``echo found``, ``else``, ``echo not found``, ``fi``. This should output "found" if a file named "file" exists and "not found" if it does not exist.
 ```
 [xingyuan@info114 unix_workshop]$ if [ -f file ]; then
 > echo found
