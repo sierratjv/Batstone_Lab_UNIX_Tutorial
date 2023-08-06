@@ -65,6 +65,8 @@ Swap:  1052668k total,  1051348k used,     1320k free, 220917416k cached
 ```
 
 ## Compute Canada/Digital Research Alliance of Canada cluster
+
+**Unlike the info cluster, the jobs on compute canada clusters don't start immediately.
 **Watch this beginner video: https://www.youtube.com/watch?v=JY1jo9GRffg&t=290s.**
 
 **Read this on how to run jobs: https://docs.alliancecan.ca/wiki/Technical_documentation.**
