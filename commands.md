@@ -296,7 +296,7 @@ Type ``i=2`` to create a variable i. Type ``echo $i`` to show the variable:
 
 **PATH variable**
 
-**Be careful of not overwrting the PATH variable when you add new directory to it. Keep a copy of the PATH variable when you try to add a new directory for the first time**
+**Be careful of not overwrting the PATH variable when you add a new directory to it. Keep a copy of the PATH variable when you edit it for the first time**
 
 It includes directories that will be checked when you run a command. When you type a command, it will search PATH to find a program to run that command. The command cannot be run if the program is not found. Type ``echo $PATH`` to show the PATH variable:
 ```
