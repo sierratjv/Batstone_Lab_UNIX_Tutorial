@@ -1,5 +1,5 @@
 # 2. Commands
-[Go back to the main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
+[Go to the main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
 
 **If any commands below that do not work as expected, use the info cluster. Ask Dr. Golding (golding@mcmaster.ca) for an account. Type ``ssh username@info.mcmaster.ca`` and the password to login (You don't see the password when typing).**
 
@@ -305,5 +305,53 @@ It includes directories that will be checked when you run a command. When you ty
 ```
 
 ## .bashrc
+.bashrc is a script that will be run when you login to bash. It is useful to write your aliases and variables in the .bashrc file, so they become your customized default settings. 
 
-[Go back to the main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
+.bashrc is located in your home directory. Type ``ls -a ~/`` to see .bashrc file. 
+
+To edit the .bashrc, type ``nano .bashrc``. Lines beginning with ``# `` are comments. Add ``set -o noclobber`` to your .bashrc, which prevents overwriting a file. After you edit your .bashrc, exit and login to the bash again. The new settings should work now. 
+
+Example of a .bashrc file
+```
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# type mc to do mkdir, cd, pwd at once
+function mc() {  # make and change to directory
+    mkdir $1;
+    cd $1;
+    pwd;
+}
+
+# no overwrite
+set -o noclobber
+
+# aliases
+alias ls="ls --color -F"
+alias rm="rm -i"
+alias quast="/home/xingyuan/tools/quast-5.2.0/quast.py"
+alias ssh="ssh -X"
+alias hi="history"
+alias ll="ls -hl"
+
+# variables
+TOOLS=/home/xingyuan/tools
+
+# add directories to PATH
+export PATH=/usr/local/python3/Python-3.5.1:/usr/local/spades/version.3.15.2/bin:$PATH
+export PATH=/usr/local/samtools/1.11/samtools:$PATH
+export PATH=/usr/local/bwa/current:$PATH
+export PATH=/usr/local/qualimap_v2.2.1:$PATH
+export PATH=/home/xingyuan/tools/Spine-0.3.2:$PATH
+```
+
+[Go to Section 3: Text Editors](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/editors.md)
+
+[Go to the main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
