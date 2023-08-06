@@ -12,7 +12,7 @@ Login to nodes, for example, info114: type ``ssh info114``. Then type ``password
 
 **usage**
 
-In the head, type ``usage`` to see how many people are currently using the computers:
+On the head, type ``usage`` to see how many people are currently using the computers:
 ```
  Usage script is located in /usr/local/bin 
  Collecting information ... please wait 
