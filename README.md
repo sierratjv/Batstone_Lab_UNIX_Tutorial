@@ -11,6 +11,7 @@ This tutorial will be done in bash.
 
 # Table of Contents
 ## [1. Computer clusters](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/clusters.md)
+**This section shows how to get an account for info cluster and compute canada clusters.**
 ## [2. Commands](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/commands.md)
 **This section shows how to use some common commands.**
 ## [3. Text editor: vi](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/editors.md)
