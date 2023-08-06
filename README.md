@@ -12,6 +12,7 @@ This tutorial will be done in bash.
 # Table of Contents
 ## [1. Info cluster, Compute canada cluster](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/cluster.md)
 ## [2. Commands](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/commands.md)
+This section uses examples to show how to use a command. 
 ## [3. Text editors](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/editors.md)
 ## [4. If statements, While loop, For loop](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/loops.md)
 ## [5. Softwares](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/softwares.md)
