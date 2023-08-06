@@ -91,5 +91,10 @@ Once you login as a student, at your home directory, you will see 3 directories:
 
 [Go to main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
 
+### Run jobs
+Notes:
+- For SBATCH jobs, you may need to specify the memory needed for the jobs.
+- Currently (August 2023), cedar cluster is the only cluster which has internet access on computer nodes.
+
 ### Ask for help
 When you have problems of running programs on computer canada cluster, you can email support@tech.alliancecan.ca. Read more here: https://docs.alliancecan.ca/wiki/Technical_support. 
