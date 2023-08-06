@@ -10,8 +10,9 @@ Login to head: type ``ssh username@info.mcmaster.ca``. Then type ``password`` (Y
 
 Login to nodes, for example, info114: type ``ssh info114``. Then type ``password``. Type ``exix`` to leave the node and go back to the server head. 
 
-### usage
-In the head, type ``usage`` to see how many people are currently using the computers.
+**usage**
+
+In the head, type ``usage`` to see how many people are currently using the computers:
 ```
  Usage script is located in /usr/local/bin 
  Collecting information ... please wait 
@@ -29,8 +30,10 @@ info114:  13:43:05 up 204 days, 13:16,  3 users,  load average: 0.97, 0.95, 0.91
 info115:  13:43:05 up 205 days, 23:01,  6 users,  load average: 31.33, 26.07, 26.98
 info2020: 13:40:01 up 584 days, 17:18,  8 users,  load average: 58.73, 57.01, 57.33
 ```
-### top
-Type ``top`` to see what jobs are running currently.
+
+**top**
+
+Type ``top`` to see what jobs are running currently:
 ```
 top - 16:41:15 up 224 days, 16:14,  4 users,  load average: 1.18, 1.11, 1.01
 Tasks: 1313 total,   2 running, 1311 sleeping,   0 stopped,   0 zombie
