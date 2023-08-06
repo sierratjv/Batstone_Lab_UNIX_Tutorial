@@ -66,7 +66,7 @@ Swap:  1052668k total,  1051348k used,     1320k free, 220917416k cached
 
 **Read this on how to run jobs: https://docs.alliancecan.ca/wiki/Technical_documentation.**
 
-### clusters
+**clusters**
 - cedar.computecanada.ca
 - graham.computecanada.ca
 - narval.computecanada.ca
