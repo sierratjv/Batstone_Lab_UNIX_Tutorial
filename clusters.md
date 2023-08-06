@@ -1,5 +1,5 @@
 
-## Info 
+## Info cluster
 **Do not run programs on the head, which is the place you first login. Login to a node immediately.**
 
 **On each node, do not use more than 6 CPUs to run jobs.**
@@ -61,7 +61,7 @@ Swap:  1052668k total,  1051348k used,     1320k free, 220917416k cached
    13 root      20   0     0    0    0 S  0.0  0.0   0:38.90 ksoftirqd/2        
 ```
 
-## Compute Canada/Digital Research Alliance of Canada
+## Compute Canada/Digital Research Alliance of Canada cluster
 **Watch this beginner video: https://www.youtube.com/watch?v=JY1jo9GRffg&t=290s.**
 
 **Read this on how to run jobs: https://docs.alliancecan.ca/wiki/Technical_documentation.**
