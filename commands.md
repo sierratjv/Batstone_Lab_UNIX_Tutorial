@@ -192,7 +192,36 @@ Type ``username@info.mcmaster.ca`` to connect to info cluster.
 Type ``username@graham.computecanada.ca`` to connect to graham cluster. 
 
 ## scp 
-**Transfer files from your local computer to a remoter computer**
+**Copy a file from a remote computer to your local compute.**
+
+Login to info cluster. Type ``touch file`` create a file. Type ``pwd`` to get the path to the file:
+```
+[xingyuan@infoserv unix_workshop]$ touch file
+[xingyuan@infoserv unix_workshop]$ pwd
+/home/xingyuan/unix_workshop
+```
+Open another screen, on your local computer, type ``scp username@info.mcmaster.ca:path/to/file destination``:
+```
+(base) MacBook-Pro: ~ > scp xingyuan@info.mcmaster.ca:/home/xingyuan/unix_workshop/file .
+xingyuan@info.mcmaster.ca's password: 
+(base) MacBook-Pro: ~ > ls
+Applications/ Documents/    Library/      Music/        Public/       file
+Desktop/      Downloads/    Movies/       Pictures/     Zotero/
+```
+The ``.`` means copying to the current directory. 
+
+**Copy multiple files** 
+
+On your local computer, type ``scp xingyuan@info.mcmaster.ca:/home/xingyuan/unix_workshop/\file* .`` (Use ``\`` in front of file*.):
+```
+(base) MacBook-Pro: ~ > scp xingyuan@info.mcmaster.ca:/home/xingyuan/unix_workshop/\file* .
+xingyuan@info.mcmaster.ca's password: 
+(base) MacBook-Pro: ~ > ls
+Applications/ Downloads/    Music/        Zotero/       file3
+Desktop/      Library/      Pictures/     file1         file4
+Documents/    Movies/       Public/       file2         file5
+(base) MacBook-Pro: ~ > 
+``` 
 
 ## history
 Type ``history`` to see the commands you typed before.
