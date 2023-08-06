@@ -91,5 +91,5 @@ Once you login as a student, at your home directory, you will see 3 directories:
 
 [Go to main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
 
-## Ask for help
+### Ask for help
 When you have problems of running programs on computer canada cluster, you can email support@tech.alliancecan.ca. Read more here: https://docs.alliancecan.ca/wiki/Technical_support. 
