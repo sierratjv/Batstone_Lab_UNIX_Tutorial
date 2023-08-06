@@ -306,6 +306,14 @@ Type ``i=2`` to create a variable i. Type ``echo $i`` to show the variable:
 [xingyuan@infoserv ~]$ echo $i
 2
 ```
+You can also store the output from a command into variable. For example, the output from ls is given to the variable i:
+```
+[xingyuan@info114 unix_workshop]$ ls
+file1  file2  file3  file4  file5
+[xingyuan@info114 unix_workshop]$ i=`ls`
+[xingyuan@info114 unix_workshop]$ echo $i
+file1 file2 file3 file4 file5
+```
 
 **PATH variable**
 
