@@ -89,8 +89,6 @@ Login to login node using, for example, ``ssh username@graham.computecanada.ca``
 
 Once you login as a student, at your home directory, you will see 3 directories: ``nearline``, ``projects``, ``scratch``. In ``nearline`` and ``project``, you will see you professor name, ``def-batstone``. In ``def-batstone``, you will see your account. 
 
-[Go to main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
-
 ### Run jobs
 Notes:
 - For SBATCH jobs, you may need to specify the memory needed for the jobs.
@@ -98,3 +96,6 @@ Notes:
 
 ### Ask for help
 When you have problems of running programs on computer canada cluster, you can email support@tech.alliancecan.ca. Read more here: https://docs.alliancecan.ca/wiki/Technical_support. 
+
+[Go to main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
+
