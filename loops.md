@@ -100,7 +100,7 @@ If you want the 4th sequence, this should give:
 >seq4
 ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCG
 ```
-## Example 4: Print 1 to 10 using a for loop
+## Example 4: Print 1 to 10 using a for loop 
 Type ``for i in {1..10}; do``, ``echo $i``, ``done``. This should give:
 ```
 [xingyuan@info114 unix_workshop]$ for i in {1..10}; do
@@ -117,7 +117,7 @@ Type ``for i in {1..10}; do``, ``echo $i``, ``done``. This should give:
 9
 10
 ```
-
+**If you know how to run to a program for one sample, you can use for loop to run it for all your samples**
 
 
 
