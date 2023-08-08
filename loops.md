@@ -117,7 +117,7 @@ Type ``for i in {1..10}; do``, ``echo $i``, ``done``. This should give:
 9
 10
 ```
-**If you know how to run to a program for one sample, you can use for loop to run it for all your samples**
+**If you know how to run a program for one sample, you can use for loop to run it for all your samples**
 
 
 
