@@ -94,6 +94,11 @@ Once you login as a student, at your home directory, you will see 3 directories:
 Notes:
 - For SBATCH jobs, you may need to specify the memory needed for the jobs.
 - Currently (August 2023), cedar cluster is the only cluster which has internet access on computer nodes.
+- Using the following lines to get an email notification of when your job starts and ends and the running time:
+```
+#SBATCH --mail-user=your.email@example.com
+#SBATCH --mail-type=ALL
+```
 
 ### Ask for help
 When you have problems of running programs on computer canada cluster, you can email support@tech.alliancecan.ca. Read more here: https://docs.alliancecan.ca/wiki/Technical_support. 
