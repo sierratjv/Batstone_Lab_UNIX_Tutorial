@@ -127,7 +127,7 @@ R2=${R1//R1_P_001.fastq.gz/R2_P_001.fastq.gz}
 spades.py --careful -1 $R1 -2 $R2 -o /home/xingyuan/rhizo_ee/spades_assembly/${R1%_*_L002_*gz}
 done
 ```
-``*R1*`` picks up all the files containg R1 and stores the files into the variable R1 (type ``echo $R1`` should show all the files). This line ``R2=${R1//R1_P_001.fastq.gz/R2_P_001.fastq.gz}`` modifies variable R1 to a new variable R2. ``${R1%_*_L002_*gz}`` is the output directory name which is also modified from variable R1. Learn how to manipulate strings at https://tldp.org/LDP/abs/html/string-manipulation.html. 
+``*R1*`` picks up all the files containing R1 and stores the files into the variable R1 (type ``echo $R1`` should show all the files). This line ``R2=${R1//R1_P_001.fastq.gz/R2_P_001.fastq.gz}`` modifies variable R1 to a new variable R2. ``${R1%_*_L002_*gz}`` is the output directory name which is also modified from variable R1. Learn how to manipulate strings at https://tldp.org/LDP/abs/html/string-manipulation.html. 
 
 
 
