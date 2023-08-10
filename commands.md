@@ -81,7 +81,7 @@ Type ``cp file1 file2``, it will copy contents in file1 to file2 (if file2 exist
 Type ``cp file{1..5} folder``, it will copy file1, file2, file3, file4, file5 to a directory called folder (folder needs to be existed before copying files). 
 
 ## ln -s
-**Create a symbolic link to a file**
+**Create a symbolic link to a file (shortcut to a file)**
 
 Type ``touch file`` to create a file. Type ``ln -s file link`` to create symbolic link to the file. Type ``ls -l``. The symbolic link has an arrow pointing to the actual file. When you want to create a copy of a very large file, you can use ``ln -s`` instead of ``cp``, since the size of symbolic link is smaller than the actual file. 
 ```
