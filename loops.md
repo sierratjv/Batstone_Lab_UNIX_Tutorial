@@ -92,7 +92,7 @@ while read line; do
     fi
 done
 ```
-If you want the 4th sequence, this should give:
+If you want the 4th sequence, you can do:
 ```
 [xingyuan@info114 unix_workshop]$ vi example3.sh 
 [xingyuan@info114 unix_workshop]$ chmod +x example3.sh 
