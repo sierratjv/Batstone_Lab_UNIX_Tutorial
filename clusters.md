@@ -69,6 +69,8 @@ Swap:  1052668k total,  1051348k used,     1320k free, 220917416k cached
 
 ## Compute Canada/Digital Research Alliance of Canada cluster
 
+[Go to info cluster](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/clusters.md#info-cluster)
+
 **Unlike the info cluster, the jobs on compute canada clusters don't start immediately. They are put on a waiting list and begin when the necessary resources are available to run them. Read more here: https://docs.alliancecan.ca/wiki/What_is_a_scheduler%3F.**
 
 **Watch this beginner video: https://www.youtube.com/watch?v=JY1jo9GRffg&t=290s.**
@@ -104,6 +106,8 @@ Notes:
 
 ### Ask for help
 When you have problems of running programs on computer canada cluster, you can email support@tech.alliancecan.ca. Read more here: https://docs.alliancecan.ca/wiki/Technical_support. 
+
+[Go to info cluster](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/clusters.md#info-cluster)
 
 [Go to main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
 
