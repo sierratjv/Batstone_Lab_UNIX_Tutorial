@@ -1,6 +1,8 @@
 # 1. Computer clusters 
 [Go to main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
 
+[Go to compute canada clusters](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/blob/main/clusters.md#compute-canadadigital-research-alliance-of-canada-cluster)
+
 ## Info cluster
 **Contact Dr. Golding (golding@mcmaster.ca) for an account.**
 
