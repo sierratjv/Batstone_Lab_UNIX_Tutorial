@@ -83,7 +83,7 @@ Type ``cp file{1..5} folder``, it will copy file1, file2, file3, file4, file5 to
 ## ln -s
 **Create a symbolic link to a file (shortcut to a file)**
 
-Type ``touch file`` to create a file. Type ``ln -s file link`` to create symbolic link to the file. Type ``ls -l``. The symbolic link has an arrow pointing to the actual file. When you want to create a copy of a very large file, you can use ``ln -s`` instead of ``cp``, since the size of symbolic link is smaller than the large file. 
+Type ``touch file`` to create a file. Type ``ln -s file link`` to create symbolic link to the file. Type ``ls -l``. The symbolic link has an arrow pointing to the actual file. 
 ```
 [xingyuan@infoserv unix_workshop]$ touch file
 [xingyuan@infoserv unix_workshop]$ ln -s file link
@@ -92,7 +92,12 @@ total 0
 -rw-rw-r-- 1 xingyuan xingyuan 0 Aug  6 13:17 file
 lrwxrwxrwx 1 xingyuan xingyuan 4 Aug  6 13:18 link -> file
 ```
-
+When you want to create a copy of a very large file, you can use ``ln -s`` instead of ``cp``, since the size of symbolic link is smaller than the large file. For example, the contigs.fasta has a siz of 7262077, but size of the symbolic link is only 13.
+```
+[xingyuan@infoserv spades-101A]$ ls -l contigs.fasta link 
+-rw-rw-r-- 1 xingyuan xingyuan 7262077 May 19 13:11 contigs.fasta
+lrwxrwxrwx 1 xingyuan xingyuan      13 Aug 14 11:41 link -> contigs.fasta
+```
 ## rm 
 **Remove files or directories**
 
