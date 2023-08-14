@@ -98,7 +98,7 @@ Once you login as a student, at your home directory, you will see 3 directories:
 Notes:
 - For SBATCH jobs, you may need to specify the memory needed for the jobs.
 - Currently (August 2023), cedar cluster is the only cluster which has internet access on computer nodes. Use cedar cluster if your job needs internet access. 
-- Using the following lines to get an email notification of when your job starts and ends and the running time:
+- Using the following lines to get an email notification for your job status:
 ```
 #SBATCH --mail-user=your.email@example.com
 #SBATCH --mail-type=ALL
