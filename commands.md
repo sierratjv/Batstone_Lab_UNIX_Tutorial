@@ -6,7 +6,7 @@
 ## Symbols
 ``.`` represents the current directory. 
 
-``..`` represents the parent of the current directory. 
+``..`` represents the previous directory of your current directory. 
 
 ``~`` represents the home directory.
 
