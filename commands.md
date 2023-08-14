@@ -92,7 +92,7 @@ total 0
 -rw-rw-r-- 1 xingyuan xingyuan 0 Aug  6 13:17 file
 lrwxrwxrwx 1 xingyuan xingyuan 4 Aug  6 13:18 link -> file
 ```
-When you want to create a copy of a very large file, you can use ``ln -s`` instead of ``cp``, since the size of symbolic link is smaller than the large file. For example, the contigs.fasta has a siz of 7262077, but size of the symbolic link is only 13.
+When you want to create a copy of a very large file, you can use ``ln -s`` instead of ``cp``, since the size of symbolic link is smaller than the large file. For example, the contigs.fasta has a size of 7262077, but size of the symbolic link is only 13.
 ```
 [xingyuan@infoserv spades-101A]$ ls -l contigs.fasta link 
 -rw-rw-r-- 1 xingyuan xingyuan 7262077 May 19 13:11 contigs.fasta
