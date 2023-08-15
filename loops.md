@@ -127,6 +127,6 @@ R2=${R1//R1_P_001.fastq.gz/R2_P_001.fastq.gz}
 spades.py --careful -1 $R1 -2 $R2 -o /home/xingyuan/rhizo_ee/spades_assembly/${R1%_*_L002_*gz}
 done
 ```
-Variable R1 represents all the files containing characters "R1" by ``*R1*``. This line ``R2=${R1//R1_P_001.fastq.gz/R2_P_001.fastq.gz}`` modifies variable R1 to a new variable R2. ``$R1`` and ``$R2`` are the two input files. ``${R1%_*_L002_*gz}`` is the output directory name which is also modified from variable R1. This for loop will run SPAdes for every file in ``*R1*``. Learn how to manipulate strings at https://tldp.org/LDP/abs/html/string-manipulation.html. 
+Variable R1 represents all the files containing characters "R1". This line ``R2=${R1//R1_P_001.fastq.gz/R2_P_001.fastq.gz}`` modifies variable R1 to a new variable R2. ``$R1`` and ``$R2`` are the two input files. ``${R1%_*_L002_*gz}`` is the output directory name which is also modified from variable R1. This for loop will run SPAdes for every file in ``*R1*``. Learn how to manipulate strings at https://tldp.org/LDP/abs/html/string-manipulation.html. 
 
 [Go to main page](https://github.com/sux21/Batstone_Lab_UNIX_Tutorial/tree/main)
