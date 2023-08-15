@@ -125,7 +125,7 @@ Type ``mv dir1 dir3``, this will change the name of dir1 to dir3.
 ## open
 **View pdf or html**
 
-**For pdf and html files, copy them from the computer cluster to your local computer and view it**
+**For pdf and html files, copy them from the computer cluster to your local computer to view it.**
 
 Type ``open file`` to open a .html or a .pdf file. 
 
