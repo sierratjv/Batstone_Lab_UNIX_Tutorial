@@ -75,7 +75,7 @@ This should be the output from the script:
 ACCGCTACATCTCCATCTTCTACATCGTTCCTCCAACTCCTTATCAGATCG
 I am done everything in the file
 ```
-## Example 3: Extract any sequences (using the sequences file from example 2)
+## Example 3: Extract any sequences (using the sequence file from example 2)
 Try this script:
 ```
 #!/bin/bash
