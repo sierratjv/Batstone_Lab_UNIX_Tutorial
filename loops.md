@@ -21,7 +21,7 @@ else
   echo not found
 fi
 ```
-Press <kbd>ZZ</kbd> to save and exist the script. Type ``more example1.sh`` to view the script. Type ``chmod +x example1.sh`` to make the script executable. Type ``./example1.sh`` to run the script. It should give "found" or "not found".
+Press <kbd>ZZ</kbd> to save and exit the script. Type ``more example1.sh`` to view the script. Type ``chmod +x example1.sh`` to make the script executable. Type ``./example1.sh`` to run the script. It should give "found" or "not found".
 ```
 [xingyuan@info114 unix_workshop]$ vi example1.sh 
 [xingyuan@info114 unix_workshop]$ more example1.sh 
