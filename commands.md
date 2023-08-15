@@ -278,7 +278,6 @@ xingyuan@info.mcmaster.ca's password:
 Applications/ Downloads/    Music/        Zotero/       file3
 Desktop/      Library/      Pictures/     file1         file4
 Documents/    Movies/       Public/       file2         file5
-(base) MacBook-Pro: ~ > 
 ``` 
 
 ## history
